@@ -1,0 +1,792 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="is-IS" original="Integrate Clockify.g.xlf" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.1900.0" tool-company="Microsoft"></tool>
+    </header>
+    <body>
+      <group id="body">
+        <trans-unit id="Table 1715152983 - Field 57370450 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Archived</source>
+          <target>Safnvistað</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Clockify Integration Record - Field Archived - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1715152983 - Field 1984244261 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Clockify ID</source>
+          <target>Kenni í Clockify</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Clockify Integration Record - Field Clockify ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1715152983 - Field 675573274 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Clockify Workspace ID</source>
+          <target>Kenni Clockify vinnusvæðis</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Clockify Integration Record - Field Clockify Workspace ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1715152983 - Field 2053229973 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Integration ID</source>
+          <target>Auðkenni samþættingar</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Clockify Integration Record - Field Integration Id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1715152983 - Field 749447638 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Last Modified Date Time</source>
+          <target>Dagsetning og tími síðustu breytinga</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Clockify Integration Record - Field Last Modified Date Time - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1715152983 - Field 3549129484 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Last Synchronization</source>
+          <target>Síðasta samstilling</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Clockify Integration Record - Field Last Synchronization - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1715152983 - Field 2448314383 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Next Synchronization</source>
+          <target>Næsta samstilling</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Clockify Integration Record - Field Next Synchronization - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1715152983 - Field 1813905945 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Related Record ID</source>
+          <target>Tengt færslukenni</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Clockify Integration Record - Field Related Record Id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1715152983 - Field 3753087918 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Related Record System Id</source>
+          <target>Tengt kerfiskenni færslu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Clockify Integration Record - Field Related Record System Id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1715152983 - Field 2204602840 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Table ID</source>
+          <target>Kenni töflu</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Clockify Integration Record - Field Related Table ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1715152983 - Field 3021697414 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User Security ID</source>
+          <target>Öryggiskenni notanda</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Clockify Integration Record - Field User Security ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3829474660 - Field 2070807507 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Billable</source>
+          <target>Reikningshæft</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Clockify Time Sheet Entry - Field Billable - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3829474660 - Field 1984244261 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Clockify ID</source>
+          <target>Kenni í Clockify</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Clockify Time Sheet Entry - Field Clockify ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3829474660 - Field 1661293582 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Clockify User ID</source>
+          <target>Clockify notandakenni</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Clockify Time Sheet Entry - Field Clockify User ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3829474660 - Field 675573274 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Clockify Workspace ID</source>
+          <target>Kenni Clockify vinnusvæðis</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Clockify Time Sheet Entry - Field Clockify Workspace ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3829474660 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target>Lýsing</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Clockify Time Sheet Entry - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3829474660 - Field 4240670190 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>End Time</source>
+          <target>Lokatími</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Clockify Time Sheet Entry - Field End Time - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3829474660 - Field 3932942806 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry Duration</source>
+          <target>Gildistími færslu</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Clockify Time Sheet Entry - Field Entry Duration - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3829474660 - Field 1003062582 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job ID</source>
+          <target>Kenni verks</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Clockify Time Sheet Entry - Field Job ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3829474660 - Field 2943307809 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Task ID</source>
+          <target>Kenni verkhluta</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Clockify Time Sheet Entry - Field Job Task ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3829474660 - Field 3846472926 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Locked</source>
+          <target>Lokað</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Clockify Time Sheet Entry - Field Locked - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3829474660 - Field 2448314383 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Next Synchronization</source>
+          <target>Næsta samstilling</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Clockify Time Sheet Entry - Field Next Synchronization - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3829474660 - Field 2704404533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <target>Magn</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Clockify Time Sheet Entry - Field Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3829474660 - Field 2169532623 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Start Time</source>
+          <target>Upphafstími</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Clockify Time Sheet Entry - Field Start Time - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3829474660 - Field 469139978 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Time Sheet Detail ID</source>
+          <target>Kenni vinnuskýrslusundurliðunnar</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Clockify Time Sheet Entry - Field Time Sheet Detail ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3829474660 - Field 2229621483 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Time Sheet Line ID</source>
+          <target>Línukenni vinnuskýrslu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Clockify Time Sheet Entry - Field Time Sheet Line ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1525772524 - NamedType 2565632078" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job queue entries for integration with Clockify have been created.\\Do you want to open the Job Queue Entries window?</source>
+          <target>Verkaðarafærsla til samstillingar við Clockify hefur verið stofnuð.\\Viltu opna síðuna fyrir verkraðarfærslur?</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Clockify User Setup - NamedType JobQEntriesCreatedQst</note>
+        </trans-unit>
+        <trans-unit id="Table 1525772524 - Field 2620319538 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>API Base Endpoint</source>
+          <target>Grunnslóð vefþjónustu</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Clockify User Setup - Field API Base Endpoint - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1525772524 - Field 264208910 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>API Key ID</source>
+          <target>Kenni vefþjónustulykils</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Clockify User Setup - Field API Key ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1525772524 - Field 1268560595 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Clockify E-Mail Address</source>
+          <target>Netfang í Clockify</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Clockify User Setup - Field Clockify E-Mail Address - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1525772524 - Field 1984244261 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Clockify ID</source>
+          <target>Kenni í Clockify</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Clockify User Setup - Field Clockify ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1525772524 - Field 2401915435 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Clockify Name</source>
+          <target>Nafn í Clockify</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Clockify User Setup - Field Clockify Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1525772524 - Field 2976552902 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Clockify Status</source>
+          <target>Staða í Clockify</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Clockify User Setup - Field Clockify Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1525772524 - Field 675573274 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Clockify Workspace ID</source>
+          <target>Kenni Clockify vinnusvæðis</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Clockify User Setup - Field Clockify Workspace ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1525772524 - Field 4007237630 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Default Work Type</source>
+          <target>Sjálfgefin tegund vinnu</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Clockify User Setup - Field Default Work Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1525772524 - Field 2891538263 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enabled</source>
+          <target>Virkt</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Clockify User Setup - Field Enabled - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1525772524 - Field 454980611 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Log Activity</source>
+          <target>Virkja aðgerðakladda</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Clockify User Setup - Field Log Activity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1525772524 - Field 315329732 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Manual Synchronization</source>
+          <target>Handvirk samstilling</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Clockify User Setup - Field Manual Synchronization - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1525772524 - Field 1607917209 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Max. No. of Failures</source>
+          <target>Hámarksfjöldi mistaka</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Clockify User Setup - Field Max. No. of Failures - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1525772524 - Field 1231174623 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Failures</source>
+          <target>Fjöldi mistaka</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Clockify User Setup - Field No. of Failures - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1525772524 - Field 3021697414 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User Security ID</source>
+          <target>Öryggiskenni notanda</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Clockify User Setup - Field User Security ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2607467882 - NamedType 2117499346" maxwidth="30" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Message Received</source>
+          <target>Skilaboð móttekin</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Clockify API - NamedType ReceivedMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2607467882 - NamedType 2897282207" maxwidth="30" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Message Sent</source>
+          <target>Skilaboð send</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Clockify API - NamedType SentMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 617933436 - NamedType 212009906" maxwidth="30" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Queue Execuition</source>
+          <target>Verkraðarkeyrsla</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit Clockify Job Queue - NamedType JobQueueTok</note>
+        </trans-unit>
+        <trans-unit id="Page 1878955326 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Clockify Integration Record List</source>
+          <target>Samstillingarfærslur Clockify</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify Integration List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1878955326 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <target>Almennt</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify Integration List - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1878955326 - Control 57370450 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Archived field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify Integration List - Control Archived - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1878955326 - Control 57370450 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Archived</source>
+          <target>Safnvistað</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify Integration List - Control Archived - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1878955326 - Control 1984244261 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Clockify ID field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify Integration List - Control Clockify ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1878955326 - Control 1984244261 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Clockify ID</source>
+          <target>Kenni í Clockify</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify Integration List - Control Clockify ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1878955326 - Control 675573274 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Clockify Workspace ID field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify Integration List - Control Clockify Workspace ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1878955326 - Control 675573274 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Clockify Workspace ID</source>
+          <target>Kenni Clockify vinnusvæðis</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify Integration List - Control Clockify Workspace ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1878955326 - Control 2053229973 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Integration ID field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify Integration List - Control Integration Id - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1878955326 - Control 2053229973 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Integration ID</source>
+          <target>Auðkenni samþættingar</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify Integration List - Control Integration Id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1878955326 - Control 749447638 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Last Modified Date Time field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify Integration List - Control Last Modified Date Time - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1878955326 - Control 749447638 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Last Modified Date Time</source>
+          <target>Dagsetning og tími síðustu breytinga</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify Integration List - Control Last Modified Date Time - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1878955326 - Control 3549129484 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Last Synchronization field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify Integration List - Control Last Synchronization - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1878955326 - Control 3549129484 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Last Synchronization</source>
+          <target>Síðasta samstilling</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify Integration List - Control Last Synchronization - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1878955326 - Control 2448314383 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Next Synchronization field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify Integration List - Control Next Synchronization - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1878955326 - Control 2448314383 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Next Synchronization</source>
+          <target>Næsta samstilling</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify Integration List - Control Next Synchronization - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1878955326 - Control 1813905945 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Related Record Id field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify Integration List - Control Related Record Id - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1878955326 - Control 1813905945 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Related Record Id</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify Integration List - Control Related Record Id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1878955326 - Control 3753087918 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Related Record System Id field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify Integration List - Control Related Record System Id - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1878955326 - Control 3753087918 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Related Record System Id</source>
+          <target>Tengt kerfiskenni færslu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify Integration List - Control Related Record System Id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1878955326 - Control 2204602840 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Table ID field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify Integration List - Control Related Table ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1878955326 - Control 2204602840 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Table ID</source>
+          <target>Kenni töflu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify Integration List - Control Related Table ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1878955326 - Control 3021697414 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the User Security ID field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify Integration List - Control User Security ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1878955326 - Control 3021697414 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User Security ID</source>
+          <target>Öryggiskenni notanda</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify Integration List - Control User Security ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1878955326 - Action 92610516 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View the Business Central record specified in this integration record</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify Integration List - Action ViewRecord - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1878955326 - Action 92610516 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View Record</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify Integration List - Action ViewRecord - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1679779574 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Clockify Time Sheet Entry List</source>
+          <target>Tímaskráningarfærslur Clockify</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify Time Sheet Entry List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1679779574 - Control 2070807507 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Billable field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify Time Sheet Entry List - Control Billable - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1679779574 - Control 1984244261 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Clockify ID field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify Time Sheet Entry List - Control Clockify ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1679779574 - Control 1661293582 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Clockify User ID field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify Time Sheet Entry List - Control Clockify User ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1679779574 - Control 675573274 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Clockify Workspace ID field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify Time Sheet Entry List - Control Clockify Workspace ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1679779574 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Description field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify Time Sheet Entry List - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1679779574 - Control 4240670190 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the End Time field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify Time Sheet Entry List - Control End Time - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1679779574 - Control 3932942806 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Entry Duration field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify Time Sheet Entry List - Control Entry Duration - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1679779574 - Control 1003062582 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Job ID field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify Time Sheet Entry List - Control Job ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1679779574 - Control 2943307809 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Job Task ID field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify Time Sheet Entry List - Control Job Task ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1679779574 - Control 3846472926 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Locked field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify Time Sheet Entry List - Control Locked - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1679779574 - Control 2448314383 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Next Synchronization field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify Time Sheet Entry List - Control Next Synchronization - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1679779574 - Control 2169532623 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Start Time field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify Time Sheet Entry List - Control Start Time - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1679779574 - Control 469139978 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Time Sheet Detail ID field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify Time Sheet Entry List - Control Time Sheet Detail ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1679779574 - Control 2229621483 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Time Sheet Line ID field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify Time Sheet Entry List - Control Time Sheet Line ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3964360600 - Property 2019332006" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New,Process,Report,Encryption,Navigate</source>
+          <target>Nýtt,Vinnsla,Skýrsla,Dulritun,Fletta</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup Card - Property PromotedActionCategories</note>
+        </trans-unit>
+        <trans-unit id="Page 3964360600 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Clockify User Setup Card</source>
+          <target>Clockify notandauppsetning</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3964360600 - Property 3863440606" size-unit="char" translate="yes" xml:space="preserve">
+          <source>time sheet integration</source>
+          <target>samstilling vinnuskýrslu</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup Card - Property AdditionalSearchTerms</note>
+        </trans-unit>
+        <trans-unit id="Page 3964360600 - NamedType 298733869" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Do you want to disable the Clockify integation?</source>
+          <target>Á að slökkva á Clockify samþættingu?</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup Card - NamedType DisableEnableQst</note>
+        </trans-unit>
+        <trans-unit id="Page 3964360600 - NamedType 1791671425" size-unit="char" translate="yes" xml:space="preserve">
+          <source>You must disable the service before you can make changes.</source>
+          <target>Nauðsynlegt er að slökkva á þjónustunni áður en breytingar eru gerðar.</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup Card - NamedType EnabledWarningTok</note>
+        </trans-unit>
+        <trans-unit id="Page 3964360600 - NamedType 3035575630" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The %1 is not enabled. Are you sure you want to exit?</source>
+          <target>%1 er ekki virkt. Á örugglega að loka?</target>
+          <note from="Developer" annotates="general" priority="2">%1 = pagecaption (Clockify User Setup Card)</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup Card - NamedType EnableServiceQst</note>
+        </trans-unit>
+        <trans-unit id="Page 3964360600 - Control 1347350546 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Clockify User Information</source>
+          <target>Clockify notandaupplýsingar</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup Card - Control Clockify - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3964360600 - Control 1268560595 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Clockify registration e-mail address</source>
+          <target>Clockify skráningarnetfang</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup Card - Control Clockify E-Mail Address - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3964360600 - Control 1984244261 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Clockify identification</source>
+          <target>Clockify auðkenning</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup Card - Control Clockify ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3964360600 - Control 2401915435 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Clockify user name</source>
+          <target>Clockify notandanafn</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup Card - Control Clockify Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3964360600 - Control 2976552902 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Clockify user status</source>
+          <target>Clockify notandastaða</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup Card - Control Clockify Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3964360600 - Control 675573274 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Clockify active workspace identification</source>
+          <target>Clockify auðkenni virks vinnusvæðis</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup Card - Control Clockify Workspace ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3964360600 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <target>Almennt</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup Card - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3964360600 - Control 2620319538 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enable the integration synchronization process</source>
+          <target>Virka samstillingarferlið</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup Card - Control API Base Endpoint - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3964360600 - Control 4253087169 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Api Key as specified in setting on your Clockify home page</source>
+          <target>Vefþjónustulykill sem tilgreindur er á heimasvæði þínu hjá Clockify</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup Card - Control API Key - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3964360600 - Control 4253087169 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>API Key</source>
+          <target>API-lykill</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup Card - Control API Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3964360600 - Control 4007237630 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the default work type that will be used on time sheet entries</source>
+          <target>Tilgreinir sjálfvegna tegund vinnu sem noteuð er á nýjar færslur á vinnuskýrslu</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup Card - Control Default Work Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3964360600 - Control 2891538263 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Enabled field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup Card - Control Enabled - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3964360600 - Control 454980611 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies wether the integration activity is stored in the activity log</source>
+          <target>Tilgreinir hvort að upplýsingar um samstillingu eru vistaðar í aðgerðarkladda</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup Card - Control Log Activity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3964360600 - Control 315329732 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Disables the Job Queue Entry creation</source>
+          <target>Aftengir stofnun verkraðarfærslu</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup Card - Control Manual Synchronization - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3964360600 - Control 1607917209 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Max. No. of Failures field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup Card - Control Max. No. of Failures - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3964360600 - Control 3721765230 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the ShowEnableWarning field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup Card - Control ShowEnableWarningField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3964360600 - Action 1289890020 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View the integration records for Clockify</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup Card - Action IntegrationRecords - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3964360600 - Action 1289890020 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Integration Records</source>
+          <target>Samþættingarfærslur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup Card - Action IntegrationRecords - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3964360600 - Action 849376908 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View the time sheet entries from Clockify</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup Card - Action TimeSheetEntries - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3964360600 - Action 849376908 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Time Sheet Entries</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup Card - Action TimeSheetEntries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3964360600 - Action 2678035379 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>See the status and any errors integration with Clockify.</source>
+          <target>Sé stöðu og tilfallandi villur við samstillingu við Clockify.</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup Card - Action ActivityLog - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3964360600 - Action 2678035379 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Activity Log</source>
+          <target>Aðgerðakladdi</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup Card - Action ActivityLog - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3964360600 - Action 2653096382 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View or edit the jobs that automatically integrate your time sheet with Clockify.</source>
+          <target>Skoða eða breyta verkum sem keyra sjálfvirka samstilling á milli vinnuskýrslu og Clockify.</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup Card - Action JobQueueEntry - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3964360600 - Action 2653096382 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Queue Entry</source>
+          <target>Verkraðarfærsla</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup Card - Action JobQueueEntry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3964360600 - Action 4166145734 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Start the Clockify to Business Central synchronization process.</source>
+          <target>Ræsir samstillingu Clockify og Business Central.</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup Card - Action Synchronize - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3964360600 - Action 4166145734 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Synchronize</source>
+          <target>Samstilla</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup Card - Action Synchronize - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2514490366 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Clockify User Setup List</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2514490366 - Control 1268560595 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Clockify E-Mail Address field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup List - Control Clockify E-Mail Address - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2514490366 - Control 1984244261 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Clockify ID field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup List - Control Clockify ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2514490366 - Control 2401915435 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Clockify Name field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup List - Control Clockify Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2514490366 - Control 2976552902 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Clockify Status field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup List - Control Clockify Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2514490366 - Control 675573274 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Clockify Workspace ID field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup List - Control Clockify Workspace ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2514490366 - Control 4007237630 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Default Work Type field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup List - Control Default Work Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2514490366 - Control 2891538263 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Enabled field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup List - Control Enabled - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2514490366 - Control 454980611 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Log Activity field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup List - Control Log Activity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2514490366 - Control 315329732 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Manual Synchronization field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup List - Control Manual Synchronization - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2514490366 - Control 3021697414 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the User Security ID field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup List - Control User Security ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Enum 185882520 - EnumValue 1528185918 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Archive</source>
+          <target>Skjalasafn</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Clockify Synchronization Type - EnumValue Archive - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 185882520 - EnumValue 710972128 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create</source>
+          <target>Stofna</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Clockify Synchronization Type - EnumValue Create - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 185882520 - EnumValue 3371220206 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>None</source>
+          <target>Ekkert</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Clockify Synchronization Type - EnumValue None - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 185882520 - EnumValue 4131727267 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Retired</source>
+          <target>Aflagt</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Clockify Synchronization Type - EnumValue Retired - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 185882520 - EnumValue 642782499 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Update</source>
+          <target>Uppfæra</target>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Clockify Synchronization Type - EnumValue Update - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PermissionSet 2792051399 - Property 2879900210" maxwidth="30" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Integrate Clockify</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet Integrate Clockify - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

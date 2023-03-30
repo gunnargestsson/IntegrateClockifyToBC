@@ -26,5 +26,6 @@
     "allowDownloadingSource": false,
     "includeSourceInSymbolFile": false
   },
+  "features": ["NoImplicitWith","TranslationFile"],
   "suppressWarnings": ["AA0072"]
 }
