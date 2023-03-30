@@ -2,15 +2,15 @@
   "id": "4b510072-450c-4c8c-954e-a9afcea5093d",
   "name": "Integrate Clockify",
   "publisher": "Kappi ehf.",
-  "version": "21.0.0.0",
+  "version": "21.1.0.0",
   "brief": "Integrate Clockify into your Time Sheet",
   "description": "Use the Clockify mobile app to register hours in Business Central TimeSheet",
   "logo": "logo/Logo250x250.png",
   "url": "https://kappi.is",
   "EULA": "https://kappi.is/terms",
   "privacyStatement": "https://kappi.is/privacy",
-  "help": "https://kappi.is/",  
-  "applicationInsightsConnectionString": "InstrumentationKey=ab5e692a-2ef8-40ac-bed4-74fe61285bf2;IngestionEndpoint=https://westeurope-1.in.applicationinsights.azure.com/;LiveEndpoint=https://westeurope.livediagnostics.monitor.azure.com/",  
+  "help": "https://kappi.is/",
+  "applicationInsightsConnectionString": "InstrumentationKey=ab5e692a-2ef8-40ac-bed4-74fe61285bf2;IngestionEndpoint=https://westeurope-1.in.applicationinsights.azure.com/;LiveEndpoint=https://westeurope.livediagnostics.monitor.azure.com/",
   "dependencies": [],
   "screenshots": [],
   "platform": "1.0.0.0",
@@ -30,6 +30,11 @@
     "allowDownloadingSource": false,
     "includeSourceInSymbolFile": false
   },
-  "features": ["NoImplicitWith","TranslationFile"],
-  "suppressWarnings": ["AA0072"]
+  "features": [
+    "NoImplicitWith",
+    "TranslationFile"
+  ],
+  "suppressWarnings": [
+    "AA0072"
+  ]
 }

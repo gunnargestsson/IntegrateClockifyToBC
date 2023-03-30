@@ -1,6 +1,11 @@
 {
   "country": "is",
-  "appFolders": ["Integrate Clockify"],
-  "testFolders": ["Integrate Clockify.Test"],
-  "bcptTestFolders": []
+  "appFolders": [
+    "Integrate Clockify"
+  ],
+  "testFolders": [
+    "Integrate Clockify.Test"
+  ],
+  "bcptTestFolders": [],
+  "repoVersion": "21.1"
 }

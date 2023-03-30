@@ -1,59 +1,59 @@
 {
-    "id": "c9a43603-13e0-40ea-800e-66b5e325782d",
-    "name": "Integrate Clockify.Test",
-    "publisher": "Kappi ehf.",
-    "version": "1.0.0.0",
-    "brief": "",
-    "description": "",
-    "privacyStatement": "",
-    "EULA": "",
-    "help": "",
-    "url": "",
-    "logo": "",
-    "dependencies": [
-        {
-            "id": "23de40a6-dfe8-4f80-80db-d70f83ce8caf",
-            "name": "Test Runner",
-            "publisher": "Microsoft",
-            "version": "20.0.0.0"
-        },
-        {
-            "id": "5095f467-0a01-4b99-99d1-9ff1237d286f",
-            "name": "Library Variable Storage",
-            "publisher": "Microsoft",
-            "version": "20.0.0.0"
-        },
-        {
-            "id": "e7320ebb-08b3-4406-b1ec-b4927d3e280b",
-            "name": "Any",
-            "publisher": "Microsoft",
-            "version": "20.0.0.0"
-        },
-        {
-            "id": "dd0be2ea-f733-4d65-bb34-a28f4624fb14",
-            "name": "Library Assert",
-            "publisher": "Microsoft",
-            "version": "20.0.0.0"
-        },
-        {
-            "id": "4b510072-450c-4c8c-954e-a9afcea5093d",
-            "name": "Integrate Clockify",
-            "publisher": "Kappi ehf.",
-            "version": "21.0.0.0"
-        }
-    ],
-    "screenshots": [],
-    "platform": "1.0.0.0",
-    "application": "21.0.0.0",
-    "idRanges": [
-        {
-            "from": 50000,
-            "to": 99999
-        }
-    ],
-    "resourceExposurePolicy": {
-        "allowDebugging": true,
-        "allowDownloadingSource": false,
-        "includeSourceInSymbolFile": false
+  "id": "c9a43603-13e0-40ea-800e-66b5e325782d",
+  "name": "Integrate Clockify.Test",
+  "publisher": "Kappi ehf.",
+  "version": "21.1.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "23de40a6-dfe8-4f80-80db-d70f83ce8caf",
+      "name": "Test Runner",
+      "publisher": "Microsoft",
+      "version": "20.0.0.0"
+    },
+    {
+      "id": "5095f467-0a01-4b99-99d1-9ff1237d286f",
+      "name": "Library Variable Storage",
+      "publisher": "Microsoft",
+      "version": "20.0.0.0"
+    },
+    {
+      "id": "e7320ebb-08b3-4406-b1ec-b4927d3e280b",
+      "name": "Any",
+      "publisher": "Microsoft",
+      "version": "20.0.0.0"
+    },
+    {
+      "id": "dd0be2ea-f733-4d65-bb34-a28f4624fb14",
+      "name": "Library Assert",
+      "publisher": "Microsoft",
+      "version": "20.0.0.0"
+    },
+    {
+      "id": "4b510072-450c-4c8c-954e-a9afcea5093d",
+      "name": "Integrate Clockify",
+      "publisher": "Kappi ehf.",
+      "version": "21.0.0.0"
     }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "21.0.0.0",
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 99999
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  }
 }
