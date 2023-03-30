@@ -90,6 +90,8 @@
         "alOutline.stripNonAlphanumericCharactersFromObjectNames": true,
         "cSpell.words": [
             "Kappi"
-        ]
+        ],
+        "NAB.DTS ProjectId": "62704",
+        "NAB.UseDTS": true
     }
 }

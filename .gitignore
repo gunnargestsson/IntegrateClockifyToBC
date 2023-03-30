@@ -16,5 +16,6 @@ rad.json
 .alcache/
 .altemplates/
 .snapshots/
+.dts/
 cache_*
 ~$*
