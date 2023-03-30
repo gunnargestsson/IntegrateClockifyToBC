@@ -13,10 +13,10 @@ codeunit 65231 "O4NTime Management"
         QuarterTxt: Label 'Quarter %1/4', Comment = '%1 = quarter no.';
         YearTxt: Label 'Year %1', Comment = '%1 = year no.';
         PeriodTxt: Label '%2 to %3', Comment = 'period, %2 = start date, %3 = end date';
-        Text010Txt: Label '<Week>.<Year4>';
-        Text011Txt: Label '<Month Text,3> <Year4>';
-        Text012Txt: Label '<Quarter>/<Year4>';
-        Text013Txt: Label '<Year4>';
+        WeekYearFormatTok: Label '<Week>.<Year4>', Locked = true;
+        MonthYearFormatTok: Label '<Month Text,3> <Year4>', Locked = true;
+        QuarterYearFormatTok: Label '<Quarter>/<Year4>', Locked = true;
+        YearFormatTok: Label '<Year4>', Locked = true;
 
     procedure CreatePeriodFormat(PeriodType: Option Day,Week,Month,Quarter,Year,Period; Date: Date): Text[10]
     begin
@@ -27,14 +27,14 @@ codeunit 65231 "O4NTime Management"
                 begin
                     if Date2DWY(Date, 2) = 1 then
                         Date := Date + 7 - Date2DWY(Date, 1);
-                    exit(Format(Date, 0, Text010Txt));
+                    exit(Format(Date, 0, WeekYearFormatTok));
                 end;
             PeriodType::Month:
-                exit(Format(Date, 0, Text011Txt));
+                exit(Format(Date, 0, MonthYearFormatTok));
             PeriodType::Quarter:
-                exit(Format(Date, 0, Text012Txt));
+                exit(Format(Date, 0, QuarterYearFormatTok));
             PeriodType::Year:
-                exit(Format(Date, 0, Text013Txt));
+                exit(Format(Date, 0, YearFormatTok));
             PeriodType::Period:
                 exit(Format(Date));
         end;
