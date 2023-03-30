@@ -5,6 +5,9 @@
     },
     {
       "path": "Integrate Clockify"
+    },
+    {
+      "path": "Integrate Clockify.Test"
     }
   ],
   "settings": {}
