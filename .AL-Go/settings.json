@@ -1,6 +1,6 @@
 {
-  "country": "us",
-  "appFolders": [],
-  "testFolders": [],
+  "country": "is",
+  "appFolders": ["Integrate Clockify"],
+  "testFolders": ["Integrate Clockify.Test"],
   "bcptTestFolders": []
 }

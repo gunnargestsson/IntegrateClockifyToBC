@@ -1,14 +1,98 @@
 {
-  "folders": [
-    {
-      "path": ".AL-Go"
-    },
-    {
-      "path": "Integrate Clockify"
-    },
-    {
-      "path": "Integrate Clockify.Test"
+    "folders": [
+        {
+            "path": ".AL-Go"
+        },
+        {
+            "path": "Integrate Clockify"
+        },
+        {
+            "path": "Integrate Clockify.Test"
+        }
+    ],
+    "settings": {
+        "search.exclude": {
+            "**/node_modules": true,
+            "**/bower_components": true,
+            "**/*.code-search": true,
+            "**/*.alcache": true
+        },
+        "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectType>.al",
+        "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+        "CRS.ExtensionObjectNamePattern": "<BaseNameShort>.<ObjectTypeShortPascalCase>",
+        "al-xml-doc.InitializeALObjectCacheOnStartUp": false,
+        "al-xml-doc.CheckObjectDocumentationInformationLevel": "Disabled",
+        "al-xml-doc.CheckProcedureDocumentationInformationLevel": "Disabled",
+        "al.codeAnalyzers": [
+            "${CodeCop}",
+            "${PerTenantExtensionCop}",
+            "${UICop}"
+        ],
+        "al.compilationOptions": {
+            "delayAfterLastDocumentChange": 800,
+            "delayAfterLastProjectChange": 4000,
+            "parallel": true,
+            "maxDegreeOfParallelism": 12
+        },
+        "al.enableCodeActions": true,
+        "al.enableCodeAnalysis": true,
+        "al.browser": "Edge",
+        "al.backgroundCodeAnalysis": true,
+        "al.incrementalBuild": false,
+        "al-xml-doc.CheckProcedureDocumentationForAccessLevel": [
+            "Public"
+        ],
+        "alOutline.defaultAppArea": "All",
+        "alOutline.defaultDataClassification": "ToBeClassified",
+        "alOutline.defaultAddPageFieldCaptionsSettings": {
+            "setActionGroupsCaptions": true,
+            "setActionsCaptions": true,
+            "setFieldsCaptions": true,
+            "setGroupsCaptions": true,
+            "setLabelsCaptions": true,
+            "setPartsCaptions": true
+        },
+        "alOutline.reuseToolTipsFromDependencies": [
+            "Microsoft - Base Application",
+            "Microsoft - System Application"
+        ],
+        "alOutline.codeCleanupActions": [
+            "AddObjectCaptions",
+            "FixKeywordsCase",
+            "FixIdentifiersCase",
+            "AddMissingParentheses",
+            "SortVariables",
+            "RemoveBeginEnd",
+            "FormatDocument",
+            "TrimTrailingWhitespace",
+            "RemoveWithStatements",
+            "AddDataClassifications",
+            "AddApplicationAreas",
+            "AddToolTips",
+            "RefreshToolTips",
+            "AddTableFieldCaptions",
+            "AddObjectCaptions",
+            "RemoveUnusedVariables",
+            "SortPermissions",
+            "SortPermissionSetList",
+            "SortProcedures",
+            "SortProperties",
+            "SortReportColumns",
+            "RemoveBeginEnd",
+            "RemoveEmptyLines",
+            "RemoveEmptySections",
+            "RemoveStrSubstNoFromError",
+            "TrimTrailingWhitespace",
+            "FormatDocument"
+        ],
+        "alOutline.autoGenerateFileDirectory": "Source",
+        "alOutline.autoGenerateFiles": true,
+        "alOutline.openDefinitionInNewTab": true,
+        "alOutline.promptForObjectId": false,
+        "alOutline.promptForObjectName": false,
+        "alOutline.stripNonAlphanumericCharactersFromObjectNames": true,
+        "cSpell.words": [
+            "Kappi"
+        ]
     }
-  ],
-  "settings": {}
 }
