@@ -647,6 +647,7 @@ page 65226 "O4NJob Workbench"
                     Promoted = true;
                     PromotedCategory = Process;
                     PromotedIsBig = true;
+                    PromotedOnly = true;
                     ToolTip = 'Executes the Job Task action';
 
                     trigger OnAction()
@@ -739,24 +740,24 @@ page 65226 "O4NJob Workbench"
         TypeFilter: Option " ",Resource,Item,"G/L Account";
         UpcomingInvoiceFilter: Option " ",Yes,No;
         PeriodType: Option Day,Week,Month,Quarter,Year,Period;
-        BilltoCustomerNoFilter: Text[250];
-        DateFilter: Text[250];
-        DescriptionFilter: Text[250];
-        FAClassCodeFilter: Text[250];
-        FALocationCodeFilter: Text[250];
-        FASubclassCodeFilter: Text[250];
-        FixedAssetNoFilter: Text[250];
-        GlobalDimension1Filter: Text[250];
-        GlobalDimension2Filter: Text[250];
-        JobNoFilter: Text[250];
-        JobStatGrpCodeFilter: Text[250];
-        JobTaskNoFilter: Text[250];
-        MaintenanceCodeFilter: Text[250];
-        NoFilter: Text[250];
-        PersonResponsibleFilter: Text[250];
-        RecurringJobNoFilter: Text[250];
-        StatisticsGroupCodeFilter: Text[250];
-        WorkTypeCodeFilter: Text[250];
+        BilltoCustomerNoFilter: Text;
+        DateFilter: Text;
+        DescriptionFilter: Text;
+        FAClassCodeFilter: Text;
+        FALocationCodeFilter: Text;
+        FASubclassCodeFilter: Text;
+        FixedAssetNoFilter: Text;
+        GlobalDimension1Filter: Text;
+        GlobalDimension2Filter: Text;
+        JobNoFilter: Text;
+        JobStatGrpCodeFilter: Text;
+        JobTaskNoFilter: Text;
+        MaintenanceCodeFilter: Text;
+        NoFilter: Text;
+        PersonResponsibleFilter: Text;
+        RecurringJobNoFilter: Text;
+        StatisticsGroupCodeFilter: Text;
+        WorkTypeCodeFilter: Text;
 
     procedure ClearFilters()
     begin
@@ -863,7 +864,7 @@ page 65226 "O4NJob Workbench"
         SetUpcomingInvoiceFilter();
     end;
 
-    local procedure FindPeriod(SearchText: Code[10])
+    local procedure FindPeriod(SearchText: Text[3])
     var
         Period: Record Date;
         PeriodMgt: Codeunit "O4NTime Management";

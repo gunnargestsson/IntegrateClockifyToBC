@@ -56,8 +56,6 @@ page 65235 "O4NTime Sheet Factbox"
                 ApplicationArea = Jobs;
                 Caption = 'Create Time Sheets';
                 Image = NewTimesheet;
-                Promoted = true;
-                PromotedCategory = Process;
                 RunObject = report "Create Time Sheets";
                 ToolTip = 'Create new time sheets for resources.';
             }
@@ -66,9 +64,6 @@ page 65235 "O4NTime Sheet Factbox"
                 ApplicationArea = Jobs;
                 Caption = '&Edit Time Sheet';
                 Image = OpenJournal;
-                Promoted = true;
-                PromotedCategory = Process;
-                PromotedIsBig = true;
                 ShortcutKey = 'Return';
                 ToolTip = 'Open the time sheet in edit mode.';
 
@@ -82,8 +77,6 @@ page 65235 "O4NTime Sheet Factbox"
                 ApplicationArea = Jobs;
                 Caption = 'Move Time Sheets to Archive';
                 Image = Archive;
-                Promoted = true;
-                PromotedCategory = Process;
                 RunObject = report "Move Time Sheets to Archive";
                 ToolTip = 'Archive time sheets.';
             }

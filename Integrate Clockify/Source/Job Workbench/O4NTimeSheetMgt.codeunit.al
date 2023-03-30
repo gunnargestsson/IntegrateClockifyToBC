@@ -108,7 +108,9 @@ codeunit 65210 "O4N TimeSheet Mgt"
         JobJnlTemplate.SetRange(Recurring, false);
         JobJnlTemplate.FindFirst();
         JobJnlBatch.SetRange("Journal Template Name", JobJnlTemplate.Name);
+#pragma warning disable AA0210
         JobJnlBatch.SetFilter("No. Series", '<>%1', '');
+#pragma warning restore AA0210
         JobJnlBatch.FindFirst();
         FillTimeSheetLineBuffer(TempTimeSheetLine);
 

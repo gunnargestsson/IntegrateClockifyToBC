@@ -13,56 +13,56 @@ page 65237 "O4NJob Task Fact Box"
     {
         area(Content)
         {
-            field("Schedule Total Cost"; StrSubstNo('(%1)', Format(Rec."Schedule (Total Cost)", 0, '<Integer Thousand><Sign>')))
+            field("Schedule Total Cost"; StrSubstNo(PlaceHolderTok, Format(Rec."Schedule (Total Cost)", 0, '<Integer Thousand><Sign>')))
             {
                 ApplicationArea = Basic, Suite;
                 Caption = 'Schedule (Total Cost)';
                 Editable = false;
                 ToolTip = 'Specifies the value of the Schedule (Total Cost) field';
             }
-            field("Schedule Total Price"; StrSubstNo('(%1)', Format(Rec."Schedule (Total Price)", 0, '<Integer Thousand><Sign>')))
+            field("Schedule Total Price"; StrSubstNo(PlaceHolderTok, Format(Rec."Schedule (Total Price)", 0, '<Integer Thousand><Sign>')))
             {
                 ApplicationArea = Basic, Suite;
                 Caption = 'Schedule (Total Price)';
                 Editable = false;
                 ToolTip = 'Specifies the value of the Schedule (Total Price) field';
             }
-            field("Usage Total Cost"; StrSubstNo('(%1)', Format(Rec."Usage (Total Cost)", 0, '<Integer Thousand><Sign>')))
+            field("Usage Total Cost"; StrSubstNo(PlaceHolderTok, Format(Rec."Usage (Total Cost)", 0, '<Integer Thousand><Sign>')))
             {
                 ApplicationArea = Basic, Suite;
                 Caption = 'Usage (Total Cost)';
                 Editable = false;
                 ToolTip = 'Specifies the value of the Usage (Total Cost) field';
             }
-            field("Usage Total Price"; StrSubstNo('(%1)', Format(Rec."Usage (Total Price)", 0, '<Integer Thousand><Sign>')))
+            field("Usage Total Price"; StrSubstNo(PlaceHolderTok, Format(Rec."Usage (Total Price)", 0, '<Integer Thousand><Sign>')))
             {
                 ApplicationArea = Basic, Suite;
                 Caption = 'Usage (Total Price)';
                 Editable = false;
                 ToolTip = 'Specifies the value of the Usage (Total Price) field';
             }
-            field("Contract Total Cost"; StrSubstNo('(%1)', Format(Rec."Contract (Total Cost)", 0, '<Integer Thousand><Sign>')))
+            field("Contract Total Cost"; StrSubstNo(PlaceHolderTok, Format(Rec."Contract (Total Cost)", 0, '<Integer Thousand><Sign>')))
             {
                 ApplicationArea = Basic, Suite;
                 Caption = 'Contract (Total Cost)';
                 Editable = false;
                 ToolTip = 'Specifies the value of the Contract (Total Cost) field';
             }
-            field("Contract Total Price"; StrSubstNo('(%1)', Format(Rec."Contract (Total Price)", 0, '<Integer Thousand><Sign>')))
+            field("Contract Total Price"; StrSubstNo(PlaceHolderTok, Format(Rec."Contract (Total Price)", 0, '<Integer Thousand><Sign>')))
             {
                 ApplicationArea = Basic, Suite;
                 Caption = 'Contract (Total Price)';
                 Editable = false;
                 ToolTip = 'Specifies the value of the Contract (Total Price) field';
             }
-            field("Contract Invoiced Price"; StrSubstNo('(%1)', Format(Rec."Contract (Invoiced Price)", 0, '<Integer Thousand><Sign>')))
+            field("Contract Invoiced Price"; StrSubstNo(PlaceHolderTok, Format(Rec."Contract (Invoiced Price)", 0, '<Integer Thousand><Sign>')))
             {
                 ApplicationArea = Basic, Suite;
                 Caption = 'Contract (Invoiced Price)';
                 Editable = false;
                 ToolTip = 'Specifies the value of the Contract (Invoiced Price) field';
             }
-            field("Contract Invoiced Cost"; StrSubstNo('(%1)', Format(Rec."Contract (Invoiced Cost)", 0, '<Integer Thousand><Sign>')))
+            field("Contract Invoiced Cost"; StrSubstNo(PlaceHolderTok, Format(Rec."Contract (Invoiced Cost)", 0, '<Integer Thousand><Sign>')))
             {
                 ApplicationArea = Basic, Suite;
                 Caption = 'Contract (Invoiced Cost)';
@@ -81,6 +81,9 @@ page 65237 "O4NJob Task Fact Box"
     begin
         OnAfterGetCurrRec();
     end;
+
+    var
+        PlaceHolderTok: Label '(%1)', Locked = true;
 
     procedure OpenCard()
     var

@@ -7,14 +7,12 @@ codeunit 65231 "O4NTime Management"
     end;
 
     var
-        PeriodBuf: Record "O4NPeriod Buffer";
-        GotSetup: Boolean;
         AllowPostingFrom: Date;
         AllowPostingTo: Date;
-        Text003Txt: Label 'Week %1';
-        Text004Txt: Label 'Quarter %1/4';
-        Text005Txt: Label 'Year %1';
-        Text006Txt: Label '%2 to %3';
+        WeekTxt: Label 'Week %1', Comment = '%1 = week no.';
+        QuarterTxt: Label 'Quarter %1/4', Comment = '%1 = quarter no.';
+        YearTxt: Label 'Year %1', Comment = '%1 = year no.';
+        PeriodTxt: Label '%2 to %3', Comment = 'period, %2 = start date, %3 = end date';
         Text010Txt: Label '<Week>.<Year4>';
         Text011Txt: Label '<Month Text,3> <Year4>';
         Text012Txt: Label '<Quarter>/<Year4>';
@@ -133,58 +131,16 @@ codeunit 65231 "O4NTime Management"
     begin
         case PeriodType of
             PeriodType::Week:
-                exit(Text003Txt);
+                exit(WeekTxt);
             PeriodType::Quarter:
-                exit(Text004Txt);
+                exit(QuarterTxt);
             PeriodType::Year:
-                exit(Text005Txt);
+                exit(YearTxt);
             PeriodType::Undefined:
-                exit(Text006Txt);
+                exit(PeriodTxt);
             else
                 exit('%1');
         end;
     end;
 
-    local procedure AddToDateFilterString(var DateFilterString: Text; StartDate: Date; EndDate: Date)
-    var
-        Customer: Record Customer;
-    begin
-        if EndDate = 0D then
-            Customer.SetRange("Date Filter", StartDate, DMY2Date(31, 12, 9999))
-        else
-            Customer.SetRange("Date Filter", StartDate, EndDate);
-        if DateFilterString = '' then
-            DateFilterString := Customer.GetFilter("Date Filter")
-        else
-            DateFilterString := DateFilterString + '|' + Customer.GetFilter("Date Filter")
-    end;
-
-    local procedure CopyPeriodBuf(var Calendar: Record Date)
-    begin
-        Calendar.Init();
-        Calendar."Period Start" := PeriodBuf."Starting Date";
-        Calendar."Period Name" := PeriodBuf.Description;
-        if PeriodBuf.Next() = 0 then
-            Calendar."Period End" := Calendar."Period Start"
-        else
-            Calendar."Period End" := PeriodBuf."Starting Date" - 1;
-    end;
-
-    local procedure GetNoOfDays(FromDate: Date; ToDate: Date): Integer
-    begin
-        if ToDate = 0D then exit(1);
-        exit(1 + (ToDate - FromDate));
-    end;
-
-    local procedure GetSetup()
-    begin
-        GotSetup := true;
-    end;
-
-    local procedure SetPeriodBufFilter(var Calendar: Record Date)
-    begin
-        PeriodBuf.SetFilter("Starting Date", Calendar.GetFilter("Period Start"));
-        PeriodBuf.SetFilter(Description, Calendar.GetFilter("Period Name"));
-        PeriodBuf."Starting Date" := Calendar."Period Start";
-    end;
 }

@@ -9,7 +9,7 @@ page 65234 "O4NJob Fact Box"
     {
         area(Content)
         {
-            field("StrSubstNo('(%1)',LedgerEntriesCount)"; StrSubstNo('(%1)', LedgerEntriesCount()))
+            field("StrSubstNo(PlaceHolderTok,LedgerEntriesCount)"; StrSubstNo(PlaceHolderTok, LedgerEntriesCount()))
             {
                 ApplicationArea = Basic, Suite;
                 Caption = 'Ledger E&ntries';
@@ -21,34 +21,34 @@ page 65234 "O4NJob Fact Box"
                     LedgerEntriesLookup();
                 end;
             }
-            field("StrSubstNo('(%1)',Format(CL[8],0,'<Integer Thousand><Sign>'))"; StrSubstNo('(%1)', Format(CL[8], 0, '<Integer Thousand><Sign>')))
+            field("StrSubstNo(PlaceHolderTok,Format(CL[8],0,'<Integer Thousand><Sign>'))"; StrSubstNo(PlaceHolderTok, Format(CL[8], 0, '<Integer Thousand><Sign>')))
             {
                 ApplicationArea = Basic, Suite;
                 Caption = 'Used Cost (LCY)';
                 Editable = false;
                 ToolTip = 'Specifies the value of the Used Cost (LCY) field';
             }
-            field("StrSubstNo('(%1)',Format(CL[12],0,'<Integer Thousand><Sign>'))"; StrSubstNo('(%1)', Format(CL[12], 0, '<Integer Thousand><Sign>')))
+            field("StrSubstNo(PlaceHolderTok,Format(CL[12],0,'<Integer Thousand><Sign>'))"; StrSubstNo(PlaceHolderTok, Format(CL[12], 0, '<Integer Thousand><Sign>')))
             {
                 ApplicationArea = Basic, Suite;
                 Caption = 'Contract Cost (LCY)';
                 Editable = false;
                 ToolTip = 'Specifies the value of the Contract Cost (LCY) field';
             }
-            field("StrSubstNo('(%1)',Format(CL[16],0,'<Integer Thousand><Sign>'))"; StrSubstNo('(%1)', Format(CL[16], 0, '<Integer Thousand><Sign>')))
+            field("StrSubstNo(PlaceHolderTok,Format(CL[16],0,'<Integer Thousand><Sign>'))"; StrSubstNo(PlaceHolderTok, Format(CL[16], 0, '<Integer Thousand><Sign>')))
             {
                 ApplicationArea = Basic, Suite;
                 Caption = 'Invoiced Cost (LCY)';
                 Editable = false;
                 ToolTip = 'Specifies the value of the Invoiced Cost (LCY) field';
             }
-            field("StrSubstNo('(%1)',Format(PL[16],0,'<Integer Thousand><Sign>'))"; StrSubstNo('(%1)', Format(PL[16], 0, '<Integer Thousand><Sign>')))
+            field("StrSubstNo(PlaceHolderTok,Format(PL[16],0,'<Integer Thousand><Sign>'))"; StrSubstNo(PlaceHolderTok, Format(PL[16], 0, '<Integer Thousand><Sign>')))
             {
                 ApplicationArea = Basic, Suite;
                 Caption = 'Invoiced Price (LCY)';
                 ToolTip = 'Specifies the value of the Invoiced Price (LCY) field';
             }
-            field("StrSubstNo('(%1)',Format(PL[16]-CL[16],0,'<Integer Thousand><Sign>'))"; StrSubstNo('(%1)', Format(PL[16] - CL[16], 0, '<Integer Thousand><Sign>')))
+            field("StrSubstNo(PlaceHolderTok,Format(PL[16]-CL[16],0,'<Integer Thousand><Sign>'))"; StrSubstNo(PlaceHolderTok, Format(PL[16] - CL[16], 0, '<Integer Thousand><Sign>')))
             {
                 ApplicationArea = Basic, Suite;
                 Caption = 'Invoiced Profit (LCY)';
@@ -57,31 +57,31 @@ page 65234 "O4NJob Fact Box"
             group("Planning Lines in Period")
             {
                 Caption = 'Planning Lines in Period';
-                field("StrSubstNo('(%1)',PlanningLineCount[1])"; StrSubstNo('(%1)', PlanningLineCount[1]))
+                field("StrSubstNo(PlaceHolderTok,PlanningLineCount[1])"; StrSubstNo(PlaceHolderTok, PlanningLineCount[1]))
                 {
                     ApplicationArea = Basic, Suite;
                     Caption = 'No. of Lines';
                     ToolTip = 'Specifies the value of the No. of Lines field';
                 }
-                field("StrSubstNo('(%1)',PlanningLineCount[2])"; StrSubstNo('(%1)', PlanningLineCount[2]))
+                field("StrSubstNo(PlaceHolderTok,PlanningLineCount[2])"; StrSubstNo(PlaceHolderTok, PlanningLineCount[2]))
                 {
                     ApplicationArea = Basic, Suite;
                     Caption = 'No. of Lines not Transferred';
                     ToolTip = 'Specifies the value of the No. of Lines not Transferred field';
                 }
-                field("StrSubstNo('(%1)',PlanningLineCount[3])"; StrSubstNo('(%1)', PlanningLineCount[3]))
+                field("StrSubstNo(PlaceHolderTok,PlanningLineCount[3])"; StrSubstNo(PlaceHolderTok, PlanningLineCount[3]))
                 {
                     ApplicationArea = Basic, Suite;
                     Caption = 'No. of Lines Transferred';
                     ToolTip = 'Specifies the value of the No. of Lines Transferred field';
                 }
-                field("StrSubstNo('(%1)',PlanningLineCount[4])"; StrSubstNo('(%1)', PlanningLineCount[4]))
+                field("StrSubstNo(PlaceHolderTok,PlanningLineCount[4])"; StrSubstNo(PlaceHolderTok, PlanningLineCount[4]))
                 {
                     ApplicationArea = Basic, Suite;
                     Caption = 'No. of Lines not Invoiced';
                     ToolTip = 'Specifies the value of the No. of Lines not Invoiced field';
                 }
-                field("StrSubstNo('(%1)',PlanningLineCount[5])"; StrSubstNo('(%1)', PlanningLineCount[5]))
+                field("StrSubstNo(PlaceHolderTok,PlanningLineCount[5])"; StrSubstNo(PlaceHolderTok, PlanningLineCount[5]))
                 {
                     ApplicationArea = Basic, Suite;
                     Caption = 'No. of Lines Invoiced';
@@ -91,31 +91,31 @@ page 65234 "O4NJob Fact Box"
             group("Other Planning Lines")
             {
                 Caption = 'Other Planning Lines';
-                field("StrSubstNo('(%1)',PlanningLineCount[6])"; StrSubstNo('(%1)', PlanningLineCount[6]))
+                field("StrSubstNo(PlaceHolderTok,PlanningLineCount[6])"; StrSubstNo(PlaceHolderTok, PlanningLineCount[6]))
                 {
                     ApplicationArea = Basic, Suite;
                     Caption = 'No. of Lines';
                     ToolTip = 'Specifies the value of the No. of Lines field';
                 }
-                field("StrSubstNo('(%1)',PlanningLineCount[7])"; StrSubstNo('(%1)', PlanningLineCount[7]))
+                field("StrSubstNo(PlaceHolderTok,PlanningLineCount[7])"; StrSubstNo(PlaceHolderTok, PlanningLineCount[7]))
                 {
                     ApplicationArea = Basic, Suite;
                     Caption = 'No. of Lines not Transferred';
                     ToolTip = 'Specifies the value of the No. of Lines not Transferred field';
                 }
-                field("StrSubstNo('(%1)',PlanningLineCount[8])"; StrSubstNo('(%1)', PlanningLineCount[8]))
+                field("StrSubstNo(PlaceHolderTok,PlanningLineCount[8])"; StrSubstNo(PlaceHolderTok, PlanningLineCount[8]))
                 {
                     ApplicationArea = Basic, Suite;
                     Caption = 'No. of Lines Transferred';
                     ToolTip = 'Specifies the value of the No. of Lines Transferred field';
                 }
-                field("StrSubstNo('(%1)',PlanningLineCount[9])"; StrSubstNo('(%1)', PlanningLineCount[9]))
+                field("StrSubstNo(PlaceHolderTok,PlanningLineCount[9])"; StrSubstNo(PlaceHolderTok, PlanningLineCount[9]))
                 {
                     ApplicationArea = Basic, Suite;
                     Caption = 'No. of Lines not Invoiced';
                     ToolTip = 'Specifies the value of the No. of Lines not Invoiced field';
                 }
-                field("StrSubstNo('(%1)',PlanningLineCount[10])"; StrSubstNo('(%1)', PlanningLineCount[10]))
+                field("StrSubstNo(PlaceHolderTok,PlanningLineCount[10])"; StrSubstNo(PlaceHolderTok, PlanningLineCount[10]))
                 {
                     ApplicationArea = Basic, Suite;
                     Caption = 'No. of Lines Invoiced';
@@ -139,6 +139,7 @@ page 65234 "O4NJob Fact Box"
         Job: Record Job;
         JobPlanningLines: Record "Job Planning Line";
         JobCalcStatistics: Codeunit "Job Calculate Statistics";
+        PlaceHolderTok: Label '(%1)', Locked = true;
         CL: array[16] of Decimal;
         PL: array[16] of Decimal;
         PlanningLineCount: array[10] of Integer;
@@ -149,15 +150,15 @@ page 65234 "O4NJob Fact Box"
         exit(Rec.Comment);
     end;
 
-    procedure CopyFilters(var Job: Record Job)
+    procedure CopyFilters(var CurrentJob: Record Job)
     begin
-        Job.Reset();
-        Job.Copy(Rec);
+        CurrentJob.Reset();
+        CurrentJob.Copy(Rec);
     end;
 
-    procedure GetCurrentLine(var Job: Record Job)
+    procedure GetCurrentLine(var CurrentJob: Record Job)
     begin
-        Job := Rec;
+        CurrentJob := Rec;
     end;
 
     procedure LedgerEntriesCount(): Integer
@@ -210,10 +211,10 @@ page 65234 "O4NJob Fact Box"
         Page.Run(Page::"Job Statistics", Job);
     end;
 
-    procedure SetSelectionFilter(var Job: Record Job)
+    procedure SetSelectionFilter(var CurrentJob: Record Job)
     begin
-        Job.Reset();
-        CurrPage.SetSelectionFilter(Job);
+        CurrentJob.Reset();
+        CurrPage.SetSelectionFilter(CurrentJob);
     end;
 
     local procedure OnAfterGetCurrRec()

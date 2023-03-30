@@ -7,6 +7,7 @@ page 65227 "O4NJob Task Part"
     PageType = List;
     SaveValues = true;
     SourceTable = "Job Task";
+    UsageCategory = None;
 
     layout
     {
@@ -382,12 +383,10 @@ page 65227 "O4NJob Task Part"
         DescriptionIndent := 0;
         JobNoOnFormat();
         JobTaskNoOnFormat();
-        DescriptionOnFormat();
     end;
 
     var
         Job: Record Customer;
-        DescriptionEmphasize: Boolean;
         "Job No.Emphasize": Boolean;
         "Job Task No.Emphasize": Boolean;
         DescriptionIndent: Integer;
@@ -413,17 +412,8 @@ page 65227 "O4NJob Task Part"
         Workbench.CopyFilter("Date Filter", Rec."Planning Date Filter");
     end;
 
-    local procedure CopyFilters(var JobTaskLine: Record "Job Task")
-    begin
-        JobTaskLine.Reset();
-        JobTaskLine.Copy(Rec);
-    end;
 
-    local procedure DescriptionOnFormat()
-    begin
-        DescriptionIndent := Rec.Indentation;
-        DescriptionEmphasize := Rec."Job Task Type" <> Rec."Job Task Type"::Posting;
-    end;
+
 
     local procedure JobNoOnFormat()
     begin
@@ -435,48 +425,4 @@ page 65227 "O4NJob Task Part"
         "Job Task No.Emphasize" := Rec."Job Task Type" <> Rec."Job Task Type"::Posting;
     end;
 
-    local procedure OpenCard()
-    var
-        JT: Record "Job Task";
-    begin
-        JT := Rec;
-        Page.Run(Page::"Job Task Card", JT);
-    end;
-
-    local procedure OpenDimensions()
-    var
-        JobTaskDim: Record "Job Task Dimension";
-    begin
-        JobTaskDim.FilterGroup(2);
-        JobTaskDim.SetRange("Job No.", Rec."Job No.");
-        JobTaskDim.SetRange("Job Task No.", Rec."Job Task No.");
-        JobTaskDim.FilterGroup(0);
-        Page.Run(Page::"Job Task Dimensions", JobTaskDim);
-    end;
-
-    local procedure OpenLedgerEntries()
-    var
-        JobLedgerEntries: Record "Job Ledger Entry";
-    begin
-        JobLedgerEntries.SetRange("Job No.", Rec."Job No.");
-        JobLedgerEntries.SetRange("Job Task No.", Rec."Job Task No.");
-        Page.Run(Page::"Job Ledger Entries", JobLedgerEntries);
-    end;
-
-    local procedure OpenPlanningLines()
-    var
-        JobPlanningLines: Record "Job Planning Line";
-    begin
-        JobPlanningLines.SetRange("Job No.", Rec."Job No.");
-        JobPlanningLines.SetRange("Job Task No.", Rec."Job Task No.");
-        Page.Run(Page::"Job Planning Lines", JobPlanningLines);
-    end;
-
-    local procedure OpenStatistics()
-    var
-        JT: Record "Job Task";
-    begin
-        JT := Rec;
-        Page.Run(Page::"Job Task Statistics", JT);
-    end;
 }
