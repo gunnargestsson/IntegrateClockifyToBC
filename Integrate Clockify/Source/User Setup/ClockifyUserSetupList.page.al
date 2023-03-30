@@ -1,16 +1,15 @@
 page 70603 "Clockify User Setup List"
 {
-
     ApplicationArea = All;
     Caption = 'Clockify User Setup List';
+    CardPageId = "Clockify User Setup Card";
     PageType = List;
     SourceTable = "Clockify User Setup";
     UsageCategory = Administration;
-    CardPageId = "Clockify User Setup Card";
 
     layout
     {
-        area(content)
+        area(Content)
         {
             repeater(General)
             {
@@ -24,7 +23,6 @@ page 70603 "Clockify User Setup List"
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the Enabled field';
                 }
-
                 field("Clockify ID"; Rec."Clockify ID")
                 {
                     ApplicationArea = All;
@@ -65,7 +63,6 @@ page 70603 "Clockify User Setup List"
                     ApplicationArea = All;
                     ToolTip = 'Specifies the value of the Log Activity field';
                 }
-
             }
         }
     }

@@ -1,28 +1,28 @@
 page 70600 "Clockify User Setup Card"
 {
     AdditionalSearchTerms = 'time sheet integration';
-    PageType = Card;
-    SourceTable = "Clockify User Setup";
     Caption = 'Clockify User Setup Card';
     LinksAllowed = false;
-    ShowFilter = false;
-    UsageCategory = None;
+    PageType = Card;
     PromotedActionCategories = 'New,Process,Report,Encryption,Navigate';
+    ShowFilter = false;
+    SourceTable = "Clockify User Setup";
+    UsageCategory = None;
 
     layout
     {
-        area(content)
+        area(Content)
         {
             group(General)
             {
                 Caption = 'General';
                 field("API Key"; ApiKey)
                 {
-                    Caption = 'API Key';
                     ApplicationArea = All;
-                    ShowMandatory = true;
+                    Caption = 'API Key';
                     Editable = EditableByNotEnabled;
                     ExtendedDatatype = Masked;
+                    ShowMandatory = true;
                     ToolTip = 'Api Key as specified in setting on your Clockify home page';
                     trigger OnValidate()
                     begin
@@ -32,8 +32,8 @@ page 70600 "Clockify User Setup Card"
                 field("API Base Endpoint"; Rec."API Base Endpoint")
                 {
                     ApplicationArea = All;
-                    ShowMandatory = true;
                     Editable = EditableByNotEnabled;
+                    ShowMandatory = true;
                     ToolTip = 'Enable the integration synchronization process';
                 }
                 field("Manual Synchronization"; Rec."Manual Synchronization")
@@ -46,8 +46,8 @@ page 70600 "Clockify User Setup Card"
                 {
                     ApplicationArea = All;
                     Editable = EditableByNotEnabled;
-                    ToolTip = 'Specifies the default work type that will be used on time sheet entries';
                     ShowMandatory = true;
+                    ToolTip = 'Specifies the default work type that will be used on time sheet entries';
                 }
                 field("Log Activity"; Rec."Log Activity")
                 {
@@ -58,9 +58,9 @@ page 70600 "Clockify User Setup Card"
                 field("Max. No. of Failures"; Rec."Max. No. of Failures")
                 {
                     ApplicationArea = All;
-                    ToolTip = 'Specifies the value of the Max. No. of Failures field';
-                    Editable = EditableByNotEnabled;
                     BlankZero = true;
+                    Editable = EditableByNotEnabled;
+                    ToolTip = 'Specifies the value of the Max. No. of Failures field';
                 }
                 field(Enabled; Rec.Enabled)
                 {
@@ -76,7 +76,7 @@ page 70600 "Clockify User Setup Card"
                     ApplicationArea = Basic, Suite;
                     AssistEdit = false;
                     Editable = false;
-                    Enabled = NOT EditableByNotEnabled;
+                    Enabled = not EditableByNotEnabled;
                     ShowCaption = false;
                     ToolTip = 'Specifies the value of the ShowEnableWarning field';
 
@@ -85,7 +85,6 @@ page 70600 "Clockify User Setup Card"
                         DrilldownCode();
                     end;
                 }
-
             }
             group(Clockify)
             {
@@ -174,19 +173,19 @@ page 70600 "Clockify User Setup Card"
         {
             action(IntegrationRecords)
             {
+                ApplicationArea = All;
                 Caption = 'Integration Records';
-                ToolTip = 'View the integration records for Clockify';
                 Image = InteractionLog;
                 RunObject = page "Clockify Integration List";
-                ApplicationArea = All;
+                ToolTip = 'View the integration records for Clockify';
             }
             action(TimeSheetEntries)
             {
+                ApplicationArea = All;
                 Caption = 'Time Sheet Entries';
-                ToolTip = 'View the time sheet entries from Clockify';
                 Image = Timesheet;
                 RunObject = page "Clockify Time Sheet Entry List";
-                ApplicationArea = All;
+                ToolTip = 'View the time sheet entries from Clockify';
             }
         }
     }
@@ -215,20 +214,12 @@ page 70600 "Clockify User Setup Card"
     end;
 
     var
+        EditableByNotEnabled: Boolean;
+        DisableEnableQst: Label 'Do you want to disable the Clockify integation?';
+        EnabledWarningTok: Label 'You must disable the service before you can make changes.';
+        EnableServiceQst: Label 'The %1 is not enabled. Are you sure you want to exit?', Comment = '%1 = pagecaption (Clockify User Setup Card)';
         ApiKey: Text;
         ShowEnableWarning: Text;
-        EditableByNotEnabled: Boolean;
-        EnabledWarningTok: Label 'You must disable the service before you can make changes.';
-        DisableEnableQst: Label 'Do you want to disable the Clockify integation?';
-        EnableServiceQst: Label 'The %1 is not enabled. Are you sure you want to exit?', Comment = '%1 = pagecaption (Clockify User Setup Card)';
-
-    local procedure UpdateBasedOnEnable()
-    begin
-        EditableByNotEnabled := (not Rec.Enabled) and CurrPage.Editable;
-        ShowEnableWarning := '';
-        if CurrPage.Editable and Rec.Enabled then
-            ShowEnableWarning := EnabledWarningTok;
-    end;
 
     local procedure DrilldownCode()
     begin
@@ -237,5 +228,13 @@ page 70600 "Clockify User Setup Card"
             UpdateBasedOnEnable();
             CurrPage.Update();
         end;
+    end;
+
+    local procedure UpdateBasedOnEnable()
+    begin
+        EditableByNotEnabled := (not Rec.Enabled) and CurrPage.Editable;
+        ShowEnableWarning := '';
+        if CurrPage.Editable and Rec.Enabled then
+            ShowEnableWarning := EnabledWarningTok;
     end;
 }

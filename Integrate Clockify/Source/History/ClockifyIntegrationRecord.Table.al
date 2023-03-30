@@ -1,14 +1,14 @@
 table 70602 "Clockify Integration Record"
 {
+    Caption = 'Clockify Integration Record';
     DataClassification = EndUserIdentifiableInformation;
-
     fields
     {
         field(1; "User Security ID"; Guid)
         {
             Caption = 'User Security ID';
-            TableRelation = User."User Security ID";
             DataClassification = EndUserIdentifiableInformation;
+            TableRelation = User."User Security ID";
         }
         field(2; "Integration Id"; Guid)
         {
@@ -53,11 +53,13 @@ table 70602 "Clockify Integration Record"
         field(13; "Last Modified Date Time"; DateTime)
         {
             Caption = 'Last Modified Date Time';
+            DataClassification = ToBeClassified;
             Editable = false;
         }
         field(15; "Last Synchronization"; DateTime)
         {
             Caption = 'Last Synchronization';
+            DataClassification = ToBeClassified;
             Editable = false;
         }
     }
@@ -70,49 +72,26 @@ table 70602 "Clockify Integration Record"
         }
         key(Related; "Related Table ID", "Related Record Id")
         {
-
         }
         key(Clockify; "Related Table ID", "Clockify ID", "Next Synchronization")
         {
-
         }
     }
 
-
     trigger OnInsert()
     begin
-
     end;
 
     trigger OnModify()
     begin
-
     end;
 
     trigger OnDelete()
     begin
-
     end;
 
     trigger OnRename()
     begin
-
-    end;
-
-    procedure FindByRecordId(ClockifyWorkspaceID: Text[35]; RelatedTableID: Integer; RelatedRecordID: RecordId): Boolean
-    begin
-        SetRange("Clockify Workspace ID", ClockifyWorkspaceID);
-        SetRange("Related Table ID", RelatedTableID);
-        SetRange("Related Record Id", RelatedRecordID);
-        exit(FindFirst());
-    end;
-
-    procedure FindByClockifyId(ClockifyWorkspaceID: Text[35]; RelatedTableID: Integer; ClockifyID: Text[35]): Boolean
-    begin
-        SetRange("Clockify Workspace ID", ClockifyWorkspaceID);
-        SetRange("Related Table ID", RelatedTableID);
-        SetRange("Clockify ID", ClockifyID);
-        exit(FindFirst());
     end;
 
     procedure CreateUpdateByRecordId(RelatedTableID: Integer; RelatedRecordID: RecordId; RelatedRecordSystemId: Guid; LastModifiedDateTime: DateTime): Boolean
@@ -138,6 +117,22 @@ table 70602 "Clockify Integration Record"
         end;
     end;
 
+    procedure FindByClockifyId(ClockifyWorkspaceID: Text[35]; RelatedTableID: Integer; ClockifyID: Text[35]): Boolean
+    begin
+        SetRange("Clockify Workspace ID", ClockifyWorkspaceID);
+        SetRange("Related Table ID", RelatedTableID);
+        SetRange("Clockify ID", ClockifyID);
+        exit(FindFirst());
+    end;
+
+    procedure FindByRecordId(ClockifyWorkspaceID: Text[35]; RelatedTableID: Integer; RelatedRecordID: RecordId): Boolean
+    begin
+        SetRange("Clockify Workspace ID", ClockifyWorkspaceID);
+        SetRange("Related Table ID", RelatedTableID);
+        SetRange("Related Record Id", RelatedRecordID);
+        exit(FindFirst());
+    end;
+
     procedure SetNextSync(NextSync: Enum "Clockify Synchronization Type")
     var
         Integration: Record "Clockify Integration Record";
@@ -146,6 +141,4 @@ table 70602 "Clockify Integration Record"
         Integration."Next Synchronization" := NextSync;
         Integration.Modify();
     end;
-
-
 }

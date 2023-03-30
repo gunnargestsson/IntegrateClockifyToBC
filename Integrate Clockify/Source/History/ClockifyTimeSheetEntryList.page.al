@@ -1,14 +1,13 @@
 page 70601 "Clockify Time Sheet Entry List"
 {
-
+    Caption = 'Clockify Time Sheet Entry List';
     PageType = List;
     SourceTable = "Clockify Time Sheet Entry";
-    Caption = 'Clockify Time Sheet Entry List';
     UsageCategory = None;
 
     layout
     {
-        area(content)
+        area(Content)
         {
             repeater(General)
             {
@@ -85,5 +84,4 @@ page 70601 "Clockify Time Sheet Entry List"
             }
         }
     }
-
 }

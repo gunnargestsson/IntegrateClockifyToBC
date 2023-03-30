@@ -215,6 +215,161 @@
           <target>Öryggiskenni notanda</target>
           <note from="Xliff Generator" annotates="general" priority="3">Table Clockify User Setup - Field User Security ID - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 398715963 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Workbench</source>
+          <target>Vinnuborð</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table O4N Job Workbench - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 398715963 - Field 3966149082 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bill-to Customer No. Filter</source>
+          <target>Reikngur færist á viðskm. nr. - afmörkun</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table O4N Job Workbench - Field Bill-to Customer No. Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 398715963 - Field 995090288 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date Filter</source>
+          <target>Dags.afmörkun</target>
+          <target>[NAB: SUGGESTION]Dagsetningarsía</target>
+          <target>[NAB: SUGGESTION]Dagsetningarafmörkun</target>
+          <target>[NAB: SUGGESTION]Afmörkun dagsetninga</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table O4N Job Workbench - Field Date Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 398715963 - Field 1964419135 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Employee No.</source>
+          <target>Starfsmannanúmer</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table O4N Job Workbench - Field Employee No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 398715963 - Field 2302164855 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Employee No. Filter</source>
+          <target>Afmörkun á starfsmannanr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table O4N Job Workbench - Field Employee No. Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 398715963 - Field 1861213814 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Global Dimension 1 Filter</source>
+          <target>Altæk vídd 1 - Afmörkun</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table O4N Job Workbench - Field Global Dimension 1 Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 398715963 - Field 588326355 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Global Dimension 2 Filter</source>
+          <target>Altæk vídd 2 - Afmörkun</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table O4N Job Workbench - Field Global Dimension 2 Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 398715963 - Field 2434828228 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job No. Filter</source>
+          <target>Afmörkun verknr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table O4N Job Workbench - Field Job No. Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 398715963 - Field 3206311791 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Task No. Filter</source>
+          <target>Afmörkun verkhluta verks</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table O4N Job Workbench - Field Job Task No. Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 398715963 - Field 539147385 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. Filter</source>
+          <target>Númersafmörkun</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table O4N Job Workbench - Field No. Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 398715963 - Field 2946241311 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open Registration Filter</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table O4N Job Workbench - Field Open Registration Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 398715963 - Field 1100262795 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Person Responsible Filter</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table O4N Job Workbench - Field Person Responsible Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 398715963 - Field 1663593181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary Key</source>
+          <target>Aðallykill</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table O4N Job Workbench - Field Primary Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 398715963 - Field 1993896008 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status Filter</source>
+          <target>Stöðuafmörkun</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table O4N Job Workbench - Field Status Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 398715963 - Field 1993896008 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Planning,Quote,Order,Completed</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table O4N Job Workbench - Field Status Filter - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 398715963 - Field 2997295404 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Type Filter</source>
+          <target>Tegundarafmörkun</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table O4N Job Workbench - Field Type Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 398715963 - Field 2997295404 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Resource,Item,G/L Account</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Manually set as not translated</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table O4N Job Workbench - Field Type Filter - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Table 398715963 - Field 1932332535 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Upcoming Invoice Filter</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table O4N Job Workbench - Field Upcoming Invoice Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 398715963 - Field 3833796912 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Work Type Code Filter</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table O4N Job Workbench - Field Work Type Code Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2399295124 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Accounting Period</source>
+          <target>Reikningstímabil</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table O4NPeriod Buffer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2399295124 - Field 2193437778 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date Locked</source>
+          <target>Dags. læst</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table O4NPeriod Buffer - Field Date Locked - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2399295124 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target>Lýsing</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table O4NPeriod Buffer - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2399295124 - Field 2961552353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target>Heiti</target>
+          <target>[NAB: SUGGESTION]Nafn</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table O4NPeriod Buffer - Field Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2399295124 - Field 460889064 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting Date</source>
+          <target>Upphafsdagsetning</target>
+          <target>[NAB: SUGGESTION]Upphafsdagur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table O4NPeriod Buffer - Field Starting Date - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2607467882 - NamedType 2117499346" maxwidth="30" size-unit="char" translate="yes" xml:space="preserve">
           <source>Message Received</source>
           <target>Skilaboð móttekin</target>
@@ -230,6 +385,80 @@
           <target>Verkraðarkeyrsla</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Clockify Job Queue - NamedType JobQueueTok</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2775512355 - NamedType 4001033607" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 must be filled in.</source>
+          <target>%1 þarf að fylla út.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit O4N TimeSheet Mgt - NamedType DateMissingErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2775512355 - NamedType 2029279375" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Time sheet administrator only is allowed to create time sheets.</source>
+          <target>Aðeins vinnuskýrslustjórnandi má stofna vinnuskýrslu.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit O4N TimeSheet Mgt - NamedType NotTimeSheetAdminErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2775512355 - NamedType 2586865530" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting Date</source>
+          <target>Upphafsdagsetning</target>
+          <target>[NAB: SUGGESTION]Upphafsdagur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit O4N TimeSheet Mgt - NamedType StartingDateLbl</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 534304989 - NamedType 4230064890" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Week %1</source>
+          <target>Vika %1</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit O4NTime Management - NamedType Text003Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 534304989 - NamedType 4131395451" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quarter %1/4</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit O4NTime Management - NamedType Text004Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 534304989 - NamedType 2747019836" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Year %1</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit O4NTime Management - NamedType Text005Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 534304989 - NamedType 1010155901" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%2 to %3</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit O4NTime Management - NamedType Text006Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 534304989 - NamedType 1644702992" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&lt;Week&gt;.&lt;Year4&gt;</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit O4NTime Management - NamedType Text010Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 534304989 - NamedType 2660409679" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&lt;Month Text,3&gt; &lt;Year4&gt;</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit O4NTime Management - NamedType Text011Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 534304989 - NamedType 4250543570" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&lt;Quarter&gt;/&lt;Year4&gt;</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit O4NTime Management - NamedType Text012Txt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 534304989 - NamedType 939907921" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&lt;Year4&gt;</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit O4NTime Management - NamedType Text013Txt</note>
         </trans-unit>
         <trans-unit id="Page 1878955326 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Clockify Integration Record List</source>
@@ -754,6 +983,1619 @@
           <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup List - Control User Security ID - Property ToolTip</note>
         </trans-unit>
+        <trans-unit id="Page 545363793 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Fact Box</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Fact Box - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 545363793 - Control 3686668864 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Other Planning Lines</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Fact Box - Control Other Planning Lines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 545363793 - Control 1355937948 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the No. of Lines Invoiced field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Fact Box - Control StrSubstNo('(%1)',PlanningLineCount[10]) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 545363793 - Control 1355937948 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Lines Invoiced</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Fact Box - Control StrSubstNo('(%1)',PlanningLineCount[10]) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 545363793 - Control 2541786521 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the No. of Lines field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Fact Box - Control StrSubstNo('(%1)',PlanningLineCount[6]) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 545363793 - Control 2541786521 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Lines</source>
+          <target>[NAB: SUGGESTION]Fjöldi lína</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Fact Box - Control StrSubstNo('(%1)',PlanningLineCount[6]) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 545363793 - Control 3177033074 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the No. of Lines not Transferred field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Fact Box - Control StrSubstNo('(%1)',PlanningLineCount[7]) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 545363793 - Control 3177033074 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Lines not Transferred</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Fact Box - Control StrSubstNo('(%1)',PlanningLineCount[7]) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 545363793 - Control 885613267 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the No. of Lines Transferred field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Fact Box - Control StrSubstNo('(%1)',PlanningLineCount[8]) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 545363793 - Control 885613267 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Lines Transferred</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Fact Box - Control StrSubstNo('(%1)',PlanningLineCount[8]) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 545363793 - Control 4029114604 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the No. of Lines not Invoiced field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Fact Box - Control StrSubstNo('(%1)',PlanningLineCount[9]) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 545363793 - Control 4029114604 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Lines not Invoiced</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Fact Box - Control StrSubstNo('(%1)',PlanningLineCount[9]) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 545363793 - Control 1620099958 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Planning Lines in Period</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Fact Box - Control Planning Lines in Period - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 545363793 - Control 1514387524 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the No. of Lines field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Fact Box - Control StrSubstNo('(%1)',PlanningLineCount[1]) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 545363793 - Control 1514387524 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Lines</source>
+          <target>[NAB: SUGGESTION]Fjöldi lína</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Fact Box - Control StrSubstNo('(%1)',PlanningLineCount[1]) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 545363793 - Control 663399997 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the No. of Lines not Transferred field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Fact Box - Control StrSubstNo('(%1)',PlanningLineCount[2]) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 545363793 - Control 663399997 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Lines not Transferred</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Fact Box - Control StrSubstNo('(%1)',PlanningLineCount[2]) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 545363793 - Control 1669811862 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the No. of Lines Transferred field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Fact Box - Control StrSubstNo('(%1)',PlanningLineCount[3]) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 545363793 - Control 1669811862 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Lines Transferred</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Fact Box - Control StrSubstNo('(%1)',PlanningLineCount[3]) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 545363793 - Control 3128692807 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the No. of Lines not Invoiced field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Fact Box - Control StrSubstNo('(%1)',PlanningLineCount[4]) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 545363793 - Control 3128692807 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Lines not Invoiced</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Fact Box - Control StrSubstNo('(%1)',PlanningLineCount[4]) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 545363793 - Control 3763939360 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the No. of Lines Invoiced field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Fact Box - Control StrSubstNo('(%1)',PlanningLineCount[5]) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 545363793 - Control 3763939360 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. of Lines Invoiced</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Fact Box - Control StrSubstNo('(%1)',PlanningLineCount[5]) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 545363793 - Control 1481542216 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Contract Cost (LCY) field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Fact Box - Control StrSubstNo('(%1)',Format(CL[12],0,'&lt;Integer Thousand&gt;&lt;Sign&gt;')) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 545363793 - Control 1481542216 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contract Cost (LCY)</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Fact Box - Control StrSubstNo('(%1)',Format(CL[12],0,'&lt;Integer Thousand&gt;&lt;Sign&gt;')) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 545363793 - Control 4085068140 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Invoiced Cost (LCY) field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Fact Box - Control StrSubstNo('(%1)',Format(CL[16],0,'&lt;Integer Thousand&gt;&lt;Sign&gt;')) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 545363793 - Control 4085068140 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoiced Cost (LCY)</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Fact Box - Control StrSubstNo('(%1)',Format(CL[16],0,'&lt;Integer Thousand&gt;&lt;Sign&gt;')) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 545363793 - Control 2622606785 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Used Cost (LCY) field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Fact Box - Control StrSubstNo('(%1)',Format(CL[8],0,'&lt;Integer Thousand&gt;&lt;Sign&gt;')) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 545363793 - Control 2622606785 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Used Cost (LCY)</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Fact Box - Control StrSubstNo('(%1)',Format(CL[8],0,'&lt;Integer Thousand&gt;&lt;Sign&gt;')) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 545363793 - Control 3322868773 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Invoiced Price (LCY) field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Fact Box - Control StrSubstNo('(%1)',Format(PL[16],0,'&lt;Integer Thousand&gt;&lt;Sign&gt;')) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 545363793 - Control 3322868773 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoiced Price (LCY)</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Fact Box - Control StrSubstNo('(%1)',Format(PL[16],0,'&lt;Integer Thousand&gt;&lt;Sign&gt;')) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 545363793 - Control 702634524 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Invoiced Profit (LCY) field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Fact Box - Control StrSubstNo('(%1)',Format(PL[16]-CL[16],0,'&lt;Integer Thousand&gt;&lt;Sign&gt;')) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 545363793 - Control 702634524 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoiced Profit (LCY)</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Fact Box - Control StrSubstNo('(%1)',Format(PL[16]-CL[16],0,'&lt;Integer Thousand&gt;&lt;Sign&gt;')) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 545363793 - Control 4006045061 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Ledger E&amp;ntries field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Fact Box - Control StrSubstNo('(%1)',LedgerEntriesCount) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 545363793 - Control 4006045061 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ledger E&amp;ntries</source>
+          <target>[NAB: SUGGESTION]F&amp;ærslur</target>
+          <target>[NAB: SUGGESTION]&amp;Fjárhagsfærslur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Fact Box - Control StrSubstNo('(%1)',LedgerEntriesCount) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3564815646 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Task Lines</source>
+          <target>[NAB: SUGGESTION]Verkhlutalínur verks</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Fact Box - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3564815646 - Control 3939142200 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Contract (Invoiced Cost) field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Fact Box - Control Contract Invoiced Cost - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3564815646 - Control 3939142200 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contract (Invoiced Cost)</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Fact Box - Control Contract Invoiced Cost - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3564815646 - Control 4154284326 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Contract (Invoiced Price) field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Fact Box - Control Contract Invoiced Price - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3564815646 - Control 4154284326 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contract (Invoiced Price)</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Fact Box - Control Contract Invoiced Price - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3564815646 - Control 1053372461 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Contract (Total Cost) field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Fact Box - Control Contract Total Cost - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3564815646 - Control 1053372461 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contract (Total Cost)</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Fact Box - Control Contract Total Cost - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3564815646 - Control 597755591 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Contract (Total Price) field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Fact Box - Control Contract Total Price - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3564815646 - Control 597755591 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Contract (Total Price)</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Fact Box - Control Contract Total Price - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3564815646 - Control 3356637296 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Schedule (Total Cost) field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Fact Box - Control Schedule Total Cost - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3564815646 - Control 3356637296 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Schedule (Total Cost)</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Fact Box - Control Schedule Total Cost - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3564815646 - Control 3077249822 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Schedule (Total Price) field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Fact Box - Control Schedule Total Price - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3564815646 - Control 3077249822 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Schedule (Total Price)</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Fact Box - Control Schedule Total Price - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3564815646 - Control 2508955504 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Usage (Total Cost) field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Fact Box - Control Usage Total Cost - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3564815646 - Control 2508955504 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Usage (Total Cost)</source>
+          <target>[NAB: SUGGESTION]Notkun (heildarkostnaður)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Fact Box - Control Usage Total Cost - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3564815646 - Control 2806798878 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Usage (Total Price) field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Fact Box - Control Usage Total Price - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3564815646 - Control 2806798878 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Usage (Total Price)</source>
+          <target>[NAB: SUGGESTION]Notkun (heildarverð)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Fact Box - Control Usage Total Price - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Task Lines</source>
+          <target>[NAB: SUGGESTION]Verkhlutalínur verks</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Description field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Control 1303377601 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Global Dimension 1 Code field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Control Global Dimension 1 Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Control 1337243520 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Global Dimension 2 Code field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Control Global Dimension 2 Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Control 1908272084 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Job No. field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Control Job No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Control 4185613972 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Job Posting Group field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Control Job Posting Group - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Control 561421623 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Job Task No. field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Control Job Task No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Control 395609334 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Job Task Type field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Control Job Task Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Control 478049462 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Totaling field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Control Totaling - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Control 3122450771 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the WIP-Total field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Control WIP-Total - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Action 2761141962 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>W&amp;IP</source>
+          <target>[NAB: SUGGESTION]&amp;VÍV</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Action &lt;Action46&gt; - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Action 1723535631 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the WIP Entries action</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Action &lt;Action10&gt; - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Action 1723535631 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>WIP Entries</source>
+          <target>[NAB: SUGGESTION]VÍV-færslur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Action &lt;Action10&gt; - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Action 3602678355 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the WIP G/L Entries action</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Action &lt;Action14&gt; - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Action 3602678355 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>WIP G/L Entries</source>
+          <target>[NAB: SUGGESTION]Fjárhagsfærslur VÍV</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Action &lt;Action14&gt; - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Action 2110699876 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Calculate WIP action</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Action &lt;Action48&gt; - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Action 2110699876 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Calculate WIP</source>
+          <target>[NAB: SUGGESTION]Reikna VÍV</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Action &lt;Action48&gt; - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Action 220956323 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Post WIP to G/L action</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Action &lt;Action49&gt; - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Action 220956323 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Post WIP to G/L</source>
+          <target>[NAB: SUGGESTION]Bóka VÍV í fjárhag</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Action &lt;Action49&gt; - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Action 3798370193 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Job Task</source>
+          <target>[NAB: SUGGESTION]&amp;Verkhluti verks</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Action &lt;Action56&gt; - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Action 3285013543 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>-</source>
+          <target>[NAB: SUGGESTION]-</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Action - - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Action 2373977717 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Job Task &amp;Statistics action</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Action &lt;Action16&gt; - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Action 2373977717 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Task &amp;Statistics</source>
+          <target>[NAB: SUGGESTION]Verkhluta&amp;upplýsingar verks</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Action &lt;Action16&gt; - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Action 1166065431 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Job &amp;Task Card action</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Action &lt;Action18&gt; - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Action 1166065431 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job &amp;Task Card</source>
+          <target>[NAB: SUGGESTION]&amp;Verkhlutaspjald verks</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Action &lt;Action18&gt; - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Action 3081669530 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Job Task &amp;Planning Lines action</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Action &lt;Action20&gt; - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Action 3081669530 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Task &amp;Planning Lines</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Action &lt;Action20&gt; - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Action 3669315032 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Dimensions action</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Action &lt;Action66&gt; - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Action 3669315032 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dimensions</source>
+          <target>[NAB: SUGGESTION]Víddir</target>
+          <target>[NAB: SUGGESTION]Vídd</target>
+          <target>[NAB: SUGGESTION]Mál</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Action &lt;Action66&gt; - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Action 2575777046 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Job Task Ledger E&amp;ntries action</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Action &lt;Action6&gt; - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Action 2575777046 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Task Ledger E&amp;ntries</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Action &lt;Action6&gt; - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Action 3783689332 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>F&amp;unctions</source>
+          <target>[NAB: SUGGESTION]&amp;Aðgerðir</target>
+          <target>[NAB: SUGGESTION]A&amp;ðgerðir</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Action &lt;Action4&gt; - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Action 1176666260 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Create Sales Invoice action</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Action &lt;Action15&gt; - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Action 1176666260 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Sales Invoice</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Action &lt;Action15&gt; - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Action 4263721270 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Split Planning Lines action</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Action &lt;Action17&gt; - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Action 4263721270 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Split Planning Lines</source>
+          <target>[NAB: SUGGESTION]Skipta áætlunarlínum</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Action &lt;Action17&gt; - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Action 4289581816 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Change &amp;Dates action</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Action &lt;Action22&gt; - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Action 4289581816 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Change &amp;Dates</source>
+          <target>[NAB: SUGGESTION]Breyta &amp;dags</target>
+          <target>[NAB: SUGGESTION]Breyta &amp;dags.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Action &lt;Action22&gt; - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Action 1893945779 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Edit Planning Lines action</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Action &lt;Action5&gt; - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Action 1893945779 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Edit Planning Lines</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Action &lt;Action5&gt; - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Action 686033493 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Indent Job Tasks action</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Action &lt;Action7&gt; - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Action 686033493 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Indent Job Tasks</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Action &lt;Action7&gt; - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Action 727609215 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Job Analysis action</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Action &lt;Action1901542506&gt; - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Action 727609215 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Analysis</source>
+          <target>[NAB: SUGGESTION]Verkgreining</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Action &lt;Action1901542506&gt; - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Action 2048807505 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Job - Planning Lines action</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Action &lt;Action1902943106&gt; - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Action 2048807505 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job - Planning Lines</source>
+          <target>[NAB: SUGGESTION]Verk - áætlunarlínur</target>
+          <target>[NAB: SUGGESTION]Verk - Áætlunarlínur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Action &lt;Action1902943106&gt; - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Action 4291414522 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Job - Suggested Billing action</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Action &lt;Action1903186006&gt; - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Action 4291414522 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job - Suggested Billing</source>
+          <target>[NAB: SUGGESTION]Verk - útgáfa reikninga</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Action &lt;Action1903186006&gt; - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Action 2552103414 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Job Actual to Budget action</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Action &lt;Action1903776506&gt; - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Action 2552103414 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Actual to Budget</source>
+          <target>[NAB: SUGGESTION]Verk afgreitt í áætlun</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Action &lt;Action1903776506&gt; - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Action 419631484 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Jobs - Transaction Detail action</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Action &lt;Action1905285006&gt; - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4152450348 - Action 419631484 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Jobs - Transaction Detail</source>
+          <target>[NAB: SUGGESTION]Verk - sundurliðaðar færslur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Action &lt;Action1905285006&gt; - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Property 2019332006" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New,Process,Reports,Price,Self-Service</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Property PromotedActionCategories</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Workbench</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - NamedType 672156893" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select Type Filter</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - NamedType Text003Err</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 1829673935 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General Filters</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control General Filters - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 3811185706 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Date Filter field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control DateFilterField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 3811185706 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date Filter</source>
+          <target>[NAB: SUGGESTION]Dags.afmörkun</target>
+          <target>[NAB: SUGGESTION]Dagsetningarsía</target>
+          <target>[NAB: SUGGESTION]Dagsetningarafmörkun</target>
+          <target>[NAB: SUGGESTION]Afmörkun dagsetninga</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control DateFilterField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 512120465 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Day</source>
+          <target>[NAB: SUGGESTION]Dagur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control PeriodTypeField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 512120465 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period Type</source>
+          <target>[NAB: SUGGESTION]Tímabilsgerð</target>
+          <target>[NAB: SUGGESTION]Tegund tímabils</target>
+          <target>[NAB: SUGGESTION]Gerð tímabils</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control PeriodTypeField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 512120465 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Day,Week,Month,Quarter,Year,Period</source>
+          <target>[NAB: SUGGESTION]Dagur,Vika,Mánuður,Ársfjórðungur,Ár,Tímabil</target>
+          <target>[NAB: SUGGESTION]Dagur,Vika,Mánuður,Fjórðungur,Ár,Tímabil</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control PeriodTypeField - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 32913304 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Filters</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control Job Filters - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 2770060793 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Bill-to Customer No. Filter field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control BilltoCustomerNoFilterField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 2770060793 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bill-to Customer No. Filter</source>
+          <target>[NAB: SUGGESTION]Reikngur færist á viðskm. nr. - afmörkun</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggestion added from 'Table 398715963 - Field 3966149082 - Property 2879900210'</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control BilltoCustomerNoFilterField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 1615495808 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Description Filter field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control DescriptionFilterField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 1615495808 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description Filter</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control DescriptionFilterField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 2550048140 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Global Dimension 1 Filter field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control GlobalDimension1FilterField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 2550048140 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Global Dimension 1 Filter</source>
+          <target>[NAB: SUGGESTION]Altæk vídd 1 - Afmörkun</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control GlobalDimension1FilterField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 452595421 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Global Dimension 2 Filter field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control GlobalDimension2FilterField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 452595421 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Global Dimension 2 Filter</source>
+          <target>[NAB: SUGGESTION]Altæk vídd 2 - Afmörkun</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control GlobalDimension2FilterField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 4270670120 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Job No. Filter field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control JobNoFilterField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 4270670120 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job No. Filter</source>
+          <target>[NAB: SUGGESTION]Afmörkun verknr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control JobNoFilterField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 2206406235 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Job Task No. Filter field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control JobTaskNoFilterField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 2206406235 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Task No. Filter</source>
+          <target>[NAB: SUGGESTION]Afmörkun verkhluta verks</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control JobTaskNoFilterField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 2749051605 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Person Responsible Filter field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control PersonResponsibleFilterField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 2749051605 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Person Responsible Filter</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control PersonResponsibleFilterField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 57442530 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Status Filter field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control StatusFilterField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 57442530 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status Filter</source>
+          <target>[NAB: SUGGESTION]Stöðuafmörkun</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control StatusFilterField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 57442530 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Planning,Quote,Order,Completed</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control StatusFilterField - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 2337576313 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Upcoming Invoice Filter field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control UpcomingInvoiceFilterField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 2337576313 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Upcoming Invoice Filter</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control UpcomingInvoiceFilterField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 2337576313 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Yes,No</source>
+          <target>[NAB: SUGGESTION] ,Já,Nei</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control UpcomingInvoiceFilterField - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 831017837 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Bill-to Address field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control Bill-to Address - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 460968363 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Bill-to Address 2 field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control Bill-to Address 2 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 3869539606 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Bill-to City field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control Bill-to City - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 2096911897 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Bill-to Country/Region Code field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control Bill-to Country/Region Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 2965034906 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Bill-to Customer No. field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control Bill-to Customer No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 240204966 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Bill-to Name field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control Bill-to Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 2627792820 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Bill-to Name 2 field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control Bill-to Name 2 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 675862156 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Bill-to Post Code field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control Bill-to Post Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 1407200743 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Creation Date field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control Creation Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Description field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 47657272 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Description 2 field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control Description 2 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 458406397 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Ending Date field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control Ending Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the No. field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 1833370547 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Person Responsible field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control Person Responsible - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 460889064 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Starting Date field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control Starting Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 513339096 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Status field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 3910654279 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line Filters</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control Line Filters - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 2420769101 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the No. Filter field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control NoFilterFIeld - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 2420769101 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. Filter</source>
+          <target>[NAB: SUGGESTION]Númersafmörkun</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control NoFilterFIeld - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 2908341958 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Type Filter field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control TypeFilterField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 2908341958 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Type Filter</source>
+          <target>[NAB: SUGGESTION]Tegundarafmörkun</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control TypeFilterField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 2908341958 - Property 62802879" size-unit="char" translate="yes" xml:space="preserve">
+          <source> ,Resource,Item,G/L Account</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control TypeFilterField - Property OptionCaption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 1284629738 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Work Type Code Filter field</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control WorkTypeCodeFilterField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Control 1284629738 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Work Type Code Filter</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Control WorkTypeCodeFilterField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 2032987707 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Job</source>
+          <target>[NAB: SUGGESTION]Ve&amp;rk</target>
+          <target>[NAB: SUGGESTION]&amp;verk</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action &lt;Action58&gt; - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 24789822 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Ledger E&amp;ntries action</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action &lt;Action60&gt; - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 24789822 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ledger E&amp;ntries</source>
+          <target>[NAB: SUGGESTION]F&amp;ærslur</target>
+          <target>[NAB: SUGGESTION]&amp;Fjárhagsfærslur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action &lt;Action60&gt; - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 2430013565 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Statistics action</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action &lt;Action61&gt; - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 2430013565 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Statistics</source>
+          <target>[NAB: SUGGESTION]Upplýsingar</target>
+          <target>[NAB: SUGGESTION]Tölfræði</target>
+          <target>[NAB: SUGGESTION]Tölulegar upplýsingar</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action &lt;Action61&gt; - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 1232702108 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Co&amp;mments action</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action &lt;Action62&gt; - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 1232702108 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Co&amp;mments</source>
+          <target>[NAB: SUGGESTION]A&amp;thugasemdir</target>
+          <target>[NAB: SUGGESTION]&amp;Athugasemdir</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action &lt;Action62&gt; - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 3669315032 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Online Map action</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action &lt;Action66&gt; - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 3669315032 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Online Map</source>
+          <target>[NAB: SUGGESTION]Online Map</target>
+          <target>[NAB: SUGGESTION]Kortaþjónusta</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action &lt;Action66&gt; - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 2234208180 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Dimensions action</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action &lt;Action84&gt; - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 2234208180 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dimensions</source>
+          <target>[NAB: SUGGESTION]Víddir</target>
+          <target>[NAB: SUGGESTION]Vídd</target>
+          <target>[NAB: SUGGESTION]Mál</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action &lt;Action84&gt; - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 3431519637 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Job Task Lines action</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action &lt;Action87&gt; - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 3431519637 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Task Lines</source>
+          <target>[NAB: SUGGESTION]Verkhlutalínur verks</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action &lt;Action87&gt; - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 4092562552 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Job &amp;Planning Lines action</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action &lt;Action88&gt; - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 4092562552 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job &amp;Planning Lines</source>
+          <target>[NAB: SUGGESTION]&amp;Áætlunarlínur verks</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action &lt;Action88&gt; - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 851510406 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job</source>
+          <target>[NAB: SUGGESTION]Verk</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action &lt;Action1200050066&gt; - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 3256734149 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Job Task action</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action &lt;Action1200050067&gt; - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 3256734149 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Task</source>
+          <target>[NAB: SUGGESTION]Verkhluti verks</target>
+          <target>[NAB: SUGGESTION]Verkhluti</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action &lt;Action1200050067&gt; - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 2048821863 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Shortcut</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action &lt;Action1200050069&gt; - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 2881163724 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the &amp;Job Journal action</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action &amp;Job Journal - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 2881163724 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Job Journal</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action &amp;Job Journal - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 3567646264 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Sales &amp;Invoices action</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action Sales &amp;Invoices - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 3567646264 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales &amp;Invoices</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action Sales &amp;Invoices - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 1684103037 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Sales &amp;Orders action</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action Sales &amp;Orders - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 1684103037 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales &amp;Orders</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action Sales &amp;Orders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 1650507241 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Sales &amp;Quotes action</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action Sales &amp;Quotes - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 1650507241 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales &amp;Quotes</source>
+          <target>[NAB: SUGGESTION]Sölu&amp;tilboð</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action Sales &amp;Quotes - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 4074180742 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Sales Credit &amp;Memos action</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action Sales Credit &amp;Memos - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 4074180742 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Credit &amp;Memos</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action Sales Credit &amp;Memos - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 3006663590 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Clear Filters action</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action Clear Filters - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 3006663590 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Clear Filters</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action Clear Filters - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 2192233998 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Next Period</source>
+          <target>[NAB: SUGGESTION]Næsta tímabil</target>
+          <target>[NAB: SUGGESTION]Næsta tímabili</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action Next Period - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 2192233998 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Next Period</source>
+          <target>[NAB: SUGGESTION]Næsta tímabil</target>
+          <target>[NAB: SUGGESTION]Næsta tímabili</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action Next Period - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 1080556192 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Previous Period</source>
+          <target>[NAB: SUGGESTION]Fyrra tímabil</target>
+          <target>[NAB: SUGGESTION]Fyrra tímabili</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action Previous Period - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 1080556192 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Previous Period</source>
+          <target>[NAB: SUGGESTION]Fyrra tímabil</target>
+          <target>[NAB: SUGGESTION]Fyrra tímabili</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action Previous Period - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 2212909512 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Manage your time sheets and assignments.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action Self-Service - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 2212909512 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Self-Service</source>
+          <target>[NAB: SUGGESTION]Sjálfsafgreiðsla</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action Self-Service - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 169836898 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the time sheet in edit mode.</source>
+          <target>[NAB: SUGGESTION]Opna vinnuskýrslu í breytingastillingu.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action EditTimeSheet - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 169836898 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Edit Time Sheet</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action EditTimeSheet - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 3702949100 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View approved time sheets.</source>
+          <target>[NAB: SUGGESTION]Skoða samþykktar vinnuskýrslur.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action Page Time Sheet List Approved - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 3702949100 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Approved</source>
+          <target>[NAB: SUGGESTION]Samþykkt</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action Page Time Sheet List Approved - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 4055617089 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the card for the selected record.</source>
+          <target>[NAB: SUGGESTION]Opna spjaldið fyrir valda færslu.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action Page Time Sheet List Open - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 4055617089 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open</source>
+          <target>[NAB: SUGGESTION]Opin</target>
+          <target>[NAB: SUGGESTION]Opið</target>
+          <target>[NAB: SUGGESTION]Opna</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action Page Time Sheet List Open - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 3968783111 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View rejected time sheets.</source>
+          <target>[NAB: SUGGESTION]Skoða vinnuskýrslur sem hefur verið hafnað.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action Page Time Sheet List Rejected - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 3968783111 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Rejected</source>
+          <target>[NAB: SUGGESTION]Hafnað</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action Page Time Sheet List Rejected - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 1907454742 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View submitted time sheets.</source>
+          <target>[NAB: SUGGESTION]Skoða innsendar vinnuskýrslur.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action Page Time Sheet List Submitted - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 1907454742 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Submitted</source>
+          <target>[NAB: SUGGESTION]Sent</target>
+          <target>[NAB: SUGGESTION]Sent inn</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action Page Time Sheet List Submitted - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 416706942 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Automatically send, approve and post open timesheet for the current user</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action PostTimeSheet - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 416706942 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Post Time Sheet</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action PostTimeSheet - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 1861040219 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enable resources to register time. When approved, if approval is required, time sheet entries can be posted to the relevant job journal or resource journal as part of project progress reporting. To save setup time and to ensure data correctness, you can copy job planning lines into time sheets.</source>
+          <target>[NAB: SUGGESTION]Virkja forða til að skrá tíma. Þegar samþykkt, ef samþykkis er krafist, er hægt að bóka vinnuskýrslur í viðeigandi verkbók eða forðabók sem hluta af skýrslugerð um framvindu verksins. Til að stytta uppsetningartíma og tryggja að gögn séu rétt er hægt að afrita verkáætlunarlínur inn í vinnuskýrslur.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action Time Sheets - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 1861040219 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Time Sheets</source>
+          <target>[NAB: SUGGESTION]Vinnuskýrslur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action Time Sheets - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 3797133345 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create tasks to remind you of work to be done. You can create tasks for yourself, but you can also assign tasks to others or be assigned a task by someone else in your organization.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action User Tasks - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 3797133345 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User Tasks</source>
+          <target>[NAB: SUGGESTION]Notandaverkefni</target>
+          <target>[NAB: SUGGESTION]Verkefni notanda</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action User Tasks - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2994644054 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Time Sheets</source>
+          <target>[NAB: SUGGESTION]Vinnuskýrslur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NTime Sheet Factbox - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2994644054 - Control 2790486453 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies that a comment about this document has been entered.</source>
+          <target>[NAB: SUGGESTION]Tilgreinir að athugasemd hefur verið færð inn fyrir þetta fylgiskjal.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NTime Sheet Factbox - Control Comment - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2994644054 - Control 458406397 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the ending date for a time sheet.</source>
+          <target>[NAB: SUGGESTION]Tilgreinir lokadagsetningu fyrir vinnuskýrslu.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NTime Sheet Factbox - Control Ending Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2994644054 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the involved entry or record, according to the specified number series.</source>
+          <target>[NAB: SUGGESTION]Tilgreinir númer færslunnar eða skráningarinnar sem við á í samræmi við tilgreindar númeraraðir.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NTime Sheet Factbox - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2994644054 - Control 3961767479 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the resource for the time sheet.</source>
+          <target>[NAB: SUGGESTION]Tilgreinir númer forðans fyrir vinnuskýrsluna.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NTime Sheet Factbox - Control Resource No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2994644054 - Control 460889064 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the starting date for a time sheet.</source>
+          <target>[NAB: SUGGESTION]Tilgreinir upphafsdagsetningu fyrir vinnuskýrslu.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NTime Sheet Factbox - Control Starting Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2994644054 - Action 4164798192 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Time Sheet</source>
+          <target>[NAB: SUGGESTION]&amp;Vinnuskýrsla</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NTime Sheet Factbox - Action &amp;Time Sheet - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2994644054 - Action 503024588 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View or add comments for the record.</source>
+          <target>[NAB: SUGGESTION]Skoða eða bæta við athugasemdum við færsluna.</target>
+          <target>[NAB: SUGGESTION]Skoða eða bæta athugasemdum við færsluna.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NTime Sheet Factbox - Action Comments - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2994644054 - Action 503024588 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Co&amp;mments</source>
+          <target>[NAB: SUGGESTION]A&amp;thugasemdir</target>
+          <target>[NAB: SUGGESTION]&amp;Athugasemdir</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NTime Sheet Factbox - Action Comments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2994644054 - Action 480981775 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create new time sheets for resources.</source>
+          <target>[NAB: SUGGESTION]Stofna nýjar vinnuskýrslur fyrir forða.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NTime Sheet Factbox - Action Create Time Sheets - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2994644054 - Action 480981775 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Time Sheets</source>
+          <target>[NAB: SUGGESTION]Stofna vinnuskýrslur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NTime Sheet Factbox - Action Create Time Sheets - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2994644054 - Action 3816810956 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open the time sheet in edit mode.</source>
+          <target>[NAB: SUGGESTION]Opna vinnuskýrslu í breytingastillingu.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NTime Sheet Factbox - Action EditTimeSheetAction - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2994644054 - Action 3816810956 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Edit Time Sheet</source>
+          <target>[NAB: SUGGESTION]&amp;Breyta vinnuskýrslu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NTime Sheet Factbox - Action EditTimeSheetAction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2994644054 - Action 1030372075 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Archive time sheets.</source>
+          <target>[NAB: SUGGESTION]Færa vinnuskýrslur í safn.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NTime Sheet Factbox - Action MoveTimeSheetsToArchive - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2994644054 - Action 1030372075 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Move Time Sheets to Archive</source>
+          <target>[NAB: SUGGESTION]Færa vinnuskýrslur í safn</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NTime Sheet Factbox - Action MoveTimeSheetsToArchive - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Enum 185882520 - EnumValue 1528185918 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Archive</source>
           <target>Skjalasafn</target>
@@ -785,6 +2627,13 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">PermissionSet Integrate Clockify - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PermissionSet 2572393892 - Property 2879900210" maxwidth="30" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Integrate Clockify</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet O4NIntegrateClockify - Property Caption</note>
         </trans-unit>
       </group>
     </body>

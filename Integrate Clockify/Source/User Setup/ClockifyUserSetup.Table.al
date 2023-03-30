@@ -1,16 +1,16 @@
 table 70600 "Clockify User Setup"
 {
-    DataClassification = EndUserIdentifiableInformation;
+    Caption = 'Clockify User Setup';
     DataCaptionFields = "Clockify Name";
-
+    DataClassification = EndUserIdentifiableInformation;
     fields
     {
         field(1; "User Security ID"; Guid)
         {
             Caption = 'User Security ID';
-            TableRelation = User."User Security ID";
             DataClassification = EndUserIdentifiableInformation;
             NotBlank = true;
+            TableRelation = User."User Security ID";
         }
         field(2; Enabled; Boolean)
         {
@@ -98,7 +98,6 @@ table 70600 "Clockify User Setup"
             Caption = 'No. of Failures';
             DataClassification = SystemMetadata;
         }
-
     }
 
     keys
@@ -114,12 +113,10 @@ table 70600 "Clockify User Setup"
 
     trigger OnInsert()
     begin
-
     end;
 
     trigger OnModify()
     begin
-
     end;
 
     trigger OnDelete()
@@ -135,12 +132,42 @@ table 70600 "Clockify User Setup"
 
     trigger OnRename()
     begin
-
     end;
 
-    procedure InitializeAPISetup()
+    procedure CancelJobQueueEntry()
+    var
+        JobQueueEntry: Record "Job Queue Entry";
     begin
-        "API Base Endpoint" := 'https://api.clockify.me/api/v1';
+        if JobQueueEntry.FindJobQueueEntry(JobQueueEntry."Object Type to Run"::Codeunit, Codeunit::"Clockify Job Queue") then
+            JobQueueEntry.Cancel();
+    end;
+
+    procedure CanScheduleJobQueue(): Boolean
+    var
+        JobQueueEntry: Record "Job Queue Entry";
+        User: Record User;
+    begin
+        if not User.Get("User Security ID") then exit(false);
+        if User."License Type" <> User."License Type"::"Full User" then exit(false);
+        exit(JobQueueEntry.WritePermission());
+    end;
+
+    procedure DeleteAPIKey()
+    begin
+        if HasAPIKey() then
+            IsolatedStorage.Delete("API Key ID", DataScope::Module);
+    end;
+
+    procedure FindByClockifyID(ClockifyID: Text[35]): Boolean
+    begin
+        SetRange("Clockify ID", ClockifyID);
+        exit(FindFirst() and Enabled);
+    end;
+
+    procedure GetAPIKey() ApiKey: Text;
+    begin
+        if not HasAPIKey() then exit('');
+        IsolatedStorage.Get("API Key ID", DataScope::Module, ApiKey);
     end;
 
     procedure HasAPIKey(): Boolean
@@ -150,10 +177,19 @@ table 70600 "Clockify User Setup"
         exit(IsolatedStorage.Contains("API Key ID", DataScope::Module));
     end;
 
-    procedure GetAPIKey() ApiKey: Text;
+    procedure InitializeAPISetup()
     begin
-        if not HasAPIKey() then exit('');
-        IsolatedStorage.Get("API Key ID", DataScope::Module, ApiKey);
+        "API Base Endpoint" := 'https://api.clockify.me/api/v1';
+    end;
+
+    procedure ScheduleJobQueueEntry()
+    var
+        JobQueueEntry: Record "Job Queue Entry";
+        DummyRecId: RecordId;
+    begin
+        CancelJobQueueEntry();
+        JobQueueEntry.ScheduleRecurrentJobQueueEntry(JobQueueEntry."Object Type to Run"::Codeunit,
+          Codeunit::"Clockify Job Queue", DummyRecId);
     end;
 
     procedure SetAPIKey(ApiKey: Text)
@@ -168,10 +204,12 @@ table 70600 "Clockify User Setup"
         Modify();
     end;
 
-    procedure DeleteAPIKey()
+    procedure ShowJobQueueEntry()
+    var
+        JobQueueEntry: Record "Job Queue Entry";
     begin
-        if HasAPIKey() then
-            IsolatedStorage.Delete("API Key ID", DataScope::Module);
+        if JobQueueEntry.FindJobQueueEntry(JobQueueEntry."Object Type to Run"::Codeunit, Codeunit::"Clockify Job Queue") then
+            Page.Run(Page::"Job Queue Entries", JobQueueEntry);
     end;
 
     local procedure GetClockifyUser(): Boolean
@@ -192,47 +230,5 @@ table 70600 "Clockify User Setup"
         if not Json.AsObject().Get('status', JValue) then exit(false);
         "Clockify Status" := CopyStr(JValue.AsValue().AsText(), 1, MaxStrLen("Clockify Status"));
         exit(Modify());
-    end;
-
-    procedure ScheduleJobQueueEntry()
-    var
-        JobQueueEntry: Record "Job Queue Entry";
-        DummyRecId: RecordID;
-    begin
-        CancelJobQueueEntry();
-        JobQueueEntry.ScheduleRecurrentJobQueueEntry(JobQueueEntry."Object Type to Run"::Codeunit,
-          CODEUNIT::"Clockify Job Queue", DummyRecId);
-    end;
-
-    procedure CancelJobQueueEntry()
-    var
-        JobQueueEntry: Record "Job Queue Entry";
-    begin
-        if JobQueueEntry.FindJobQueueEntry(JobQueueEntry."Object Type to Run"::Codeunit, Codeunit::"Clockify Job Queue") then
-            JobQueueEntry.Cancel();
-    end;
-
-    procedure ShowJobQueueEntry()
-    var
-        JobQueueEntry: Record "Job Queue Entry";
-    begin
-        if JobQueueEntry.FindJobQueueEntry(JobQueueEntry."Object Type to Run"::Codeunit, Codeunit::"Clockify Job Queue") then
-            PAGE.Run(PAGE::"Job Queue Entries", JobQueueEntry);
-    end;
-
-    procedure CanScheduleJobQueue(): Boolean
-    var
-        User: Record User;
-        JobQueueEntry: Record "Job Queue Entry";
-    begin
-        if not User.Get("User Security ID") then exit(false);
-        if User."License Type" <> User."License Type"::"Full User" then exit(false);
-        exit(JobQueueEntry.WritePermission());
-    end;
-
-    procedure FindByClockifyID(ClockifyID: Text[35]): Boolean
-    begin
-        SetRange("Clockify ID", ClockifyID);
-        exit(FindFirst() and Enabled);
     end;
 }

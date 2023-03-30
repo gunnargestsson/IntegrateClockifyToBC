@@ -1,7 +1,7 @@
 table 70601 "Clockify Time Sheet Entry"
 {
+    Caption = 'Clockify Time Sheet Entry';
     DataClassification = EndUserIdentifiableInformation;
-
     fields
     {
         field(1; "Clockify ID"; Text[35])
@@ -79,7 +79,6 @@ table 70601 "Clockify Time Sheet Entry"
             Caption = 'Time Sheet Line ID';
             DataClassification = SystemMetadata;
         }
-
     }
 
     keys
@@ -90,35 +89,43 @@ table 70601 "Clockify Time Sheet Entry"
         }
         key(Registration; "Clockify User ID", "Next Synchronization")
         {
-
         }
     }
 
     trigger OnInsert()
     begin
-
     end;
 
     trigger OnModify()
     begin
-
     end;
 
     trigger OnDelete()
     begin
-
     end;
 
     trigger OnRename()
     begin
+    end;
 
+    procedure InsertToTimeSheet()
+    var
+        Setup: Record "Clockify User Setup";
+        JobTask: Record "Job Task";
+        TimeSheet: Record "Time Sheet Header";
+        TimeSheetLine: Record "Time Sheet Line";
+    begin
+        if not VerifyData(TimeSheet, Setup, JobTask) then exit;
+        FindOrCreateTimeSheetLine(TimeSheet, JobTask, Setup."Default Work Type", TimeSheetLine);
+        AddDetailLine(TimeSheet, TimeSheetLine);
+        SetNextSync("Next Synchronization"::None);
     end;
 
     procedure ReadFromJson(Json: JsonToken) ChangedEntry: Boolean
     var
         TimeSheetEntry: Record "Clockify Time Sheet Entry";
-        TimeIntervalJson: JsonToken;
         JValue: JsonToken;
+        TimeIntervalJson: JsonToken;
     begin
         Json.AsObject().Get('id', JValue);
         "Clockify ID" := CopyStr(JValue.AsValue().AsText(), 1, MaxStrLen("Clockify ID"));
@@ -156,25 +163,20 @@ table 70601 "Clockify Time Sheet Entry"
             Insert();
     end;
 
-    procedure InsertToTimeSheet()
+    procedure SetNextSync(NextSync: Enum "Clockify Synchronization Type")
     var
-        TimeSheet: Record "Time Sheet Header";
-        TimeSheetLine: Record "Time Sheet Line";
-        Setup: Record "Clockify User Setup";
-        JobTask: Record "Job Task";
+        TimeSheetEntry: Record "Clockify Time Sheet Entry";
     begin
-        if not VerifyData(TimeSheet, Setup, JobTask) then exit;
-        FindOrCreateTimeSheetLine(TimeSheet, JobTask, Setup."Default Work Type", TimeSheetLine);
-        AddDetailLine(TimeSheet, TimeSheetLine);
-        SetNextSync("Next Synchronization"::None);
+        ApplyFilter(TimeSheetEntry);
+        TimeSheetEntry.ModifyAll("Next Synchronization", NextSync);
     end;
 
     procedure UpdateTimeSheet()
     var
-        TimeSheet: Record "Time Sheet Header";
-        TimeSheetLine: Record "Time Sheet Line";
         Setup: Record "Clockify User Setup";
         JobTask: Record "Job Task";
+        TimeSheet: Record "Time Sheet Header";
+        TimeSheetLine: Record "Time Sheet Line";
     begin
         if not VerifyData(TimeSheet, Setup, JobTask) then exit;
         FindOrCreateTimeSheetLine(TimeSheet, JobTask, Setup."Default Work Type", TimeSheetLine);
@@ -182,28 +184,35 @@ table 70601 "Clockify Time Sheet Entry"
         SetNextSync("Next Synchronization"::None);
     end;
 
-    local procedure VerifyData(var TimeSheet: Record "Time Sheet Header"; var Setup: Record "Clockify User Setup"; var JobTask: Record "Job Task"): Boolean
+    local procedure AddDetailLine(TimeSheet: Record "Time Sheet Header"; TimeSheetLine: Record "Time Sheet Line")
     var
-        TimeSheetEntry: Record "Clockify Time Sheet Entry";
-        Integration: Record "Clockify Integration Record";
-        User: Record User;
-        Job: Record Job;
+        TimeSheetDetail: Record "Time Sheet Detail";
     begin
-        TimeSheetEntry.Copy(Rec);
-#pragma warning disable AA0181
-        if not TimeSheetEntry.Find() then exit;
-#pragma warning restore AA0181
-        if not Setup.FindByClockifyID("Clockify User ID") then exit;
-        User.Get(Setup."User Security ID");
-        TimeSheet.SetRange("Owner User ID", User."User Name");
-        TimeSheet.SetRange("Starting Date", 0D, DT2Date("Start Time"));
-        TimeSheet.SetRange("Ending Date", DT2Date("Start Time"), DMY2Date(31, 12, 9999));
-        if not TimeSheet.FindFirst() then exit;
-        if not Integration.FindByClockifyId(TimeSheetEntry."Clockify Workspace ID", Database::Job, "Job ID") then exit;
-        Job.Get(Integration."Related Record Id");
-        if not Integration.FindByClockifyId(TimeSheetEntry."Clockify Workspace ID", Database::"Job Task", "Job Task ID") then exit;
-        JobTask.Get(Integration."Related Record Id");
-        exit(true);
+        if TimeSheetDetail.Get(TimeSheet."No.", TimeSheetLine."Line No.", DT2Date("Start Time")) then
+            TimeSheetDetail.Delete();
+        TimeSheetDetail.Init();
+        TimeSheetDetail.SystemId := CreateGuid();
+        TimeSheetDetail."Date" := DT2Date("Start Time");
+        TimeSheetDetail."Job No." := TimeSheetLine."Job No.";
+        TimeSheetDetail."Job Task No." := TimeSheetLine."Job Task No.";
+        TimeSheetDetail."Resource No." := TimeSheet."Resource No.";
+        TimeSheetDetail."Time Sheet Line No." := TimeSheetLine."Line No.";
+        TimeSheetDetail."Time Sheet No." := TimeSheetLine."Time Sheet No.";
+        TimeSheetDetail."Type" := TimeSheetLine."Type";
+        TimeSheetDetail."Last Modified DateTime" := RoundDateTime(CurrentDateTime());
+        TimeSheetDetail.Quantity := GetTotalQuantity();
+        TimeSheetDetail.Insert(false, true);
+        SetTimeSheetDetailID(TimeSheetDetail.SystemId);
+    end;
+
+    local procedure ApplyFilter(var TimeSheetEntry: Record "Clockify Time Sheet Entry")
+    begin
+        TimeSheetEntry.SetRange("Clockify User ID", "Clockify User ID");
+        TimeSheetEntry.SetRange("Clockify Workspace ID", "Clockify Workspace ID");
+        TimeSheetEntry.SetRange("Job ID", "Job ID");
+        TimeSheetEntry.SetRange("Job Task ID", "Job Task ID");
+        TimeSheetEntry.SetRange(Description, Description);
+        TimeSheetEntry.SetRange("Start Time", CreateDateTime(DT2Date("Start Time"), 000000T), CreateDateTime(DT2Date("Start Time"), 235959T));
     end;
 
     local procedure FindOrCreateTimeSheetLine(TimeSheet: Record "Time Sheet Header"; JobTask: Record "Job Task"; DefaultWorkTypeCode: Code[10]; var TimeSheetLine: Record "Time Sheet Line")
@@ -250,25 +259,21 @@ table 70601 "Clockify Time Sheet Entry"
         Modify();
     end;
 
-    local procedure AddDetailLine(TimeSheet: Record "Time Sheet Header"; TimeSheetLine: Record "Time Sheet Line")
+    local procedure GetTotalQuantity(): Decimal;
     var
-        TimeSheetDetail: Record "Time Sheet Detail";
+        TimeSheetEntry: Record "Clockify Time Sheet Entry";
     begin
-        if TimeSheetDetail.Get(TimeSheet."No.", TimeSheetLine."Line No.", DT2Date("Start Time")) then
-            TimeSheetDetail.Delete();
-        TimeSheetDetail.Init();
-        TimeSheetDetail.SystemId := CreateGuid();
-        TimeSheetDetail."Date" := DT2Date("Start Time");
-        TimeSheetDetail."Job No." := TimeSheetLine."Job No.";
-        TimeSheetDetail."Job Task No." := TimeSheetLine."Job Task No.";
-        TimeSheetDetail."Resource No." := TimeSheet."Resource No.";
-        TimeSheetDetail."Time Sheet Line No." := TimeSheetLine."Line No.";
-        TimeSheetDetail."Time Sheet No." := TimeSheetLine."Time Sheet No.";
-        TimeSheetDetail."Type" := TimeSheetLine."Type";
-        TimeSheetDetail."Last Modified DateTime" := RoundDateTime(CurrentDateTime());
-        TimeSheetDetail.Quantity := GetTotalQuantity();
-        TimeSheetDetail.Insert(false, true);
-        SetTimeSheetDetailID(TimeSheetDetail.SystemId);
+        ApplyFilter(TimeSheetEntry);
+        TimeSheetEntry.CalcSums(Quantity);
+        exit(TimeSheetEntry.Quantity);
+    end;
+
+    local procedure SetTimeSheetDetailID(TimeSheetDetailID: Guid)
+    var
+        TimeSheetEntry: Record "Clockify Time Sheet Entry";
+    begin
+        ApplyFilter(TimeSheetEntry);
+        TimeSheetEntry.ModifyAll("Time Sheet Detail ID", TimeSheetDetailID);
     end;
 
     local procedure UpdateDetailLine(TimeSheet: Record "Time Sheet Header"; TimeSheetLine: Record "Time Sheet Line")
@@ -289,40 +294,27 @@ table 70601 "Clockify Time Sheet Entry"
         TimeSheetDetail.Insert();
     end;
 
-    local procedure ApplyFilter(var TimeSheetEntry: Record "Clockify Time Sheet Entry")
-    begin
-        TimeSheetEntry.SetRange("Clockify User ID", "Clockify User ID");
-        TimeSheetEntry.SetRange("Clockify Workspace ID", "Clockify Workspace ID");
-        TimeSheetEntry.SetRange("Job ID", "Job ID");
-        TimeSheetEntry.SetRange("Job Task ID", "Job Task ID");
-        TimeSheetEntry.SetRange(Description, Description);
-        TimeSheetEntry.SetRange("Start Time", CreateDateTime(DT2Date("Start Time"), 000000T), CreateDateTime(DT2Date("Start Time"), 235959T));
-    end;
-
-    local procedure GetTotalQuantity(): Decimal;
+    local procedure VerifyData(var TimeSheet: Record "Time Sheet Header"; var Setup: Record "Clockify User Setup"; var JobTask: Record "Job Task"): Boolean
     var
+        Integration: Record "Clockify Integration Record";
         TimeSheetEntry: Record "Clockify Time Sheet Entry";
+        Job: Record Job;
+        User: Record User;
     begin
-        ApplyFilter(TimeSheetEntry);
-        TimeSheetEntry.CalcSums(Quantity);
-        exit(TimeSheetEntry.Quantity);
+        TimeSheetEntry.Copy(Rec);
+#pragma warning disable AA0181
+        if not TimeSheetEntry.Find() then exit;
+#pragma warning restore AA0181
+        if not Setup.FindByClockifyID("Clockify User ID") then exit;
+        User.Get(Setup."User Security ID");
+        TimeSheet.SetRange("Owner User ID", User."User Name");
+        TimeSheet.SetRange("Starting Date", 0D, DT2Date("Start Time"));
+        TimeSheet.SetRange("Ending Date", DT2Date("Start Time"), DMY2Date(31, 12, 9999));
+        if not TimeSheet.FindFirst() then exit;
+        if not Integration.FindByClockifyId(TimeSheetEntry."Clockify Workspace ID", Database::Job, "Job ID") then exit;
+        Job.Get(Integration."Related Record Id");
+        if not Integration.FindByClockifyId(TimeSheetEntry."Clockify Workspace ID", Database::"Job Task", "Job Task ID") then exit;
+        JobTask.Get(Integration."Related Record Id");
+        exit(true);
     end;
-
-    procedure SetNextSync(NextSync: Enum "Clockify Synchronization Type")
-    var
-        TimeSheetEntry: Record "Clockify Time Sheet Entry";
-    begin
-        ApplyFilter(TimeSheetEntry);
-        TimeSheetEntry.ModifyAll("Next Synchronization", NextSync);
-    end;
-
-    local procedure SetTimeSheetDetailID(TimeSheetDetailID: Guid)
-    var
-        TimeSheetEntry: Record "Clockify Time Sheet Entry";
-    begin
-        ApplyFilter(TimeSheetEntry);
-        TimeSheetEntry.ModifyAll("Time Sheet Detail ID", TimeSheetDetailID);
-    end;
-
-
 }
