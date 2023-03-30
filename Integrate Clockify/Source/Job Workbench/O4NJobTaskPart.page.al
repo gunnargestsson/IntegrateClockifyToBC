@@ -21,49 +21,49 @@ page 65227 "O4NJob Task Part"
                 field("Job No."; Rec."Job No.")
                 {
                     ApplicationArea = Basic, Suite;
-                    ToolTip = 'Specifies the value of the Job No. field';
+                    ToolTip = 'Specifies the number of the related job.';
                 }
                 field("Job Task No."; Rec."Job Task No.")
                 {
                     ApplicationArea = Basic, Suite;
-                    ToolTip = 'Specifies the value of the Job Task No. field';
+                    ToolTip = 'Specifies the number of the related job task.';
                 }
                 field(Description; Rec.Description)
                 {
                     ApplicationArea = Basic, Suite;
-                    ToolTip = 'Specifies the value of the Description field';
+                    ToolTip = 'Specifies a description of the job task. You can enter anything that is meaningful in describing the task. The description is copied and used in descriptions on the job planning line.';
                 }
                 field("Job Task Type"; Rec."Job Task Type")
                 {
                     ApplicationArea = Basic, Suite;
-                    ToolTip = 'Specifies the value of the Job Task Type field';
+                    ToolTip = 'Specifies the purpose of the account. Newly created accounts are automatically assigned the Posting account type, but you can change this. Choose the field to select one of the following five options:';
                 }
                 field("WIP-Total"; Rec."WIP-Total")
                 {
                     ApplicationArea = Basic, Suite;
-                    ToolTip = 'Specifies the value of the WIP-Total field';
+                    ToolTip = 'Specifies the job tasks you want to group together when calculating Work In Process (WIP) and Recognition.';
                 }
                 field(Totaling; Rec.Totaling)
                 {
                     ApplicationArea = Basic, Suite;
-                    ToolTip = 'Specifies the value of the Totaling field';
+                    ToolTip = 'Specifies an interval or a list of job task numbers.';
                 }
                 field("Job Posting Group"; Rec."Job Posting Group")
                 {
                     ApplicationArea = Basic, Suite;
-                    ToolTip = 'Specifies the value of the Job Posting Group field';
+                    ToolTip = 'Specifies the job posting group of the task.';
                 }
                 field("Global Dimension 1 Code"; Rec."Global Dimension 1 Code")
                 {
                     ApplicationArea = Basic, Suite;
-                    ToolTip = 'Specifies the value of the Global Dimension 1 Code field';
                     Visible = false;
+                    ToolTip = 'Specifies the code for the global dimension that is linked to the record or entry for analysis purposes. Two global dimensions, typically for the company''s most important activities, are available on all cards, documents, reports, and lists.';
                 }
                 field("Global Dimension 2 Code"; Rec."Global Dimension 2 Code")
                 {
                     ApplicationArea = Basic, Suite;
-                    ToolTip = 'Specifies the value of the Global Dimension 2 Code field';
                     Visible = false;
+                    ToolTip = 'Specifies the code for the global dimension that is linked to the record or entry for analysis purposes. Two global dimensions, typically for the company''s most important activities, are available on all cards, documents, reports, and lists.';
                 }
             }
         }
@@ -99,7 +99,7 @@ page 65227 "O4NJob Task Part"
                     RunPageLink = "Job No." = field("Job No."),
                                   "Job Task No." = field("Job Task No.");
                     ShortcutKey = 'Shift+F7';
-                    ToolTip = 'Executes the Job &Task Card action';
+                    ToolTip = 'Job &Task Card';
                 }
                 action("<Action6>")
                 {
@@ -111,7 +111,7 @@ page 65227 "O4NJob Task Part"
                                   "Job Task No." = field("Job Task No.");
                     RunPageView = sorting("Job No.", "Job Task No.");
                     ShortcutKey = 'Ctrl+F7';
-                    ToolTip = 'Executes the Job Task Ledger E&ntries action';
+                    ToolTip = 'Job Task Ledger E&ntries';
                 }
                 action("<Action20>")
                 {
@@ -121,7 +121,7 @@ page 65227 "O4NJob Task Part"
                     RunObject = page "Job Planning Lines";
                     RunPageLink = "Job No." = field("Job No."),
                                   "Job Task No." = field("Job Task No.");
-                    ToolTip = 'Executes the Job Task &Planning Lines action';
+                    ToolTip = 'Job Task &Planning Lines';
                 }
                 action("<Action16>")
                 {
@@ -132,7 +132,7 @@ page 65227 "O4NJob Task Part"
                     RunPageLink = "Job No." = field("Job No."),
                                   "Job Task No." = field("Job Task No.");
                     ShortcutKey = 'F7';
-                    ToolTip = 'Executes the Job Task &Statistics action';
+                    ToolTip = 'Job Task &Statistics';
                 }
                 separator("-")
                 {
@@ -147,67 +147,7 @@ page 65227 "O4NJob Task Part"
                     RunPageLink = "Job No." = field("Job No."),
                                   "Job Task No." = field("Job Task No.");
                     ShortcutKey = 'Shift+Ctrl+D';
-                    ToolTip = 'Executes the Dimensions action';
-                }
-            }
-            group("<Action46>")
-            {
-                Caption = 'W&IP';
-                action("<Action48>")
-                {
-                    ApplicationArea = Basic, Suite;
-                    Caption = 'Calculate WIP';
-                    Ellipsis = true;
-                    Image = CalculateWIP;
-                    ToolTip = 'Executes the Calculate WIP action';
-
-                    trigger OnAction()
-                    var
-                        Job: Record Customer;
-                    begin
-                        Rec.TestField("Job No.");
-                        Job.Get(Rec."Job No.");
-                        Job.SetRange("No.", Job."No.");
-                        Report.RunModal(Report::"Job Calculate WIP", true, false, Job);
-                    end;
-                }
-                action("<Action49>")
-                {
-                    ApplicationArea = Basic, Suite;
-                    Caption = 'Post WIP to G/L';
-                    Ellipsis = true;
-                    Image = Post;
-                    ToolTip = 'Executes the Post WIP to G/L action';
-
-                    trigger OnAction()
-                    var
-                        Job: Record Customer;
-                    begin
-                        Rec.TestField("Job No.");
-                        Job.Get(Rec."Job No.");
-                        Job.SetRange("No.", Job."No.");
-                        Report.RunModal(Report::"Job Post WIP to G/L", true, false, Job);
-                    end;
-                }
-                action("<Action10>")
-                {
-                    ApplicationArea = Basic, Suite;
-                    Caption = 'WIP Entries';
-                    Image = WIPEntries;
-                    RunObject = page "Job WIP Entries";
-                    RunPageLink = "Job No." = field("Job No.");
-                    RunPageView = sorting("Job No.", "Job Posting Group", "WIP Posting Date");
-                    ToolTip = 'Executes the WIP Entries action';
-                }
-                action("<Action14>")
-                {
-                    ApplicationArea = Basic, Suite;
-                    Caption = 'WIP G/L Entries';
-                    Image = WIPLedger;
-                    RunObject = page "Job WIP G/L Entries";
-                    RunPageLink = "Job No." = field("Job No.");
-                    RunPageView = sorting("Job No.");
-                    ToolTip = 'Executes the WIP G/L Entries action';
+                    ToolTip = 'Dimensions';
                 }
             }
         }
@@ -224,7 +164,7 @@ page 65227 "O4NJob Task Part"
                     Image = EditLines;
                     Promoted = true;
                     PromotedCategory = Process;
-                    ToolTip = 'Executes the Edit Planning Lines action';
+                    ToolTip = 'Edit Planning Lines';
 
                     trigger OnAction()
                     var
@@ -248,7 +188,7 @@ page 65227 "O4NJob Task Part"
                     Caption = 'Create Sales Invoice';
                     Ellipsis = true;
                     Image = Invoice;
-                    ToolTip = 'Executes the Create Sales Invoice action';
+                    ToolTip = 'Create Sales Invoice';
 
                     trigger OnAction()
                     var
@@ -265,115 +205,7 @@ page 65227 "O4NJob Task Part"
                         Report.RunModal(Report::"Job Create Sales Invoice", true, false, JT);
                     end;
                 }
-                action("<Action17>")
-                {
-                    ApplicationArea = Basic, Suite;
-                    Caption = 'Split Planning Lines';
-                    Ellipsis = true;
-                    Image = Splitlines;
-                    Promoted = true;
-                    PromotedCategory = Process;
-                    ToolTip = 'Executes the Split Planning Lines action';
 
-                    trigger OnAction()
-                    var
-                        Job: Record Job;
-                        JT: Record "Job Task";
-                    begin
-                        Rec.TestField("Job No.");
-                        Rec.TestField("Job Task No.");
-                        JT := Rec;
-                        Job.Get(Rec."Job No.");
-                        if Job.Blocked = Job.Blocked::All then
-                            Job.TestBlocked();
-                        JT.SetRange("Job No.", Job."No.");
-                        JT.SetRange("Job Task No.", Rec."Job Task No.");
-
-                        Report.RunModal(Report::"Job Split Planning Line", true, false, JT);
-                    end;
-                }
-                action("<Action22>")
-                {
-                    ApplicationArea = Basic, Suite;
-                    Caption = 'Change &Dates';
-                    Ellipsis = true;
-                    Image = ChangeDates;
-                    ToolTip = 'Executes the Change &Dates action';
-
-                    trigger OnAction()
-                    var
-                        Job: Record Job;
-                        JT: Record "Job Task";
-                    begin
-                        Rec.TestField("Job No.");
-                        Job.Get(Rec."Job No.");
-                        if Job.Blocked = Job.Blocked::All then
-                            Job.TestBlocked();
-                        JT.SetRange("Job No.", Job."No.");
-                        JT.SetRange("Job Task No.", Rec."Job Task No.");
-                        Report.RunModal(Report::"Change Job Dates", true, false, JT);
-                    end;
-                }
-                action("<Action7>")
-                {
-                    ApplicationArea = Basic, Suite;
-                    Caption = 'Indent Job Tasks';
-                    Image = Job;
-                    RunObject = codeunit "Job Task-Indent";
-                    ToolTip = 'Executes the Indent Job Tasks action';
-                }
-            }
-        }
-        area(Reporting)
-        {
-            action("<Action1903776506>")
-            {
-                ApplicationArea = Basic, Suite;
-                Caption = 'Job Actual to Budget';
-                Image = "Report";
-                Promoted = true;
-                PromotedCategory = "Report";
-                RunObject = report "Job Actual To Budget";
-                ToolTip = 'Executes the Job Actual to Budget action';
-            }
-            action("<Action1901542506>")
-            {
-                ApplicationArea = Basic, Suite;
-                Caption = 'Job Analysis';
-                Image = "Report";
-                Promoted = true;
-                PromotedCategory = "Report";
-                RunObject = report "Job Analysis";
-                ToolTip = 'Executes the Job Analysis action';
-            }
-            action("<Action1902943106>")
-            {
-                ApplicationArea = Basic, Suite;
-                Caption = 'Job - Planning Lines';
-                Image = "Report";
-                Promoted = true;
-                PromotedCategory = "Report";
-                RunObject = report "Job - Planning Lines";
-                ToolTip = 'Executes the Job - Planning Lines action';
-            }
-            action("<Action1903186006>")
-            {
-                ApplicationArea = Basic, Suite;
-                Caption = 'Job - Suggested Billing';
-                Image = "Report";
-                Promoted = true;
-                PromotedCategory = "Report";
-                RunObject = report "Job Suggested Billing";
-                ToolTip = 'Executes the Job - Suggested Billing action';
-            }
-            action("<Action1905285006>")
-            {
-                ApplicationArea = Basic, Suite;
-                Caption = 'Jobs - Transaction Detail';
-                Image = "Report";
-                Promoted = false;
-                RunObject = report "Job - Transaction Detail";
-                ToolTip = 'Executes the Jobs - Transaction Detail action';
             }
         }
     }

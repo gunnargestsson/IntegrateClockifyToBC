@@ -18,56 +18,56 @@ page 65237 "O4NJob Task Fact Box"
                 ApplicationArea = Basic, Suite;
                 Caption = 'Schedule (Total Cost)';
                 Editable = false;
-                ToolTip = 'Specifies the value of the Schedule (Total Cost) field';
+                ToolTip = 'Specifies the schedule (total cost)';
             }
             field("Schedule Total Price"; StrSubstNo(PlaceHolderTok, Format(Rec."Schedule (Total Price)", 0, '<Integer Thousand><Sign>')))
             {
                 ApplicationArea = Basic, Suite;
                 Caption = 'Schedule (Total Price)';
                 Editable = false;
-                ToolTip = 'Specifies the value of the Schedule (Total Price) field';
+                ToolTip = 'Specifies the schedule (total price)';
             }
             field("Usage Total Cost"; StrSubstNo(PlaceHolderTok, Format(Rec."Usage (Total Cost)", 0, '<Integer Thousand><Sign>')))
             {
                 ApplicationArea = Basic, Suite;
                 Caption = 'Usage (Total Cost)';
                 Editable = false;
-                ToolTip = 'Specifies the value of the Usage (Total Cost) field';
+                ToolTip = 'Specifies the usage (total cost)';
             }
             field("Usage Total Price"; StrSubstNo(PlaceHolderTok, Format(Rec."Usage (Total Price)", 0, '<Integer Thousand><Sign>')))
             {
                 ApplicationArea = Basic, Suite;
                 Caption = 'Usage (Total Price)';
                 Editable = false;
-                ToolTip = 'Specifies the value of the Usage (Total Price) field';
+                ToolTip = 'Specifies the usage (total price)';
             }
             field("Contract Total Cost"; StrSubstNo(PlaceHolderTok, Format(Rec."Contract (Total Cost)", 0, '<Integer Thousand><Sign>')))
             {
                 ApplicationArea = Basic, Suite;
                 Caption = 'Contract (Total Cost)';
                 Editable = false;
-                ToolTip = 'Specifies the value of the Contract (Total Cost) field';
+                ToolTip = 'Specifies the contract (total cost)';
             }
             field("Contract Total Price"; StrSubstNo(PlaceHolderTok, Format(Rec."Contract (Total Price)", 0, '<Integer Thousand><Sign>')))
             {
                 ApplicationArea = Basic, Suite;
                 Caption = 'Contract (Total Price)';
                 Editable = false;
-                ToolTip = 'Specifies the value of the Contract (Total Price) field';
+                ToolTip = 'Specifies the contract (total price)';
             }
             field("Contract Invoiced Price"; StrSubstNo(PlaceHolderTok, Format(Rec."Contract (Invoiced Price)", 0, '<Integer Thousand><Sign>')))
             {
                 ApplicationArea = Basic, Suite;
                 Caption = 'Contract (Invoiced Price)';
                 Editable = false;
-                ToolTip = 'Specifies the value of the Contract (Invoiced Price) field';
+                ToolTip = 'Specifies the contract (invoiced price)';
             }
             field("Contract Invoiced Cost"; StrSubstNo(PlaceHolderTok, Format(Rec."Contract (Invoiced Cost)", 0, '<Integer Thousand><Sign>')))
             {
                 ApplicationArea = Basic, Suite;
                 Caption = 'Contract (Invoiced Cost)';
                 Editable = false;
-                ToolTip = 'Specifies the value of the Contract (Invoiced Cost) field';
+                ToolTip = 'Specifies the contract (invoiced cost)';
             }
         }
     }

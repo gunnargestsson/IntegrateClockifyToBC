@@ -25,8 +25,8 @@ page 65226 "O4NJob Workbench"
                     Caption = 'Period Type';
                     Importance = Promoted;
                     OptionCaption = 'Day,Week,Month,Quarter,Year,Period';
-                    ToolTip = 'Day';
                     ValuesAllowed = Day, Week, Month, Quarter, Year, Period;
+                    ToolTip = 'Specifies the period type';
 
                     trigger OnValidate()
                     begin
@@ -38,7 +38,7 @@ page 65226 "O4NJob Workbench"
                     ApplicationArea = Basic, Suite;
                     Caption = 'Date Filter';
                     Importance = Promoted;
-                    ToolTip = 'Specifies the value of the Date Filter field';
+                    ToolTip = 'Specifies the date filter';
 
                     trigger OnValidate()
                     begin
@@ -59,7 +59,7 @@ page 65226 "O4NJob Workbench"
                     Caption = 'Job No. Filter';
                     Importance = Additional;
                     TableRelation = Customer;
-                    ToolTip = 'Specifies the value of the Job No. Filter field';
+                    ToolTip = 'Specifies the job no. filter';
 
                     trigger OnValidate()
                     begin
@@ -72,7 +72,7 @@ page 65226 "O4NJob Workbench"
                     Caption = 'Job Task No. Filter';
                     Importance = Additional;
                     TableRelation = "Job Task"."Job Task No." where("Job No." = field("No."));
-                    ToolTip = 'Specifies the value of the Job Task No. Filter field';
+                    ToolTip = 'Specifies the job task no. filter';
 
                     trigger OnValidate()
                     begin
@@ -86,7 +86,7 @@ page 65226 "O4NJob Workbench"
                     Caption = 'Status Filter';
                     Importance = Additional;
                     OptionCaption = ' ,Planning,Quote,Order,Completed';
-                    ToolTip = 'Specifies the value of the Status Filter field';
+                    ToolTip = 'Specifies the status filter';
 
                     trigger OnValidate()
                     begin
@@ -98,7 +98,7 @@ page 65226 "O4NJob Workbench"
                     ApplicationArea = Basic, Suite;
                     Caption = 'Description Filter';
                     Importance = Additional;
-                    ToolTip = 'Specifies the value of the Description Filter field';
+                    ToolTip = 'Specifies the description filter';
 
                     trigger OnValidate()
                     begin
@@ -111,7 +111,7 @@ page 65226 "O4NJob Workbench"
                     Caption = 'Upcoming Invoice Filter';
                     Importance = Promoted;
                     OptionCaption = ' ,Yes,No';
-                    ToolTip = 'Specifies the value of the Upcoming Invoice Filter field';
+                    ToolTip = 'Specifies the upcoming invoice filter';
 
                     trigger OnValidate()
                     begin
@@ -124,7 +124,7 @@ page 65226 "O4NJob Workbench"
                     Caption = 'Person Responsible Filter';
                     Importance = Additional;
                     TableRelation = Resource;
-                    ToolTip = 'Specifies the value of the Person Responsible Filter field';
+                    ToolTip = 'Specifies the person responsible filter';
 
                     trigger OnValidate()
                     begin
@@ -137,7 +137,7 @@ page 65226 "O4NJob Workbench"
                     Caption = 'Bill-to Customer No. Filter';
                     Importance = Additional;
                     TableRelation = Customer;
-                    ToolTip = 'Specifies the value of the Bill-to Customer No. Filter field';
+                    ToolTip = 'Specifies the bill-to customer no. filter';
 
                     trigger OnValidate()
                     begin
@@ -151,7 +151,7 @@ page 65226 "O4NJob Workbench"
                     CaptionClass = '1,3,1';
                     Importance = Additional;
                     TableRelation = "Dimension Value".Code where("Global Dimension No." = const(1));
-                    ToolTip = 'Specifies the value of the Global Dimension 1 Filter field';
+                    ToolTip = 'Specifies the global dimension 1 filter';
 
                     trigger OnValidate()
                     begin
@@ -165,7 +165,7 @@ page 65226 "O4NJob Workbench"
                     CaptionClass = '1,3,2';
                     Importance = Additional;
                     TableRelation = "Dimension Value".Code where("Global Dimension No." = const(2));
-                    ToolTip = 'Specifies the value of the Global Dimension 2 Filter field';
+                    ToolTip = 'Specifies the global dimension 2 filter';
 
                     trigger OnValidate()
                     begin
@@ -183,7 +183,7 @@ page 65226 "O4NJob Workbench"
                     Caption = 'Type Filter';
                     Importance = Additional;
                     OptionCaption = ' ,Resource,Item,G/L Account';
-                    ToolTip = 'Specifies the value of the Type Filter field';
+                    ToolTip = 'Specifies the type filter';
 
                     trigger OnValidate()
                     begin
@@ -195,7 +195,7 @@ page 65226 "O4NJob Workbench"
                     ApplicationArea = Basic, Suite;
                     Caption = 'No. Filter';
                     Importance = Additional;
-                    ToolTip = 'Specifies the value of the No. Filter field';
+                    ToolTip = 'Specifies the no. filter';
 
                     trigger OnLookup(var Text: Text): Boolean
                     var
@@ -262,7 +262,7 @@ page 65226 "O4NJob Workbench"
                     Caption = 'Work Type Code Filter';
                     Importance = Additional;
                     TableRelation = "Work Type";
-                    ToolTip = 'Specifies the value of the Work Type Code Filter field';
+                    ToolTip = 'Specifies the work type code filter';
 
                     trigger OnValidate()
                     begin
@@ -278,89 +278,89 @@ page 65226 "O4NJob Workbench"
                 field("No."; Rec."No.")
                 {
                     ApplicationArea = Basic, Suite;
-                    ToolTip = 'Specifies the value of the No. field';
+                    ToolTip = 'Specifies the number of the involved entry or record, according to the specified number series.';
                 }
                 field(Description; Rec.Description)
                 {
                     ApplicationArea = Basic, Suite;
-                    ToolTip = 'Specifies the value of the Description field';
+                    ToolTip = 'Specifies a short description of the job.';
                 }
                 field("Description 2"; Rec."Description 2")
                 {
                     ApplicationArea = Basic, Suite;
-                    ToolTip = 'Specifies the value of the Description 2 field';
                     Visible = false;
+                    ToolTip = 'Specifies the description 2';
                 }
                 field("Bill-to Customer No."; Rec."Bill-to Customer No.")
                 {
                     ApplicationArea = Basic, Suite;
-                    ToolTip = 'Specifies the value of the Bill-to Customer No. field';
+                    ToolTip = 'Specifies the number of the customer who pays for the job.';
                 }
                 field("Bill-to Name"; Rec."Bill-to Name")
                 {
                     ApplicationArea = Basic, Suite;
-                    ToolTip = 'Specifies the value of the Bill-to Name field';
+                    ToolTip = 'Specifies the name of the customer who pays for the job.';
                 }
                 field("Bill-to Name 2"; Rec."Bill-to Name 2")
                 {
                     ApplicationArea = Basic, Suite;
-                    ToolTip = 'Specifies the value of the Bill-to Name 2 field';
                     Visible = false;
+                    ToolTip = 'Specifies the bill-to name 2';
                 }
                 field("Bill-to Address"; Rec."Bill-to Address")
                 {
                     ApplicationArea = Basic, Suite;
-                    ToolTip = 'Specifies the value of the Bill-to Address field';
+                    ToolTip = 'Specifies the address of the customer to whom you will send the invoice.';
                 }
                 field("Bill-to Address 2"; Rec."Bill-to Address 2")
                 {
                     ApplicationArea = Basic, Suite;
-                    ToolTip = 'Specifies the value of the Bill-to Address 2 field';
                     Visible = false;
+                    ToolTip = 'Specifies an additional line of the address.';
                 }
                 field("Bill-to Post Code"; Rec."Bill-to Post Code")
                 {
                     ApplicationArea = Basic, Suite;
-                    ToolTip = 'Specifies the value of the Bill-to Post Code field';
+                    ToolTip = 'Specifies the postal code of the customer who pays for the job.';
                 }
                 field("Bill-to City"; Rec."Bill-to City")
                 {
                     ApplicationArea = Basic, Suite;
-                    ToolTip = 'Specifies the value of the Bill-to City field';
+                    ToolTip = 'Specifies the city of the address.';
                 }
                 field("Bill-to Country/Region Code"; Rec."Bill-to Country/Region Code")
                 {
                     ApplicationArea = Basic, Suite;
-                    ToolTip = 'Specifies the value of the Bill-to Country/Region Code field';
                     Visible = false;
+                    ToolTip = 'Specifies the country/region code of the customer''s billing address.';
                 }
                 field("Creation Date"; Rec."Creation Date")
                 {
                     ApplicationArea = Basic, Suite;
-                    ToolTip = 'Specifies the value of the Creation Date field';
+                    ToolTip = 'Specifies the date on which you set up the job.';
                 }
                 field("Starting Date"; Rec."Starting Date")
                 {
                     ApplicationArea = Basic, Suite;
-                    ToolTip = 'Specifies the value of the Starting Date field';
                     Visible = false;
+                    ToolTip = 'Specifies the date on which the job actually starts.';
                 }
                 field("Ending Date"; Rec."Ending Date")
                 {
                     ApplicationArea = Basic, Suite;
-                    ToolTip = 'Specifies the value of the Ending Date field';
                     Visible = false;
+                    ToolTip = 'Specifies the date on which the job is expected to be completed.';
                 }
                 field(Status; Rec.Status)
                 {
                     ApplicationArea = Basic, Suite;
-                    ToolTip = 'Specifies the value of the Status field';
+                    ToolTip = 'Specifies a current status of the job. You can change the status for the job as it progresses. Final calculations can be made on completed jobs.';
                 }
                 field("Person Responsible"; Rec."Person Responsible")
                 {
                     ApplicationArea = Basic, Suite;
-                    ToolTip = 'Specifies the value of the Person Responsible field';
                     Visible = false;
+                    ToolTip = 'Specifies the person at your company who is responsible for the job.';
                 }
             }
         }
@@ -389,12 +389,6 @@ page 65226 "O4NJob Workbench"
                 SubPageLink = "No." = field("No.");
                 Visible = true;
             }
-            part(Control1200050116; "Job WIP/Recognition FactBox")
-            {
-                ApplicationArea = Basic, Suite;
-                SubPageLink = "No." = field("No.");
-                Visible = false;
-            }
             systempart(Control1200050115; Links)
             {
                 ApplicationArea = Basic, Suite;
@@ -415,6 +409,15 @@ page 65226 "O4NJob Workbench"
             group("<Action58>")
             {
                 Caption = '&Job';
+                action(JobCard)
+                {
+                    ApplicationArea = Basic, Suite;
+                    Caption = 'Job &Card';
+                    Image = Card;
+                    RunObject = page "Job Card";
+                    RunPageLink = "No." = field("No.");
+                    ToolTip = 'Open the Job &Card';
+                }
                 action("<Action62>")
                 {
                     ApplicationArea = Basic, Suite;
@@ -424,7 +427,7 @@ page 65226 "O4NJob Workbench"
                     RunPageLink = "Table Name" = const(Job),
                                   "No." = field("No.");
                     Scope = "Repeater";
-                    ToolTip = 'Executes the Co&mments action';
+                    ToolTip = 'View and Edit Job Co&mments';
                 }
                 action("<Action84>")
                 {
@@ -436,7 +439,7 @@ page 65226 "O4NJob Workbench"
                                   "No." = field("No.");
                     Scope = "Repeater";
                     ShortcutKey = 'Shift+Ctrl+D';
-                    ToolTip = 'Executes the Dimensions action';
+                    ToolTip = 'View and Edit Job Dimensions';
                 }
                 action("<Action60>")
                 {
@@ -450,7 +453,7 @@ page 65226 "O4NJob Workbench"
                     RunPageView = sorting("Job No.", "Job Task No.", "Entry Type", "Posting Date");
                     Scope = "Repeater";
                     ShortcutKey = 'Ctrl+F7';
-                    ToolTip = 'Executes the Ledger E&ntries action';
+                    ToolTip = 'Ledger E&ntries';
                 }
                 action("<Action87>")
                 {
@@ -461,7 +464,7 @@ page 65226 "O4NJob Workbench"
                     RunPageLink = "Job No." = field("No.");
                     Scope = "Repeater";
                     ShortcutKey = 'Shift+Ctrl+T';
-                    ToolTip = 'Executes the Job Task Lines action';
+                    ToolTip = 'Job Task Lines';
                 }
                 action("<Action88>")
                 {
@@ -471,7 +474,7 @@ page 65226 "O4NJob Workbench"
                     RunObject = page "Job Planning Lines";
                     RunPageLink = "Job No." = field("No.");
                     Scope = "Repeater";
-                    ToolTip = 'Executes the Job &Planning Lines action';
+                    ToolTip = 'Job &Planning Lines';
                 }
                 action("<Action61>")
                 {
@@ -484,22 +487,7 @@ page 65226 "O4NJob Workbench"
                     RunPageLink = "No." = field("No.");
                     Scope = "Repeater";
                     ShortcutKey = 'F7';
-                    ToolTip = 'Executes the Statistics action';
-                }
-                separator(Separator1200050095)
-                {
-                }
-                action("<Action66>")
-                {
-                    ApplicationArea = Basic, Suite;
-                    Caption = 'Online Map';
-                    Image = Map;
-                    ToolTip = 'Executes the Online Map action';
-
-                    trigger OnAction()
-                    begin
-                        Rec.DisplayMap();
-                    end;
+                    ToolTip = 'Statistics';
                 }
             }
         }
@@ -534,7 +522,7 @@ page 65226 "O4NJob Workbench"
                 ApplicationArea = Basic, Suite;
                 Caption = 'Clear Filters';
                 Image = ClearFilter;
-                ToolTip = 'Executes the Clear Filters action';
+                ToolTip = 'Clear Filters';
 
                 trigger OnAction()
                 begin
@@ -546,50 +534,49 @@ page 65226 "O4NJob Workbench"
             {
                 Caption = 'Self-Service';
                 Image = HumanResources;
-                ToolTip = 'Manage your time sheets and assignments.';
                 action("Time Sheets")
                 {
                     ApplicationArea = Suite;
+                    ToolTip = 'Time Sheets';
                     Caption = 'Time Sheets';
                     Image = Timesheet;
                     RunObject = page "Time Sheet List";
-                    ToolTip = 'Enable resources to register time. When approved, if approval is required, time sheet entries can be posted to the relevant job journal or resource journal as part of project progress reporting. To save setup time and to ensure data correctness, you can copy job planning lines into time sheets.';
                 }
                 action("Page Time Sheet List Open")
                 {
                     ApplicationArea = Suite;
+                    ToolTip = 'Open';
                     Caption = 'Open';
                     Image = Timesheet;
                     RunObject = page "Time Sheet List";
                     RunPageView = where("Open Exists" = const(true));
-                    ToolTip = 'Open the card for the selected record.';
                 }
                 action("Page Time Sheet List Submitted")
                 {
                     ApplicationArea = Suite;
+                    ToolTip = 'Submitted';
                     Caption = 'Submitted';
                     Image = Timesheet;
                     RunObject = page "Time Sheet List";
                     RunPageView = where("Submitted Exists" = const(true));
-                    ToolTip = 'View submitted time sheets.';
                 }
                 action("Page Time Sheet List Rejected")
                 {
                     ApplicationArea = Suite;
+                    ToolTip = 'Rejected';
                     Caption = 'Rejected';
                     Image = Timesheet;
                     RunObject = page "Time Sheet List";
                     RunPageView = where("Rejected Exists" = const(true));
-                    ToolTip = 'View rejected time sheets.';
                 }
                 action("Page Time Sheet List Approved")
                 {
                     ApplicationArea = Suite;
+                    ToolTip = 'Approved';
                     Caption = 'Approved';
                     Image = Timesheet;
                     RunObject = page "Time Sheet List";
                     RunPageView = where("Approved Exists" = const(true));
-                    ToolTip = 'View approved time sheets.';
                 }
                 action("User Tasks")
                 {
@@ -597,7 +584,7 @@ page 65226 "O4NJob Workbench"
                     Caption = 'User Tasks';
                     Image = Task;
                     RunObject = page "User Task List";
-                    ToolTip = 'Create tasks to remind you of work to be done. You can create tasks for yourself, but you can also assign tasks to others or be assigned a task by someone else in your organization.';
+                    ToolTip = 'User Tasks';
                 }
                 action(EditTimeSheet)
                 {
@@ -607,7 +594,7 @@ page 65226 "O4NJob Workbench"
                     Promoted = true;
                     PromotedCategory = Category5;
                     ShortcutKey = 'F9';
-                    ToolTip = 'Open the time sheet in edit mode.';
+                    ToolTip = 'Edit Time Sheet';
 
                     trigger OnAction()
                     var
@@ -623,7 +610,7 @@ page 65226 "O4NJob Workbench"
                     Image = PostedTimeSheet;
                     Promoted = true;
                     PromotedCategory = Category5;
-                    ToolTip = 'Automatically send, approve and post open timesheet for the current user';
+                    ToolTip = 'Post Time Sheet';
 
                     trigger OnAction()
                     var
@@ -648,7 +635,7 @@ page 65226 "O4NJob Workbench"
                     PromotedCategory = Process;
                     PromotedIsBig = true;
                     PromotedOnly = true;
-                    ToolTip = 'Executes the Job Task action';
+                    ToolTip = 'Job Task';
 
                     trigger OnAction()
                     var
@@ -673,7 +660,7 @@ page 65226 "O4NJob Workbench"
                     Caption = '&Job Journal';
                     Image = Journals;
                     RunObject = page "Job Journal";
-                    ToolTip = 'Executes the &Job Journal action';
+                    ToolTip = '&Job Journal';
                 }
                 action("Sales &Quotes")
                 {
@@ -681,7 +668,7 @@ page 65226 "O4NJob Workbench"
                     Caption = 'Sales &Quotes';
                     Image = Quote;
                     RunObject = page "Sales Quotes";
-                    ToolTip = 'Executes the Sales &Quotes action';
+                    ToolTip = 'Sales &Quotes';
                 }
                 action("Sales &Orders")
                 {
@@ -689,7 +676,7 @@ page 65226 "O4NJob Workbench"
                     Caption = 'Sales &Orders';
                     Image = Document;
                     RunObject = page "Sales Orders";
-                    ToolTip = 'Executes the Sales &Orders action';
+                    ToolTip = 'Sales &Orders';
                 }
                 action("Sales &Invoices")
                 {
@@ -697,7 +684,7 @@ page 65226 "O4NJob Workbench"
                     Caption = 'Sales &Invoices';
                     Image = Invoice;
                     RunObject = page "Sales Invoice List";
-                    ToolTip = 'Executes the Sales &Invoices action';
+                    ToolTip = 'Sales &Invoices';
                 }
                 action("Sales Credit &Memos")
                 {
@@ -705,7 +692,7 @@ page 65226 "O4NJob Workbench"
                     Caption = 'Sales Credit &Memos';
                     Image = CreditMemo;
                     RunObject = page "Sales Credit Memos";
-                    ToolTip = 'Executes the Sales Credit &Memos action';
+                    ToolTip = 'Sales Credit &Memos';
                 }
             }
         }
