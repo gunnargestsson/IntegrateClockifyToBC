@@ -92,9 +92,6 @@ page 70602 "Clockify Integration List"
                 ApplicationArea = All;
                 Caption = 'View Record';
                 Image = Card;
-                Promoted = true;
-                PromotedCategory = Process;
-                PromotedOnly = true;
                 ToolTip = 'View the Business Central record specified in this integration record';
                 trigger OnAction()
                 var
@@ -102,6 +99,15 @@ page 70602 "Clockify Integration List"
                 begin
                     PageMgt.PageRunModal(Rec."Related Record Id");
                 end;
+            }
+        }
+        area(Promoted)
+        {
+            group(Category_Process)
+            {
+                actionref(ViewRecord_Promoted; ViewRecord)
+                {
+                }
             }
         }
     }

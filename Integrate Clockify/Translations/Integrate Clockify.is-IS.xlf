@@ -685,11 +685,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Clockify Time Sheet Entry List - Control Time Sheet Line ID - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Page 3964360600 - Property 2019332006" size-unit="char" translate="yes" xml:space="preserve">
-          <source>New,Process,Report,Encryption,Navigate</source>
-          <target state="translated">Nýtt,Vinnsla,Skýrsla,Dulritun,Fletta</target>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup Card - Property PromotedActionCategories</note>
-        </trans-unit>
         <trans-unit id="Page 3964360600 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Clockify User Setup Card</source>
           <target state="translated">Clockify notandauppsetning</target>
@@ -852,6 +847,30 @@
           <source>Synchronize</source>
           <target state="translated">Samstilla</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup Card - Action Synchronize - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3964360600 - Action 1587086413 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Encryption</source>
+          <target state="translated" state-qualifier="exact-match">Dulkóðun</target>
+          <note from="Developer" annotates="general" priority="2">Generated from the PromotedActionCategories property index 3.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup Card - Action Category_Category4 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3964360600 - Action 2224783030 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Navigate</source>
+          <target state="translated" state-qualifier="exact-match">Fletta</target>
+          <note from="Developer" annotates="general" priority="2">Generated from the PromotedActionCategories property index 4.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup Card - Action Category_Category5 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3964360600 - Action 3383493608 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Process</source>
+          <target state="translated" state-qualifier="exact-match">Vinnsla</target>
+          <note from="Developer" annotates="general" priority="2">Generated from the PromotedActionCategories property index 1.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup Card - Action Category_Process - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3964360600 - Action 2234406979 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Report</source>
+          <target state="translated" state-qualifier="exact-match">Skýrsla</target>
+          <note from="Developer" annotates="general" priority="2">Generated from the PromotedActionCategories property index 2.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup Card - Action Category_Report - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2514490366 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Clockify User Setup List</source>
@@ -1397,15 +1416,9 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Task Part - Action &lt;Action5&gt; - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 2538766299 - Property 2019332006" size-unit="char" translate="yes" xml:space="preserve">
-          <source>New,Process,Reports,Price,Self-Service</source>
-          <target state="translated">Nýtt,Vinnsla,Skýrslur,Verð,Sjálfsþjónusta</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Property PromotedActionCategories</note>
-        </trans-unit>
         <trans-unit id="Page 2538766299 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Job Workbench</source>
-          <target state="translated">Vinnustöð verks</target>
+          <target state="translated">Vinnuborð verka</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Property Caption</note>
         </trans-unit>
@@ -2054,6 +2067,24 @@
           <target>[NAB: SUGGESTION]Verkefni notanda</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action User Tasks - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 1587086413 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Price</source>
+          <target state="translated" state-qualifier="exact-match">Verð</target>
+          <note from="Developer" annotates="general" priority="2">Generated from the PromotedActionCategories property index 3.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action Category_Category4 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 2224783030 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Self-Service</source>
+          <target state="translated" state-qualifier="exact-match">Sjálfsafgreiðsla</target>
+          <note from="Developer" annotates="general" priority="2">Generated from the PromotedActionCategories property index 4.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action Category_Category5 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 3383493608 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Process</source>
+          <target state="translated" state-qualifier="exact-match">Vinnsla</target>
+          <note from="Developer" annotates="general" priority="2">Generated from the PromotedActionCategories property index 1.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action Category_Process - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2994644054 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Time Sheets</source>

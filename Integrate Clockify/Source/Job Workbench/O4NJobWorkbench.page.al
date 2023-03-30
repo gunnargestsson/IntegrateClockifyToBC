@@ -6,8 +6,7 @@ page 65226 "O4NJob Workbench"
     DeleteAllowed = false;
     InsertAllowed = false;
     ModifyAllowed = false;
-    PageType = List;
-    PromotedActionCategories = 'New,Process,Reports,Price,Self-Service';
+    PageType = Worksheet;
     SaveValues = true;
     SourceTable = Job;
     UsageCategory = Tasks;
@@ -446,8 +445,6 @@ page 65226 "O4NJob Workbench"
                     ApplicationArea = Basic, Suite;
                     Caption = 'Ledger E&ntries';
                     Image = JobLedger;
-                    Promoted = true;
-                    PromotedCategory = Process;
                     RunObject = page "Job Ledger Entries";
                     RunPageLink = "Job No." = field("No.");
                     RunPageView = sorting("Job No.", "Job Task No.", "Entry Type", "Posting Date");
@@ -481,8 +478,6 @@ page 65226 "O4NJob Workbench"
                     ApplicationArea = Basic, Suite;
                     Caption = 'Statistics';
                     Image = Statistics;
-                    Promoted = true;
-                    PromotedCategory = Process;
                     RunObject = page "Job Statistics";
                     RunPageLink = "No." = field("No.");
                     Scope = "Repeater";
@@ -591,8 +586,6 @@ page 65226 "O4NJob Workbench"
                     ApplicationArea = All;
                     Caption = 'Edit Time Sheet';
                     Image = PostedTimeSheet;
-                    Promoted = true;
-                    PromotedCategory = Category5;
                     ShortcutKey = 'F9';
                     ToolTip = 'Edit Time Sheet';
 
@@ -608,8 +601,6 @@ page 65226 "O4NJob Workbench"
                     ApplicationArea = All;
                     Caption = 'Post Time Sheet';
                     Image = PostedTimeSheet;
-                    Promoted = true;
-                    PromotedCategory = Category5;
                     ToolTip = 'Post Time Sheet';
 
                     trigger OnAction()
@@ -631,10 +622,6 @@ page 65226 "O4NJob Workbench"
                     ApplicationArea = Basic, Suite;
                     Caption = 'Job Task';
                     Image = TaskList;
-                    Promoted = true;
-                    PromotedCategory = Process;
-                    PromotedIsBig = true;
-                    PromotedOnly = true;
                     ToolTip = 'Job Task';
 
                     trigger OnAction()
@@ -693,6 +680,38 @@ page 65226 "O4NJob Workbench"
                     Image = CreditMemo;
                     RunObject = page "Sales Credit Memos";
                     ToolTip = 'Sales Credit &Memos';
+                }
+            }
+        }
+        area(Promoted)
+        {
+            group(Category_Process)
+            {
+                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+
+                actionref("<Action1200050067>_Promoted"; "<Action1200050067>")
+                {
+                }
+                actionref("<Action60>_Promoted"; "<Action60>")
+                {
+                }
+                actionref("<Action61>_Promoted"; "<Action61>")
+                {
+                }
+            }
+            group(Category_Category4)
+            {
+                Caption = 'Price', Comment = 'Generated from the PromotedActionCategories property index 3.';
+            }
+            group(Category_Category5)
+            {
+                Caption = 'Self-Service', Comment = 'Generated from the PromotedActionCategories property index 4.';
+
+                actionref(EditTimeSheet_Promoted; EditTimeSheet)
+                {
+                }
+                actionref(PostTimeSheet_Promoted; PostTimeSheet)
+                {
                 }
             }
         }

@@ -92,9 +92,6 @@ page 65227 "O4NJob Task Part"
                     ApplicationArea = Basic, Suite;
                     Caption = 'Job &Task Card';
                     Image = JobJournal;
-                    Promoted = true;
-                    PromotedCategory = Process;
-                    PromotedIsBig = true;
                     RunObject = page "Job Task Card";
                     RunPageLink = "Job No." = field("Job No."),
                                   "Job Task No." = field("Job Task No.");
@@ -162,8 +159,6 @@ page 65227 "O4NJob Task Part"
                     Caption = 'Edit Planning Lines';
                     Ellipsis = true;
                     Image = EditLines;
-                    Promoted = true;
-                    PromotedCategory = Process;
                     ToolTip = 'Edit Planning Lines';
 
                     trigger OnAction()
@@ -206,6 +201,18 @@ page 65227 "O4NJob Task Part"
                     end;
                 }
 
+            }
+        }
+        area(Promoted)
+        {
+            group(Category_Process)
+            {
+                actionref("<Action18>_Promoted"; "<Action18>")
+                {
+                }
+                actionref("<Action5>_Promoted"; "<Action5>")
+                {
+                }
             }
         }
     }

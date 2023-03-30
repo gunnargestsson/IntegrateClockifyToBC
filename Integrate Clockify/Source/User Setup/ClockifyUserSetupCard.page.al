@@ -4,7 +4,6 @@ page 70600 "Clockify User Setup Card"
     Caption = 'Clockify User Setup Card';
     LinksAllowed = false;
     PageType = Card;
-    PromotedActionCategories = 'New,Process,Report,Encryption,Navigate';
     ShowFilter = false;
     SourceTable = "Clockify User Setup";
     UsageCategory = None;
@@ -127,9 +126,6 @@ page 70600 "Clockify User Setup Card"
                 Caption = 'Job Queue Entry';
                 Enabled = Rec.Enabled;
                 Image = JobListSetup;
-                Promoted = true;
-                PromotedCategory = Category5;
-                PromotedOnly = true;
                 ToolTip = 'View or edit the jobs that automatically integrate your time sheet with Clockify.';
 
                 trigger OnAction()
@@ -142,9 +138,6 @@ page 70600 "Clockify User Setup Card"
                 ApplicationArea = Basic, Suite;
                 Caption = 'Activity Log';
                 Image = Log;
-                Promoted = true;
-                PromotedCategory = Category5;
-                PromotedOnly = true;
                 ToolTip = 'See the status and any errors integration with Clockify.';
 
                 trigger OnAction()
@@ -159,9 +152,6 @@ page 70600 "Clockify User Setup Card"
                 ApplicationArea = All;
                 Caption = 'Synchronize';
                 Image = OutlookSyncFields;
-                Promoted = true;
-                PromotedCategory = Process;
-                PromotedOnly = true;
                 ToolTip = 'Start the Clockify to Business Central synchronization process.';
                 trigger OnAction()
                 begin
@@ -186,6 +176,36 @@ page 70600 "Clockify User Setup Card"
                 Image = Timesheet;
                 RunObject = page "Clockify Time Sheet Entry List";
                 ToolTip = 'View the time sheet entries from Clockify';
+            }
+        }
+        area(Promoted)
+        {
+            group(Category_Process)
+            {
+                Caption = 'Process', Comment = 'Generated from the PromotedActionCategories property index 1.';
+
+                actionref(Synchronize_Promoted; Synchronize)
+                {
+                }
+            }
+            group(Category_Report)
+            {
+                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
+            }
+            group(Category_Category4)
+            {
+                Caption = 'Encryption', Comment = 'Generated from the PromotedActionCategories property index 3.';
+            }
+            group(Category_Category5)
+            {
+                Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 4.';
+
+                actionref(JobQueueEntry_Promoted; JobQueueEntry)
+                {
+                }
+                actionref(ActivityLog_Promoted; ActivityLog)
+                {
+                }
             }
         }
     }
