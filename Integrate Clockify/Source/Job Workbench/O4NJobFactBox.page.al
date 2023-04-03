@@ -211,12 +211,6 @@ page 65234 "O4NJob Fact Box"
         Page.Run(Page::"Job Statistics", Job);
     end;
 
-    procedure SetSelectionFilter(var CurrentJob: Record Job)
-    begin
-        CurrentJob.Reset();
-        CurrPage.SetSelectionFilter(CurrentJob);
-    end;
-
     local procedure OnAfterGetCurrRec()
     begin
         xRec := Rec;

@@ -2958,6 +2958,42 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page O4NTime Sheet Factbox - Action MoveTimeSheetsToArchive - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 585771964 - Control 3609997354 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1257057922">
+          <source>Specifies the date of the time sheet entry that resulted in this sales line</source>
+          <target state="translated">Tilgreinir dagsetningu af vinnuskýrslu sem skilaði sér í þessa sölulínu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension O4NPstSalesCrSubformExt - Control TimeSheetDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 585771964 - Control 3609997354 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1257057922">
+          <source>Time Sheet Date</source>
+          <target state="translated" state-qualifier="exact-match">Dagsetning vinnuskýrslu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension O4NPstSalesCrSubformExt - Control TimeSheetDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1949018348 - Control 3609997354 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1379883806">
+          <source>Specifies the date of the time sheet entry that resulted in this sales line</source>
+          <target state="translated">Tilgreinir dagsetningu af vinnuskýrslu sem skilaði sér í þessa sölulínu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension O4NPstSalesInvSubformExt - Control TimeSheetDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1949018348 - Control 3609997354 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1379883806">
+          <source>Time Sheet Date</source>
+          <target state="translated" state-qualifier="exact-match">Dagsetning vinnuskýrslu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension O4NPstSalesInvSubformExt - Control TimeSheetDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2049068870 - Control 3609997354 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3689007477">
+          <source>Specifies the date of the time sheet entry that resulted in this sales line</source>
+          <target state="translated">Tilgreinir dagsetningu af vinnuskýrslu sem skilaði sér í þessa sölulínu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension O4NSalesInvoiceSubform.PageExt - Control TimeSheetDate - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2049068870 - Control 3609997354 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3689007477">
+          <source>Time Sheet Date</source>
+          <target state="translated" state-qualifier="exact-match">Dagsetning vinnuskýrslu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension O4NSalesInvoiceSubform.PageExt - Control TimeSheetDate - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Enum 185882520 - EnumValue 1528185918 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Archive</source>
           <target state="translated">Skjalasafn</target>

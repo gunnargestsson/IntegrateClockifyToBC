@@ -27,4 +27,16 @@ codeunit 65211 "O4N Job Workbench Mgt."
                 JobPlanningLine.Modify();
             until JobPlanningLine.Next() = 0;
     end;
+
+    procedure FindJobContractEntryNoDate(JobContractEntryNo: Integer): Date
+    var
+        JobPlanningLine: Record "Job Planning Line";
+    begin
+        if JobContractEntryNo = 0 then exit(0D);
+        JobPlanningLine.SetCurrentKey("Job Contract Entry No.");
+        JobPlanningLine.SetRange("Job Contract Entry No.", JobContractEntryNo);
+        if JobPlanningLine.FindFirst() then
+            exit(JobPlanningLine."Document Date");
+    end;
+
 }

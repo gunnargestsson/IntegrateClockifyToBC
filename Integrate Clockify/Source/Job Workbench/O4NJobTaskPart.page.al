@@ -234,12 +234,6 @@ page 65227 "O4NJob Task Part"
         JobTaskLine := Rec;
     end;
 
-    procedure SetSelectionFilter(var JobTaskLine: Record "Job Task")
-    begin
-        JobTaskLine.Reset();
-        CurrPage.SetSelectionFilter(JobTaskLine);
-    end;
-
     procedure SetView(var Workbench: Record "O4N Job Workbench")
     begin
         Workbench.CopyFilter("Job No. Filter", Rec."Job No.");
