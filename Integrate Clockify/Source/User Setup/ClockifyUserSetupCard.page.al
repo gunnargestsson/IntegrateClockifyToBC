@@ -188,14 +188,7 @@ page 70600 "Clockify User Setup Card"
                 {
                 }
             }
-            group(Category_Report)
-            {
-                Caption = 'Report', Comment = 'Generated from the PromotedActionCategories property index 2.';
-            }
-            group(Category_Category4)
-            {
-                Caption = 'Encryption', Comment = 'Generated from the PromotedActionCategories property index 3.';
-            }
+
             group(Category_Category5)
             {
                 Caption = 'Navigate', Comment = 'Generated from the PromotedActionCategories property index 4.';

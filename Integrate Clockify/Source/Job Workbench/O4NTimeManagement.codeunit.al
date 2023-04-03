@@ -9,14 +9,14 @@ codeunit 65231 "O4NTime Management"
     var
         AllowPostingFrom: Date;
         AllowPostingTo: Date;
-        WeekTxt: Label 'Week %1', Comment = '%1 = week no.';
-        QuarterTxt: Label 'Quarter %1/4', Comment = '%1 = quarter no.';
-        YearTxt: Label 'Year %1', Comment = '%1 = year no.';
-        PeriodTxt: Label '%2 to %3', Comment = 'period, %2 = start date, %3 = end date';
-        WeekYearFormatTok: Label '<Week>.<Year4>', Locked = true;
         MonthYearFormatTok: Label '<Month Text,3> <Year4>', Locked = true;
+        PeriodTxt: Label '%2 to %3', Comment = 'period, %2 = start date, %3 = end date';
+        QuarterTxt: Label 'Quarter %1/4', Comment = '%1 = quarter no.';
         QuarterYearFormatTok: Label '<Quarter>/<Year4>', Locked = true;
+        WeekTxt: Label 'Week %1', Comment = '%1 = week no.';
+        WeekYearFormatTok: Label '<Week>.<Year4>', Locked = true;
         YearFormatTok: Label '<Year4>', Locked = true;
+        YearTxt: Label 'Year %1', Comment = '%1 = year no.';
 
     procedure CreatePeriodFormat(PeriodType: Option Day,Week,Month,Quarter,Year,Period; Date: Date): Text[10]
     begin
@@ -142,5 +142,4 @@ codeunit 65231 "O4NTime Management"
                 exit('%1');
         end;
     end;
-
 }

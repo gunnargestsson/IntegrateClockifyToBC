@@ -56,14 +56,14 @@ page 65227 "O4NJob Task Part"
                 field("Global Dimension 1 Code"; Rec."Global Dimension 1 Code")
                 {
                     ApplicationArea = Basic, Suite;
-                    Visible = false;
                     ToolTip = 'Specifies the code for the global dimension that is linked to the record or entry for analysis purposes. Two global dimensions, typically for the company''s most important activities, are available on all cards, documents, reports, and lists.';
+                    Visible = false;
                 }
                 field("Global Dimension 2 Code"; Rec."Global Dimension 2 Code")
                 {
                     ApplicationArea = Basic, Suite;
-                    Visible = false;
                     ToolTip = 'Specifies the code for the global dimension that is linked to the record or entry for analysis purposes. Two global dimensions, typically for the company''s most important activities, are available on all cards, documents, reports, and lists.';
+                    Visible = false;
                 }
             }
         }
@@ -200,7 +200,6 @@ page 65227 "O4NJob Task Part"
                         Report.RunModal(Report::"Job Create Sales Invoice", true, false, JT);
                     end;
                 }
-
             }
         }
         area(Promoted)
@@ -251,9 +250,6 @@ page 65227 "O4NJob Task Part"
         Workbench.CopyFilter("Date Filter", Rec."Planning Date Filter");
     end;
 
-
-
-
     local procedure JobNoOnFormat()
     begin
         "Job No.Emphasize" := Rec."Job Task Type" <> Rec."Job Task Type"::Posting;
@@ -263,5 +259,4 @@ page 65227 "O4NJob Task Part"
     begin
         "Job Task No.Emphasize" := Rec."Job Task Type" <> Rec."Job Task Type"::Posting;
     end;
-
 }

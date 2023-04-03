@@ -139,10 +139,10 @@ page 65234 "O4NJob Fact Box"
         Job: Record Job;
         JobPlanningLines: Record "Job Planning Line";
         JobCalcStatistics: Codeunit "Job Calculate Statistics";
-        PlaceHolderTok: Label '(%1)', Locked = true;
         CL: array[16] of Decimal;
         PL: array[16] of Decimal;
         PlanningLineCount: array[10] of Integer;
+        PlaceHolderTok: Label '(%1)', Locked = true;
 
     procedure CommentsExists(): Boolean
     begin

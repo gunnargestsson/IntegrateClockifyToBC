@@ -24,8 +24,8 @@ page 65226 "O4NJob Workbench"
                     Caption = 'Period Type';
                     Importance = Promoted;
                     OptionCaption = 'Day,Week,Month,Quarter,Year,Period';
-                    ValuesAllowed = Day, Week, Month, Quarter, Year, Period;
                     ToolTip = 'Specifies the period type';
+                    ValuesAllowed = Day, Week, Month, Quarter, Year, Period;
 
                     trigger OnValidate()
                     begin
@@ -287,8 +287,8 @@ page 65226 "O4NJob Workbench"
                 field("Description 2"; Rec."Description 2")
                 {
                     ApplicationArea = Basic, Suite;
-                    Visible = false;
                     ToolTip = 'Specifies the description 2';
+                    Visible = false;
                 }
                 field("Bill-to Customer No."; Rec."Bill-to Customer No.")
                 {
@@ -303,8 +303,8 @@ page 65226 "O4NJob Workbench"
                 field("Bill-to Name 2"; Rec."Bill-to Name 2")
                 {
                     ApplicationArea = Basic, Suite;
-                    Visible = false;
                     ToolTip = 'Specifies the bill-to name 2';
+                    Visible = false;
                 }
                 field("Bill-to Address"; Rec."Bill-to Address")
                 {
@@ -314,8 +314,8 @@ page 65226 "O4NJob Workbench"
                 field("Bill-to Address 2"; Rec."Bill-to Address 2")
                 {
                     ApplicationArea = Basic, Suite;
-                    Visible = false;
                     ToolTip = 'Specifies an additional line of the address.';
+                    Visible = false;
                 }
                 field("Bill-to Post Code"; Rec."Bill-to Post Code")
                 {
@@ -330,8 +330,8 @@ page 65226 "O4NJob Workbench"
                 field("Bill-to Country/Region Code"; Rec."Bill-to Country/Region Code")
                 {
                     ApplicationArea = Basic, Suite;
-                    Visible = false;
                     ToolTip = 'Specifies the country/region code of the customer''s billing address.';
+                    Visible = false;
                 }
                 field("Creation Date"; Rec."Creation Date")
                 {
@@ -341,14 +341,14 @@ page 65226 "O4NJob Workbench"
                 field("Starting Date"; Rec."Starting Date")
                 {
                     ApplicationArea = Basic, Suite;
-                    Visible = false;
                     ToolTip = 'Specifies the date on which the job actually starts.';
+                    Visible = false;
                 }
                 field("Ending Date"; Rec."Ending Date")
                 {
                     ApplicationArea = Basic, Suite;
-                    Visible = false;
                     ToolTip = 'Specifies the date on which the job is expected to be completed.';
+                    Visible = false;
                 }
                 field(Status; Rec.Status)
                 {
@@ -358,8 +358,8 @@ page 65226 "O4NJob Workbench"
                 field("Person Responsible"; Rec."Person Responsible")
                 {
                     ApplicationArea = Basic, Suite;
-                    Visible = false;
                     ToolTip = 'Specifies the person at your company who is responsible for the job.';
+                    Visible = false;
                 }
             }
         }
@@ -532,46 +532,46 @@ page 65226 "O4NJob Workbench"
                 action("Time Sheets")
                 {
                     ApplicationArea = Suite;
-                    ToolTip = 'Time Sheets';
                     Caption = 'Time Sheets';
                     Image = Timesheet;
                     RunObject = page "Time Sheet List";
+                    ToolTip = 'Time Sheets';
                 }
                 action("Page Time Sheet List Open")
                 {
                     ApplicationArea = Suite;
-                    ToolTip = 'Open';
                     Caption = 'Open';
                     Image = Timesheet;
                     RunObject = page "Time Sheet List";
                     RunPageView = where("Open Exists" = const(true));
+                    ToolTip = 'Open';
                 }
                 action("Page Time Sheet List Submitted")
                 {
                     ApplicationArea = Suite;
-                    ToolTip = 'Submitted';
                     Caption = 'Submitted';
                     Image = Timesheet;
                     RunObject = page "Time Sheet List";
                     RunPageView = where("Submitted Exists" = const(true));
+                    ToolTip = 'Submitted';
                 }
                 action("Page Time Sheet List Rejected")
                 {
                     ApplicationArea = Suite;
-                    ToolTip = 'Rejected';
                     Caption = 'Rejected';
                     Image = Timesheet;
                     RunObject = page "Time Sheet List";
                     RunPageView = where("Rejected Exists" = const(true));
+                    ToolTip = 'Rejected';
                 }
                 action("Page Time Sheet List Approved")
                 {
                     ApplicationArea = Suite;
-                    ToolTip = 'Approved';
                     Caption = 'Approved';
                     Image = Timesheet;
                     RunObject = page "Time Sheet List";
                     RunPageView = where("Approved Exists" = const(true));
+                    ToolTip = 'Approved';
                 }
                 action("User Tasks")
                 {
@@ -634,6 +634,25 @@ page 65226 "O4NJob Workbench"
                             Workbench2.SetRange("Job No. Filter", Rec."No.");
                         TaskWorkbench.SetView(Workbench2);
                         TaskWorkbench.Run();
+                    end;
+                }
+                action("<Action1200050111>")
+                {
+                    ApplicationArea = Basic, Suite;
+                    Caption = 'Planning Lines';
+                    Image = EditLines;
+                    ToolTip = 'Executes the Planning Lines action';
+
+                    trigger OnAction()
+                    var
+                        Workbench2: Record "O4N Job Workbench";
+                        PlanningLineWorkbench: Page "O4N Job Planning Part";
+                    begin
+                        Workbench2.Copy(Workbench);
+                        if JobNoFilter = '' then
+                            Workbench2.SetRange("Job No. Filter", Rec."No.");
+                        PlanningLineWorkbench.SetView(Workbench2);
+                        PlanningLineWorkbench.Run();
                     end;
                 }
             }
@@ -699,10 +718,7 @@ page 65226 "O4NJob Workbench"
                 {
                 }
             }
-            group(Category_Category4)
-            {
-                Caption = 'Price', Comment = 'Generated from the PromotedActionCategories property index 3.';
-            }
+
             group(Category_Category5)
             {
                 Caption = 'Self-Service', Comment = 'Generated from the PromotedActionCategories property index 4.';

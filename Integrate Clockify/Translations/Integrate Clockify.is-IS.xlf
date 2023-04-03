@@ -398,6 +398,18 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit Clockify Job Queue - NamedType JobQueueTok</note>
         </trans-unit>
+        <trans-unit id="Codeunit 2574959843 - NamedType 1261819194" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Discount Percent </source>
+          <target state="translated">Afsláttarprósenta </target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit O4N Job Workbench Mgt. - NamedType DiscPercentTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2574959843 - NamedType 1535706640" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Discount Precentage to apply to Job Planning Lines</source>
+          <target state="translated">Afsláttarprósenta til að eiga við um áætlunarlínur verks</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit O4N Job Workbench Mgt. - NamedType PercentToApplyTxt</note>
+        </trans-unit>
         <trans-unit id="Codeunit 2775512355 - NamedType 4001033607" size-unit="char" translate="yes" xml:space="preserve">
           <source>%1 must be filled in.</source>
           <target state="translated">%1 þarf að fylla út.</target>
@@ -848,12 +860,6 @@
           <target state="translated">Samstilla</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup Card - Action Synchronize - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Page 3964360600 - Action 1587086413 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Encryption</source>
-          <target state="translated" state-qualifier="exact-match">Dulkóðun</target>
-          <note from="Developer" annotates="general" priority="2">Generated from the PromotedActionCategories property index 3.</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup Card - Action Category_Category4 - Property Caption</note>
-        </trans-unit>
         <trans-unit id="Page 3964360600 - Action 2224783030 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Navigate</source>
           <target state="translated" state-qualifier="exact-match">Fletta</target>
@@ -865,12 +871,6 @@
           <target state="translated" state-qualifier="exact-match">Vinnsla</target>
           <note from="Developer" annotates="general" priority="2">Generated from the PromotedActionCategories property index 1.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup Card - Action Category_Process - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 3964360600 - Action 2234406979 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Report</source>
-          <target state="translated" state-qualifier="exact-match">Skýrsla</target>
-          <note from="Developer" annotates="general" priority="2">Generated from the PromotedActionCategories property index 2.</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup Card - Action Category_Report - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2514490366 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Clockify User Setup List</source>
@@ -937,6 +937,780 @@
           <target state="translated">Tilgreinir gildið í reitnum Öryggiskenni notanda</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup List - Control User Security ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2528708821 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Input Dialog</source>
+          <target state="translated">Innsláttargluggi</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Input Dialog - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2528708821 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <target state="translated" state-qualifier="exact-match">Almennt</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Input Dialog - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2528708821 - Control 3483458351 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Enter Amount field</source>
+          <target state="translated">Tilgreinir gildi reitsins Færa inn upphæð</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Input Dialog - Control AmtBox - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2528708821 - Control 3483458351 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enter Amount</source>
+          <target state="translated">Færa inn upphæð</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Input Dialog - Control AmtBox - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2528708821 - Control 1369480804 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Enter string field</source>
+          <target state="translated">Tilgreinir gildi reitsins Færa inn streng</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Input Dialog - Control StringBox - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2528708821 - Control 1369480804 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Enter string</source>
+          <target state="translated">Slá inn streng</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Input Dialog - Control StringBox - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Property 2019332006" size-unit="char" translate="yes" xml:space="preserve">
+          <source>New,Process,Report,Filter,Line</source>
+          <target state="translated">Nýtt,Vinnsla,Skýrsla,Afmörkun,Lína</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Property PromotedActionCategories</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Planning Lines</source>
+          <target state="translated" state-qualifier="exact-match">Áætlunarlínur verks</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - NamedType 3885878962" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This job planning line was automatically generated. Do you want to continue?</source>
+          <target state="translated" state-qualifier="exact-match">Þessi verkáætlunarlína var mynduð sjálfvirkt. Á að halda áfram?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - NamedType EditJobPlanningLineQst</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 4104509477 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Currency Date field</source>
+          <target state="translated">Tilgreinir gildi reitsins Gjaldmiðilsdagsetning</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Currency Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 3086747513 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Direct Unit Cost (LCY) field</source>
+          <target state="translated">Tilgreinir gildið í reitnum Innk.verð (SGM)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Direct Unit Cost (LCY) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 486908828 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Document No. field</source>
+          <target state="translated">Tilgreinir gildi reitsins Nr. fylgiskjals</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Document No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 633819257 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Gen. Bus. Posting Group field</source>
+          <target state="translated">Tilgreinir gildið í reitnum Alm. viðsk.bókunarflokkur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Gen. Bus. Posting Group - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 2139693550 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Gen. Prod. Posting Group field</source>
+          <target state="translated">Tilgreinir gildið í reitnum Alm. framl. bókunarhópur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Gen. Prod. Posting Group - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 381588874 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Invoiced Amount (LCY) field</source>
+          <target state="translated">Tilgreinir gildi reitsins Reikningsfærð upphæð (SGM)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Invoiced Amount (LCY) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 1508823551 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Invoiced Cost Amount (LCY) field</source>
+          <target state="translated">Tilgreinir gildi reitsins Reikningsfærð kostnaðarupphæð (SGM)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Invoiced Cost Amount (LCY) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 1800052274 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Job Contract Entry No. field</source>
+          <target state="translated">Tilgreinir gildið í reitnum Færslunr. verksamnings</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Job Contract Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 1908272084 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Job No. field</source>
+          <target state="translated">Tilgreinir gildið í reitnum Verk nr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Job No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 561421623 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Job Task No. field</source>
+          <target state="translated">Tilgreinir gildið í reitnum Verkhlutanr. verks</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Job Task No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 3286668834 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Ledger Entry No. field</source>
+          <target state="translated">Tilgreinir gildi reitsins Fjárhagsfærslunr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Ledger Entry No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 2105177955 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Ledger Entry Type field</source>
+          <target state="translated">Tilgreinir gildi reitsins Tegund fjárhagsfærslu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Ledger Entry Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 3582421358 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Line Amount field</source>
+          <target state="translated">Tilgreinir gildi reitsins Línuupphæð</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Line Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 3576043015 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Line Amount (LCY) field</source>
+          <target state="translated">Tilgreinir gildi reitsins Línuupphæð (SGM)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Line Amount (LCY) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 2702998682 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Line Discount % field</source>
+          <target state="translated">Tilgreinir gildi reitsins Línuafsláttur %</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Line Discount % - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 1206454073 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Line Discount Amount field</source>
+          <target state="translated">Tilgreinir gildi reitsins Afsláttarupphæð línu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Line Discount Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 3320823955 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Line No. field</source>
+          <target state="translated">Tilgreinir gildi reitsins Línunr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Line No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 158172202 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Line Type field</source>
+          <target state="translated">Tilgreinir gildi reitsins Tegund línu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Line Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 2161572060 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Location Code field</source>
+          <target state="translated">Tilgreinir gildi reitsins Staðsetningarkóði</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Location Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 3882877394 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Description field</source>
+          <target state="translated" state-qualifier="exact-match">Tilgreinir gildið í reitnum Lýsing</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control LongDescriptionField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 3882877394 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="translated" state-qualifier="exact-match">Lýsing</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control LongDescriptionField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 1482668068 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Lot No. field</source>
+          <target state="translated">Tilgreinir gildi reitsins Lotunr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Lot No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the No. field</source>
+          <target state="translated">Tilgreinir gildi reitsins Nr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 4263389294 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Overdue field</source>
+          <target state="translated">Tilgreinir gildi reitsins Gjaldfallið</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Overdue - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 4263389294 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Overdue</source>
+          <target state="translated" state-qualifier="exact-match">Fram yfir á tíma</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Overdue - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 3260337296 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Planned Delivery Date field</source>
+          <target state="translated">Tilgreinir gildið í reitnum Áætluð afgreiðsludagsetning</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Planned Delivery Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 3324850299 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Planning Date field</source>
+          <target state="translated">Tilgreinir gildi reitsins Áætlunardags.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Planning Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 672142357 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Posted Line Amount field</source>
+          <target state="translated">Tilgreinir gildi reitsins Bókuð línuupphæð</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Posted Line Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 2560226240 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Posted Line Amount (LCY) field</source>
+          <target state="translated">Tilgreinir gildi reitsins Bókuð línuupphæð (SGM)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Posted Line Amount (LCY) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 2996064852 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Posted Total Cost field</source>
+          <target state="translated">Tilgreinir gildið í reitnum Bókaður samtals kostnaður</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Posted Total Cost - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 585392561 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Posted Total Cost (LCY) field</source>
+          <target state="translated">Tilgreinir gildið í reitnum Bókaður samtals kostnaður (SGM)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Posted Total Cost (LCY) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 2683185145 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Qty. Invoiced field</source>
+          <target state="translated">Tilgreinir gildi reitsins Reikningsfært magn</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Qty. Invoiced - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 411522717 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Qty. Posted field</source>
+          <target state="translated">Tilgreinir gildið í reitnum "Bókað magn"</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Qty. Posted - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 2330918820 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Qty. to Invoice field</source>
+          <target state="translated">Tilgreinir gildið í reitnum Magn til reikningsf.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Qty. to Invoice - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 2993675156 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Qty. to Transfer to Invoice field</source>
+          <target state="translated">Tilgreinir gildi reitsins Magn til flutnings á reikning</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Qty. to Transfer to Invoice - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 875188644 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Qty. to Transfer to Journal field</source>
+          <target state="translated">Tilgreinir gildi reitsins Magn til flutnings í færslubók</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Qty. to Transfer to Journal - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 1743157636 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Qty. Transferred to Invoice field</source>
+          <target state="translated">Tilgreinir gildi reitsins Magn flutt á reikning</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Qty. Transferred to Invoice - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 2704404533 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Quantity field</source>
+          <target state="translated">Tilgreinir gildi reitsins Magn</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 3179217921 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Quantity (Base) field</source>
+          <target state="translated">Tilgreinir gildi reitsins Magn (stofn)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Quantity (Base) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 4096577874 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Remaining Line Amount field</source>
+          <target state="translated">Tilgreinir gildi reitsins Eftirstöðvar línuupphæðar</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Remaining Line Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 1599070131 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Remaining Line Amount (LCY) field</source>
+          <target state="translated">Tilgreinir gildi reitsins Eftirstandandi línuupphæð (SGM)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Remaining Line Amount (LCY) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 3089617546 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Remaining Qty. field</source>
+          <target state="translated">Tilgreinir gildið í reitnum Eftirstöðvar (magn)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Remaining Qty. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 3802912407 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Remaining Total Cost field</source>
+          <target state="translated">Tilgreinir gildið í reitnum Eftirstöðvar samtals kostnaðar</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Remaining Total Cost - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 285001966 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Remaining Total Cost (LCY) field</source>
+          <target state="translated">Tilgreinir gildið í reitnum Eftirstöðvar (SGM)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Remaining Total Cost (LCY) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 825293260 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Reserve field</source>
+          <target state="translated">Tilgreinir gildið í reitnum Frátekið</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Reserve - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 2562415929 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Reserved Quantity field</source>
+          <target state="translated">Tilgreinir gildi reitsins Frátekið magn</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Reserved Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 47037625 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Serial No. field</source>
+          <target state="translated">Tilgreinir gildi reitsins Raðnr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Serial No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 2283884360 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the System-Created Entry field</source>
+          <target state="translated">Tilgreinir gildi reitsins Kerfisfærsla</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control System-Created Entry - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 3996842083 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Total Cost field</source>
+          <target state="translated">Tilgreinir gildi reitsins Heildarkostnaður</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Total Cost - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 4172042866 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Total Cost (LCY) field</source>
+          <target state="translated">Tilgreinir gildið í reitnum Heildarkostnaður (SGM)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Total Cost (LCY) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 2812148497 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Total Price field</source>
+          <target state="translated">Tilgreinir gildi reitsins Heildarverð</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Total Price - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 3243911172 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Total Price (LCY) field</source>
+          <target state="translated">Tilgreinir gildið í reitnum Heildarverð (SGM)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Total Price (LCY) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 1878130204 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Type field</source>
+          <target state="translated">Tilgreinir gildi reitsins Gerð</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 381961415 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Unit Cost field</source>
+          <target state="translated">Tilgreinir gildi reitsins Kostnaðarverð</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Unit Cost - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 68186622 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Unit Cost (LCY) field</source>
+          <target state="translated">Tilgreinir gildið í reitnum Kostnaðarverð (SGM)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Unit Cost (LCY) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 2385270358 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Unit of Measure Code field</source>
+          <target state="translated">Tilgreinir gildið í reitnum Mælieiningarkóði</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Unit of Measure Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 2937233469 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Unit Price field</source>
+          <target state="translated">Tilgreinir gildi reitsins Einingarverð</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Unit Price - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 1708449288 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Unit Price (LCY) field</source>
+          <target state="translated">Tilgreinir gildi reitsins Einingarverð (SGM)</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Unit Price (LCY) - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 1244498335 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Usage Link field</source>
+          <target state="translated">Tilgreinir gildi reitsins Notkunartengill</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Usage Link - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 2708250016 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the User ID field</source>
+          <target state="translated">Tilgreinir gildi reitsins Notandakenni</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control User ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 3450651614 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Variant Code field</source>
+          <target state="translated">Tilgreinir gildi reitsins Afbrigðiskóði</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Variant Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Control 3618073952 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Work Type Code field</source>
+          <target state="translated">Tilgreinir gildi reitsins Kóði vinnutegundar</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Control Work Type Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 1140384542 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Planning &amp;Line</source>
+          <target state="translated" state-qualifier="exact-match">Verkáætlunar&amp;lína</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action Job Planning &amp;Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 3647306376 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the &amp;Reservation Entries action</source>
+          <target state="translated">Framkvæmir aðgerðina &amp;frátekningarfærslur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action &amp;Reservation Entries - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 3647306376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Reservation Entries</source>
+          <target state="translated" state-qualifier="exact-match">Fr&amp;átekningarfærslur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action &amp;Reservation Entries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 1944774485 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Card action</source>
+          <target state="translated">Framkvæmir aðgerðina Kort</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action &lt;Action1200050001&gt; - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 1944774485 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Card</source>
+          <target state="translated" state-qualifier="exact-match">Spjald</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action &lt;Action1200050001&gt; - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 1955375314 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Comments action</source>
+          <target state="translated">Framkvæmir aðgerðina Athugasemdir</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action &lt;Action1200050004&gt; - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 1955375314 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Comments</source>
+          <target state="translated" state-qualifier="exact-match">Athugasemdir</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action &lt;Action1200050004&gt; - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 65631761 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Statistics action</source>
+          <target state="translated">Framkvæmir aðgerðina Talnagögn</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action &lt;Action1200050005&gt; - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 65631761 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Statistics</source>
+          <target state="translated" state-qualifier="exact-match">Talnagögn</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action &lt;Action1200050005&gt; - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 3163287600 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Ledger E&amp;ntries action</source>
+          <target state="translated">Framkvæmir aðgerðina "Fjárhagsfærslur"</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action &lt;Action1200050006&gt; - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 3163287600 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ledger E&amp;ntries</source>
+          <target state="translated" state-qualifier="exact-match">F&amp;ærslur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action &lt;Action1200050006&gt; - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 428343473 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Linked Job Ledger E&amp;ntries action</source>
+          <target state="translated">Framkvæmir aðgerðina Tengdar verkf&amp;ærslur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action Linked Job Ledger E&amp;ntries - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 428343473 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Linked Job Ledger E&amp;ntries</source>
+          <target state="translated" state-qualifier="exact-match">Tengdar &amp;verkfærslur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action Linked Job Ledger E&amp;ntries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 371640286 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Order &amp;Promising action</source>
+          <target state="translated">Framkvæmir pöntun og lofað</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action Order &amp;Promising - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 371640286 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order &amp;Promising</source>
+          <target state="translated" state-qualifier="exact-match">Pöntun &amp;lofað</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action Order &amp;Promising - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 3152686771 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Filter</source>
+          <target state="translated">&amp;Afmörkun</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action &lt;Action1200050003&gt; - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 2992242429 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Not Transferred action</source>
+          <target state="translated">Framkvæmir aðgerðina "Ekki flutt"</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action &lt;Action1200050010&gt; - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 2992242429 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Not Transferred</source>
+          <target state="translated">Ekki flutt</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action &lt;Action1200050010&gt; - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 587018686 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Not Invoiced action</source>
+          <target state="translated">Framkvæmir aðgerðina "Óreikningsfært"</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action &lt;Action1200050011&gt; - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 587018686 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Not Invoiced</source>
+          <target state="translated" state-qualifier="exact-match">Óreikningsfært</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action &lt;Action1200050011&gt; - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 1474996012 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Line Type action</source>
+          <target state="translated">Framkvæmir aðgerð línugerðar</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action Line Type Action - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 1474996012 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line Type</source>
+          <target state="translated" state-qualifier="exact-match">Tegund línu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action Line Type Action - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 3238504282 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Remove action</source>
+          <target state="translated">Framkvæmir aðgerðina Fjarlægja</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action Remove - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 3238504282 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remove</source>
+          <target state="translated" state-qualifier="exact-match">Fjarlægja</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action Remove - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 3002843258 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Line</source>
+          <target state="translated" state-qualifier="exact-match">&amp;Lína</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action &lt;Action1200050015&gt; - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 1607485895 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Create &amp;Sales Invoice with Selected Lines action</source>
+          <target state="translated">Framkvæmir aðgerðina Stofna og sölureikning með völdum línum</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action Create &amp;Sales Invoice with Selected Lines - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 1607485895 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create &amp;Sales Invoice with Selected Lines</source>
+          <target state="translated">Stofna &amp; sölureikning með völdum línum</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action Create &amp;Sales Invoice with Selected Lines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 4167505581 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Create Sales &amp;Credit Memo with Selected Lines action</source>
+          <target state="translated">Framkvæmir aðgerðina "Stofna sölukreditreikning" með valinni línum</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action Create Sales &amp;Credit Memo with Selected Lines - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 4167505581 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Sales &amp;Credit Memo with Selected Lines</source>
+          <target state="translated">Stofna sölu&amp;kreditreikning með völdum línum</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action Create Sales &amp;Credit Memo with Selected Lines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 2066387361 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Get Sales Invoice/Credit Memo action</source>
+          <target state="translated">Framkvæmir aðgerðina Sækja sölureikning/kreditreikning</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action Get Sales Invoice/Credit Memo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 2066387361 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Get Sales Invoice/Credit Memo</source>
+          <target state="translated">Sækja sölureikning/kreditreikning</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action Get Sales Invoice/Credit Memo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 42644695 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Validate Discount Percent on Selected Lines action</source>
+          <target state="translated">Framkvæmir sannprófa afsláttarprósentu í völdum línum</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action Validate Discount Percent on Selected Lines - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 42644695 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Validate Discount Percent on Selected Lines</source>
+          <target state="translated">Staðfesta afsláttarprósentu í völdum línum</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action Validate Discount Percent on Selected Lines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 3106002577 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>F&amp;unctions</source>
+          <target state="translated" state-qualifier="exact-match">&amp;Aðgerðir</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action F&amp;unctions - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 389547808 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the &amp;Open Job Journal action</source>
+          <target state="translated">Framkvæmir aðgerðina &amp;Opna verkbók</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action &amp;Open Job Journal - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 389547808 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Open Job Journal</source>
+          <target state="translated" state-qualifier="exact-match">&amp;Opna verkbók</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action &amp;Open Job Journal - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 4050618829 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Create &amp;Sales Invoice action</source>
+          <target state="translated">Framkvæmir aðgerðina Stofna og sölureikning</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action Create &amp;Sales Invoice - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 4050618829 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create &amp;Sales Invoice</source>
+          <target state="translated" state-qualifier="exact-match">&amp;Stofna sölureikning</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action Create &amp;Sales Invoice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 3628505415 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Create Sales &amp;Credit Memo action</source>
+          <target state="translated">Framkvæmir aðgerðina Stofna sölu- og kreditreikning</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action Create Sales &amp;Credit Memo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 3628505415 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Sales &amp;Credit Memo</source>
+          <target state="translated" state-qualifier="exact-match">Stofna &amp;sölukreditreikning</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action Create Sales &amp;Credit Memo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 1939736624 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the &amp;Demand Overview action</source>
+          <target state="translated">Framkvæmir aðgerðina "Yfirlit yfir eftirspurn"</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action DemandOverview - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 1939736624 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Demand Overview</source>
+          <target state="translated" state-qualifier="exact-match">&amp;Yfirlit yfir eftirspurn</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action DemandOverview - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 1673074985 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Order &amp;Tracking action</source>
+          <target state="translated">Framkvæmir aðgerðina "Rakning pöntunar"</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action Order &amp;Tracking - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 1673074985 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order &amp;Tracking</source>
+          <target state="translated" state-qualifier="exact-match">Rakning &amp;pöntunar</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action Order &amp;Tracking - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 2616217370 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the &amp;Reserve action</source>
+          <target state="translated">Framkvæmir aðgerðina "Taka frá"</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action Reserve Action - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 2616217370 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>&amp;Reserve</source>
+          <target state="translated" state-qualifier="exact-match">&amp;Taka frá</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action Reserve Action - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 3220684129 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Sales &amp;Invoices / Credit Memos action</source>
+          <target state="translated">Framkvæmir aðgerðina Sölu&amp;reikningar / Kreditreikningar</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action Sales &amp;Invoices / Credit Memos - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 3220684129 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales &amp;Invoices / Credit Memos</source>
+          <target state="translated">Sölu &amp;reikningar / kreditreikningar</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action Sales &amp;Invoices / Credit Memos - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 2946774398 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Job - Planning Lines action</source>
+          <target state="translated">Framkvæmir verkið - Áætlunarlínur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action Job - Planning Lines - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 2946774398 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job - Planning Lines</source>
+          <target state="translated" state-qualifier="exact-match">Verk - áætlunarlínur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action Job - Planning Lines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 4092956536 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Job - Suggested Billing action</source>
+          <target state="translated">Framkvæmir verkið - útgáfa reikningatillögu</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action Job - Suggested Billing - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 4092956536 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job - Suggested Billing</source>
+          <target state="translated" state-qualifier="exact-match">Verk - útgáfa reikninga</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action Job - Suggested Billing - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 4158152137 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Job Actual to Budget action</source>
+          <target state="translated">Framkvæmir aðgerðina Raunv. verks í áætlun</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action Job Actual to Budget - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 4158152137 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Actual to Budget</source>
+          <target state="translated" state-qualifier="exact-match">Verk afgreitt í áætlun</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action Job Actual to Budget - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 52024711 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Job Analysis action</source>
+          <target state="translated">Framkvæmir aðgerðina Verkgreining</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action Job Analysis - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 52024711 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Job Analysis</source>
+          <target state="translated" state-qualifier="exact-match">Verkgreining</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action Job Analysis - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 1711071840 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Jobs - Transaction Detail action</source>
+          <target state="translated">Framkvæmir verkin - sundurliðaðar færslur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action Jobs - Transaction Detail - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3727642940 - Action 1711071840 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Jobs - Transaction Detail</source>
+          <target state="translated" state-qualifier="exact-match">Verk - sundurliðaðar færslur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4N Job Planning Part - Action Jobs - Transaction Detail - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 545363793 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Job Fact Box</source>
@@ -1856,6 +2630,18 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action &lt;Action1200050067&gt; - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 323232797 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Executes the Planning Lines action</source>
+          <target state="translated">Framkvæmir aðgerðina Áætlunarlínur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action &lt;Action1200050111&gt; - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 323232797 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Planning Lines</source>
+          <target state="translated">Áætlunarlínur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action &lt;Action1200050111&gt; - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 2538766299 - Action 2048821863 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>&amp;Shortcut</source>
           <target state="translated">&amp;Flýtileið</target>
@@ -2067,12 +2853,6 @@
           <target>[NAB: SUGGESTION]Verkefni notanda</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action User Tasks - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Page 2538766299 - Action 1587086413 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Price</source>
-          <target state="translated" state-qualifier="exact-match">Verð</target>
-          <note from="Developer" annotates="general" priority="2">Generated from the PromotedActionCategories property index 3.</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action Category_Category4 - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2538766299 - Action 2224783030 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Self-Service</source>
