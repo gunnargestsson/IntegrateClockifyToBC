@@ -1,4 +1,4 @@
-table 70601 "Clockify Time Sheet Entry"
+table 70653 "Clockify Time Sheet Entry"
 {
     Caption = 'Clockify Time Sheet Entry';
     DataClassification = EndUserIdentifiableInformation;

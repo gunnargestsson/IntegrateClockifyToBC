@@ -1,4 +1,4 @@
-page 70601 "Clockify Time Sheet Entry List"
+page 70658 "Clockify Time Sheet Entry List"
 {
     Caption = 'Clockify Time Sheet Entry List';
     PageType = List;

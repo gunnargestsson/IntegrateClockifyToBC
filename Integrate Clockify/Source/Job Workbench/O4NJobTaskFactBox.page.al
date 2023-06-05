@@ -1,4 +1,4 @@
-page 65237 "O4NJob Task Fact Box"
+page 70655 "O4NJob Task Fact Box"
 {
     Caption = 'Job Task Lines';
     DataCaptionFields = "Job No.";

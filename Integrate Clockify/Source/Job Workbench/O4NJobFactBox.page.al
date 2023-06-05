@@ -1,4 +1,4 @@
-page 65234 "O4NJob Fact Box"
+page 70653 "O4NJob Fact Box"
 {
     Caption = 'Job Fact Box';
     Editable = false;

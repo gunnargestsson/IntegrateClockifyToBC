@@ -1,4 +1,4 @@
-page 70600 "Clockify User Setup Card"
+page 70657 "Clockify User Setup Card"
 {
     AdditionalSearchTerms = 'time sheet integration';
     Caption = 'Clockify User Setup Card';

@@ -1,4 +1,4 @@
-table 65211 "O4NPeriod Buffer"
+table 70651 "O4NPeriod Buffer"
 {
     Caption = 'Accounting Period';
     DataClassification = ToBeClassified;

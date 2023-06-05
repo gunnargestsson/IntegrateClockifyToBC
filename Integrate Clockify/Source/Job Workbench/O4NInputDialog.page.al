@@ -1,4 +1,4 @@
-page 65253 "O4N Input Dialog"
+page 70656 "O4N Input Dialog"
 {
     Caption = 'Input Dialog';
     LinksAllowed = false;

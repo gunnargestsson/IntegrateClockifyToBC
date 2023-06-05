@@ -1,4 +1,4 @@
-pageextension 65214 "O4NPstSalesInvSubformExt" extends "Posted Sales Invoice Subform"
+pageextension 70651 "O4NPstSalesInvSubformExt" extends "Posted Sales Invoice Subform"
 {
     layout
     {

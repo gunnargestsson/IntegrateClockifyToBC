@@ -1,4 +1,4 @@
-enum 70600 "Clockify Synchronization Type"
+enum 70650 "Clockify Synchronization Type"
 {
     value(0; None)
     {

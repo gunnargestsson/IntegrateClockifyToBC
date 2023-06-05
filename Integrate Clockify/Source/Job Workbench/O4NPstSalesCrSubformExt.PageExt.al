@@ -1,4 +1,4 @@
-pageextension 65215 "O4NPstSalesCrSubformExt" extends "Posted Sales Cr. Memo Subform"
+pageextension 70652 "O4NPstSalesCrSubformExt" extends "Posted Sales Cr. Memo Subform"
 {
     layout
     {

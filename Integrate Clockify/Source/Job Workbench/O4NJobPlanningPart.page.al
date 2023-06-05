@@ -1,4 +1,4 @@
-page 65210 "O4N Job Planning Part"
+page 70650 "O4N Job Planning Part"
 {
     AutoSplitKey = true;
     Caption = 'Job Planning Lines';

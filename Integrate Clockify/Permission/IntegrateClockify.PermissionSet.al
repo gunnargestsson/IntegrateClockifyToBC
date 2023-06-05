@@ -1,4 +1,4 @@
-permissionset 70600 "Integrate Clockify"
+permissionset 70650 "Integrate Clockify"
 {
     Assignable = true;
     Caption = 'Integrate Clockify', MaxLength = 30;

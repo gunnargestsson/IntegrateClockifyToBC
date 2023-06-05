@@ -1,4 +1,4 @@
-page 65226 "O4NJob Workbench"
+page 70651 "O4NJob Workbench"
 {
     ApplicationArea = Basic, Suite;
     Caption = 'Job Workbench';

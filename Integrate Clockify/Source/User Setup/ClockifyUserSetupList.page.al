@@ -1,4 +1,4 @@
-page 70603 "Clockify User Setup List"
+page 70660 "Clockify User Setup List"
 {
     ApplicationArea = All;
     Caption = 'Clockify User Setup List';

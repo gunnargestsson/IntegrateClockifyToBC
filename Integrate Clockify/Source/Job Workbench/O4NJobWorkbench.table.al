@@ -1,4 +1,4 @@
-table 65210 "O4N Job Workbench"
+table 70650 "O4N Job Workbench"
 {
     Caption = 'Workbench';
     DataClassification = ToBeClassified;

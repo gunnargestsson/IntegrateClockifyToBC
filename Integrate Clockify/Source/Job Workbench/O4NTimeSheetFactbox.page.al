@@ -1,4 +1,4 @@
-page 65235 "O4NTime Sheet Factbox"
+page 70654 "O4NTime Sheet Factbox"
 {
     Caption = 'Time Sheets';
     Editable = false;
@@ -110,10 +110,7 @@ page 65235 "O4NTime Sheet Factbox"
         TimeSheetMgt: Codeunit "Time Sheet Management";
 
     local procedure EditTimeSheet()
-    var
-        TimeSheetLine: Record "Time Sheet Line";
     begin
-        TimeSheetMgt.SetTimeSheetNo(Rec."No.", TimeSheetLine);
-        Page.Run(Page::"Time Sheet", TimeSheetLine);
+        Page.Run(Page::"Time Sheet Card", Rec);
     end;
 }

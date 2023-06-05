@@ -1,4 +1,4 @@
-codeunit 65210 "O4N TimeSheet Mgt"
+codeunit 70650 "O4N TimeSheet Mgt"
 {
     var
         DateMissingErr: Label '%1 must be filled in.', Comment = '%1 = data that is missing';
@@ -83,13 +83,11 @@ codeunit 65210 "O4N TimeSheet Mgt"
     var
         TimeSheet: Record "Time Sheet Header";
         TimeSheetLine: Record "Time Sheet Line";
-        TimeSheetMgt: Codeunit "Time Sheet Management";
     begin
         TimeSheet.SetRange("Owner User ID", UserId());
         TimeSheet.SetFilter("Starting Date", '<%1', WorkDate());
         if not TimeSheet.FindLast() then exit;
-        TimeSheetMgt.SetTimeSheetNo(TimeSheet."No.", TimeSheetLine);
-        Page.Run(Page::"Time Sheet", TimeSheetLine);
+        Page.Run(Page::"Time Sheet Card", TimeSheet);
     end;
 
     procedure PostApprovedTimeSheet()

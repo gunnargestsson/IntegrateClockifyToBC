@@ -1,4 +1,4 @@
-table 70600 "Clockify User Setup"
+table 70652 "Clockify User Setup"
 {
     Caption = 'Clockify User Setup';
     DataCaptionFields = "Clockify Name";

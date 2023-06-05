@@ -1,4 +1,4 @@
-pageextension 65213 "O4NSalesInvoiceSubform.PageExt" extends "Sales Invoice Subform"
+pageextension 70650 "O4NSalesInvoiceSubform.PageExt" extends "Sales Invoice Subform"
 {
     layout
     {

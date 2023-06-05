@@ -1,4 +1,4 @@
-table 70602 "Clockify Integration Record"
+table 70654 "Clockify Integration Record"
 {
     Caption = 'Clockify Integration Record';
     DataClassification = EndUserIdentifiableInformation;

@@ -1,4 +1,4 @@
-page 65227 "O4NJob Task Part"
+page 70652 "O4NJob Task Part"
 {
     Caption = 'Job Task Lines';
     DataCaptionFields = "Job No.";

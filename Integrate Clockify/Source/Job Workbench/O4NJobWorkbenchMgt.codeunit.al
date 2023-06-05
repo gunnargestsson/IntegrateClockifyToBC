@@ -1,4 +1,4 @@
-codeunit 65211 "O4N Job Workbench Mgt."
+codeunit 70651 "O4N Job Workbench Mgt."
 {
     trigger OnRun()
     begin
