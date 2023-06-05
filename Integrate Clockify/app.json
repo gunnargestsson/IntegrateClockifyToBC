@@ -2,7 +2,7 @@
   "id": "4b510072-450c-4c8c-954e-a9afcea5093d",
   "name": "Integrate Clockify",
   "publisher": "Kappi ehf.",
-  "version": "21.6.0.0",
+  "version": "21.7.0.0",
   "brief": "Integrate Clockify into your Time Sheet",
   "description": "Use the Clockify mobile app to register hours in Business Central TimeSheet",
   "logo": "logo/Logo250x250.png",
