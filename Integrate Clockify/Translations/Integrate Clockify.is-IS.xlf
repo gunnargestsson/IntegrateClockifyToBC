@@ -429,6 +429,13 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit O4N TimeSheet Mgt - NamedType StartingDateLbl</note>
         </trans-unit>
+        <trans-unit id="Codeunit 2775512355 - Method 978276714 - NamedType 4014946328" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Week %1</source>
+          <target state="translated">Vika %1</target>
+          <target state="translated" state-qualifier="exact-match">Vika %1</target>
+          <note from="Developer" annotates="general" priority="2">%1 = week number</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit O4N TimeSheet Mgt - Method CreateTimeSheet - NamedType WeekTok</note>
+        </trans-unit>
         <trans-unit id="Codeunit 534304989 - NamedType 2627882007" size-unit="char" translate="yes" xml:space="preserve">
           <source>%2 to %3</source>
           <target state="translated">%2 til %3</target>

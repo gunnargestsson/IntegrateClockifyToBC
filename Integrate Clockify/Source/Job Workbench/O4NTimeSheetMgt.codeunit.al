@@ -54,6 +54,7 @@ codeunit 70650 "O4N TimeSheet Mgt"
         TimeSheet: Record "Time Sheet Header";
         TimeSheetHeader: Record "Time Sheet Header";
         NoSeriesMgt: Codeunit NoSeriesManagement;
+        WeekTok: Label 'Week %1', Comment = '%1 = week number';
         EndingDate: Date;
         StartingDate: Date;
     begin
@@ -74,6 +75,7 @@ codeunit 70650 "O4N TimeSheet Mgt"
                         TimeSheetHeader."Starting Date" := StartingDate;
                         TimeSheetHeader."Ending Date" := EndingDate;
                         TimeSheetHeader.Validate("Resource No.", Resource."No.");
+                        TimeSheetHeader.Description := StrSubstNo(WeekTok, Date2DWY(StartingDate, 2));
                         TimeSheetHeader.Insert(true);
                     end;
             until Resource.Next() = 0;
