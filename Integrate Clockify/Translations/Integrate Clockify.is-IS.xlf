@@ -703,7 +703,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup Card - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 3964360600 - Property 3863440606" size-unit="char" translate="yes" xml:space="preserve">
-          <source>time sheet integration</source>
+          <source>Time Sheet integration</source>
           <target state="translated">samstilling vinnuskýrslu</target>
           <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup Card - Property AdditionalSearchTerms</note>
         </trans-unit>
@@ -874,7 +874,7 @@
         </trans-unit>
         <trans-unit id="Page 2514490366 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Clockify User Setup List</source>
-          <target state="translated">Klakka á notandauppsetningarlista</target>
+          <target state="translated">Clockify notandauppsetningarlisti</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page Clockify User Setup List - Property Caption</note>
         </trans-unit>
@@ -2828,6 +2828,12 @@
           <target state="translated">Bóka vinnuskýrslu</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action PostTimeSheet - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2538766299 - Action 416706942 - Method 1377591017 - NamedType 4187457369" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Syncronize Clockify ?</source>
+          <target state="translated">Samstilla við Clocify ?</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action PostTimeSheet - Method OnAction - NamedType SyncClockifyQst</note>
         </trans-unit>
         <trans-unit id="Page 2538766299 - Action 1861040219 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Time Sheets</source>

@@ -9,7 +9,7 @@
             "request": "launch",
             "type": "al",
             "environmentType": "Sandbox",
-            "environmentName": "sandbox",
+            "environmentName": "development",
             "startupObjectId": 22,
             "startupObjectType": "Page",
             "breakOnError": "All",

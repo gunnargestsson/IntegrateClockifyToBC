@@ -606,7 +606,10 @@ page 70651 "O4NJob Workbench"
                     trigger OnAction()
                     var
                         TimeSheetMgt: Codeunit "O4N TimeSheet Mgt";
+                        SyncClockifyQst: Label 'Syncronize Clockify ?';
                     begin
+                        if confirm(SyncClockifyQst, true) then
+                            Codeunit.Run(Codeunit::"Clockify to Business Central");
                         TimeSheetMgt.ApprovePendingTimeSheet();
                         TimeSheetMgt.PostApprovedTimeSheet();
                         TimeSheetMgt.ArchivePostedTimeSheet();

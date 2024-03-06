@@ -82,7 +82,6 @@ codeunit 70650 "O4N TimeSheet Mgt"
     procedure OpenCurrentTimeSheet()
     var
         TimeSheet: Record "Time Sheet Header";
-        TimeSheetLine: Record "Time Sheet Line";
     begin
         TimeSheet.SetRange("Owner User ID", UserId());
         TimeSheet.SetFilter("Starting Date", '<%1', WorkDate());

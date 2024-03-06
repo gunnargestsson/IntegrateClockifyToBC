@@ -1,6 +1,6 @@
 page 70657 "Clockify User Setup Card"
 {
-    AdditionalSearchTerms = 'time sheet integration';
+    AdditionalSearchTerms = 'Time Sheet integration';
     Caption = 'Clockify User Setup Card';
     LinksAllowed = false;
     PageType = Card;
