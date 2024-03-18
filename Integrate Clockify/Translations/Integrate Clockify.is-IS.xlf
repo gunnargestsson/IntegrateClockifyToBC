@@ -2838,7 +2838,7 @@
         </trans-unit>
         <trans-unit id="Page 2538766299 - Action 416706942 - Method 1377591017 - NamedType 4187457369" size-unit="char" translate="yes" xml:space="preserve">
           <source>Syncronize Clockify ?</source>
-          <target state="translated">Samstilla við Clocify ?</target>
+          <target state="translated">Samstilla við Clockify ?</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page O4NJob Workbench - Action PostTimeSheet - Method OnAction - NamedType SyncClockifyQst</note>
         </trans-unit>
